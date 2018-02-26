@@ -1,0 +1,958 @@
+/* Chosen*/
+/* @group Base */
+.chzn-container {
+  font-size: 13px;
+  position: relative;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.chzn-container .chzn-drop {
+  background: #fff;
+  border: 1px solid #aaa;
+  border-top: 0;
+  position: absolute;
+  top: 29px;
+  left: 0;
+  -webkit-box-shadow: 0 4px 5px rgba(0,0,0,.15);
+  -moz-box-shadow   : 0 4px 5px rgba(0,0,0,.15);
+  -o-box-shadow     : 0 4px 5px rgba(0,0,0,.15);
+  box-shadow        : 0 4px 5px rgba(0,0,0,.15);
+  z-index: 999;
+}
+/* @end */
+
+/* @group Single Chosen */
+.chzn-container-single .chzn-single {
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eeeeee), color-stop(0.5, white));
+  background-image: -webkit-linear-gradient(center bottom, #eeeeee 0%, white 50%);
+  background-image: -moz-linear-gradient(center bottom, #eeeeee 0%, white 50%);
+  background-image: -o-linear-gradient(top, #eeeeee 0%,#ffffff 50%);
+  background-image: -ms-linear-gradient(top, #eeeeee 0%,#ffffff 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 );
+  background-image: linear-gradient(top, #eeeeee 0%,#ffffff 50%);
+  -webkit-border-radius: 4px;
+  -moz-border-radius   : 4px;
+  border-radius        : 4px;
+  -moz-background-clip   : padding;
+  -webkit-background-clip: padding-box;
+  background-clip        : padding-box;
+  border: 1px solid #aaa;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 0 0 8px;
+  color: #444;
+  text-decoration: none;
+}
+.chzn-container-single .chzn-single span {
+  margin-right: 26px;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+.chzn-container-single .chzn-single abbr {
+  display: block;
+  position: absolute;
+  right: 26px;
+  top: 8px;
+  width: 12px;
+  height: 13px;
+  font-size: 1px;
+  background: url(chosen-sprite.png) right top no-repeat;
+}
+.chzn-container-single .chzn-single abbr:hover {
+  background-position: right -11px;
+}
+.chzn-container-single .chzn-single div {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius   : 0 4px 4px 0;
+  border-radius        : 0 4px 4px 0;
+  -moz-background-clip   : padding;
+  -webkit-background-clip: padding-box;
+  background-clip        : padding-box;
+  background: #ccc;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ccc), color-stop(0.6, #eee));
+  background-image: -webkit-linear-gradient(center bottom, #ccc 0%, #eee 60%);
+  background-image: -moz-linear-gradient(center bottom, #ccc 0%, #eee 60%);
+  background-image: -o-linear-gradient(bottom, #ccc 0%, #eee 60%);
+  background-image: -ms-linear-gradient(top, #cccccc 0%,#eeeeee 60%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#eeeeee',GradientType=0 );
+  background-image: linear-gradient(top, #cccccc 0%,#eeeeee 60%);
+  border-left: 1px solid #aaa;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: 18px;
+}
+.chzn-container-single .chzn-single div b {
+  background: url('chosen-sprite.png') no-repeat 0 1px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.chzn-container-single .chzn-search {
+  padding: 3px 4px;
+  position: relative;
+  margin: 0;
+  white-space: nowrap;
+  z-index: 1010;
+}
+.chzn-container-single .chzn-search input {
+  background: #fff url('chosen-sprite.png') no-repeat 100% -22px;
+  background: url('chosen-sprite.png') no-repeat 100% -22px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #eeeeee));
+  background: url('chosen-sprite.png') no-repeat 100% -22px, -webkit-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background: url('chosen-sprite.png') no-repeat 100% -22px, -moz-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background: url('chosen-sprite.png') no-repeat 100% -22px, -o-linear-gradient(bottom, white 85%, #eeeeee 99%);
+  background: url('chosen-sprite.png') no-repeat 100% -22px, -ms-linear-gradient(top, #ffffff 85%,#eeeeee 99%);
+  background: url('chosen-sprite.png') no-repeat 100% -22px, linear-gradient(top, #ffffff 85%,#eeeeee 99%);
+  margin: 1px 0;
+  padding: 4px 20px 4px 5px;
+  outline: 0;
+  border: 1px solid #aaa;
+  font-family: sans-serif;
+  font-size: 1em;
+}
+.chzn-container-single .chzn-drop {
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius   : 0 0 4px 4px;
+  border-radius        : 0 0 4px 4px;
+  -moz-background-clip   : padding;
+  -webkit-background-clip: padding-box;
+  background-clip        : padding-box;
+}
+/* @end */
+
+.chzn-container-single-nosearch .chzn-search input {
+  position: absolute;
+  left: -9000px;
+}
+
+/* @group Multi Chosen */
+.chzn-container-multi .chzn-choices {
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #eeeeee));
+  background-image: -webkit-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background-image: -moz-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background-image: -o-linear-gradient(bottom, white 85%, #eeeeee 99%);
+  background-image: -ms-linear-gradient(top, #ffffff 85%,#eeeeee 99%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 );
+  background-image: linear-gradient(top, #ffffff 85%,#eeeeee 99%);
+  border: 1px solid #aaa;
+  margin: 0;
+  padding: 0;
+  cursor: text;
+  overflow: hidden;
+  height: auto !important;
+  height: 1%;
+  position: relative;
+}
+.chzn-container-multi .chzn-choices li {
+  float: left;
+  list-style: none;
+}
+.chzn-container-multi .chzn-choices .search-field {
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+.chzn-container-multi .chzn-choices .search-field input {
+  color: #666;
+  background: transparent !important;
+  border: 0 !important;
+  padding: 5px;
+  margin: 1px 0;
+  outline: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow   : none;
+  -o-box-shadow     : none;
+  box-shadow        : none;
+}
+.chzn-container-multi .chzn-choices .search-field .default {
+  color: #999;
+}
+.chzn-container-multi .chzn-choices .search-choice {
+  -webkit-border-radius: 3px;
+  -moz-border-radius   : 3px;
+  border-radius        : 3px;
+  -moz-background-clip   : padding;
+  -webkit-background-clip: padding-box;
+  background-clip        : padding-box;
+  background-color: #e4e4e4;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #e4e4e4), color-stop(0.7, #eeeeee));
+  background-image: -webkit-linear-gradient(center bottom, #e4e4e4 0%, #eeeeee 70%);
+  background-image: -moz-linear-gradient(center bottom, #e4e4e4 0%, #eeeeee 70%);
+  background-image: -o-linear-gradient(bottom, #e4e4e4 0%, #eeeeee 70%);
+  background-image: -ms-linear-gradient(top, #e4e4e4 0%,#eeeeee 70%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4e4e4', endColorstr='#eeeeee',GradientType=0 );
+  background-image: linear-gradient(top, #e4e4e4 0%,#eeeeee 70%);
+  color: #333;
+  border: 1px solid #b4b4b4;
+  line-height: 13px;
+  padding: 3px 19px 3px 6px;
+  margin: 3px 0 3px 5px;
+  position: relative;
+}
+.chzn-container-multi .chzn-choices .search-choice span {
+  cursor: default;
+}
+.chzn-container-multi .chzn-choices .search-choice-focus {
+  background: #d4d4d4;
+}
+.chzn-container-multi .chzn-choices .search-choice .search-choice-close {
+  display: block;
+  position: absolute;
+  right: 3px;
+  top: 4px;
+  width: 12px;
+  height: 13px;
+  font-size: 1px;
+  background: url(chosen-sprite.png) right top no-repeat;
+}
+.chzn-container-multi .chzn-choices .search-choice .search-choice-close:hover {
+  background-position: right -11px;
+}
+.chzn-container-multi .chzn-choices .search-choice-focus .search-choice-close {
+  background-position: right -11px;
+}
+/* @end */
+
+/* @group Results */
+.chzn-container .chzn-results {
+  margin: 0 4px 4px 0;
+  max-height: 190px;
+  padding: 0 0 0 4px;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.chzn-container-multi .chzn-results {
+  margin: -1px 0 0;
+  padding: 0;
+}
+.chzn-container .chzn-results li {
+  display: none;
+  line-height: 80%;
+  padding: 7px 7px 8px;
+  margin: 0;
+  list-style: none;
+}
+.chzn-container .chzn-results .active-result {
+  cursor: pointer;
+  display: list-item;
+}
+.chzn-container .chzn-results .highlighted {
+  background: #3875d7;
+  color: #fff;
+}
+.chzn-container .chzn-results li em {
+  background: #feffde;
+  font-style: normal;
+}
+.chzn-container .chzn-results .highlighted em {
+  background: transparent;
+}
+.chzn-container .chzn-results .no-results {
+  background: #f4f4f4;
+  display: list-item;
+}
+.chzn-container .chzn-results .group-result {
+  cursor: default;
+  color: #999;
+  font-weight: bold;
+}
+.chzn-container .chzn-results .group-option {
+  padding-left: 20px;
+}
+.chzn-container-multi .chzn-drop .result-selected {
+  display: none;
+}
+/* @end */
+
+/* @group Active  */
+.chzn-container-active .chzn-single {
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,.3);
+  -moz-box-shadow   : 0 0 5px rgba(0,0,0,.3);
+  -o-box-shadow     : 0 0 5px rgba(0,0,0,.3);
+  box-shadow        : 0 0 5px rgba(0,0,0,.3);
+  border: 1px solid #5897fb;
+}
+.chzn-container-active .chzn-single-with-drop {
+  border: 1px solid #aaa;
+  -webkit-box-shadow: 0 1px 0 #fff inset;
+  -moz-box-shadow   : 0 1px 0 #fff inset;
+  -o-box-shadow     : 0 1px 0 #fff inset;
+  box-shadow        : 0 1px 0 #fff inset;
+  background-color: #eee;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, white), color-stop(0.5, #eeeeee));
+  background-image: -webkit-linear-gradient(center bottom, white 0%, #eeeeee 50%);
+  background-image: -moz-linear-gradient(center bottom, white 0%, #eeeeee 50%);
+  background-image: -o-linear-gradient(bottom, white 0%, #eeeeee 50%);
+  background-image: -ms-linear-gradient(top, #ffffff 0%,#eeeeee 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 );
+  background-image: linear-gradient(top, #ffffff 0%,#eeeeee 50%);
+  -webkit-border-bottom-left-radius : 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft : 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-left-radius : 0;
+  border-bottom-right-radius: 0;
+}
+.chzn-container-active .chzn-single-with-drop div {
+  background: transparent;
+  border-left: none;
+}
+.chzn-container-active .chzn-single-with-drop div b {
+  background-position: -18px 1px;
+}
+.chzn-container-active .chzn-choices {
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,.3);
+  -moz-box-shadow   : 0 0 5px rgba(0,0,0,.3);
+  -o-box-shadow     : 0 0 5px rgba(0,0,0,.3);
+  box-shadow        : 0 0 5px rgba(0,0,0,.3);
+  border: 1px solid #5897fb;
+}
+.chzn-container-active .chzn-choices .search-field input {
+  color: #111 !important;
+}
+/* @end */
+
+/* @group Disabled Support */
+.chzn-disabled {
+  cursor: default;
+  opacity:0.5 !important;
+}
+.chzn-disabled .chzn-single {
+  cursor: default;
+}
+.chzn-disabled .chzn-choices .search-choice .search-choice-close {
+  cursor: default;
+}
+
+/* @group Right to Left */
+.chzn-rtl { direction:rtl;text-align: right; }
+.chzn-rtl .chzn-single { padding-left: 0; padding-right: 8px; }
+.chzn-rtl .chzn-single span { margin-left: 26px; margin-right: 0; }
+.chzn-rtl .chzn-single div { 
+  left: 0; right: auto; 
+  border-left: none; border-right: 1px solid #aaaaaa;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius   : 4px 0 0 4px;
+  border-radius        : 4px 0 0 4px; 
+}
+.chzn-rtl .chzn-choices li { float: right; }
+.chzn-rtl .chzn-choices .search-choice { padding: 3px 6px 3px 19px; margin: 3px 5px 3px 0; }
+.chzn-rtl .chzn-choices .search-choice .search-choice-close { left: 5px; right: auto; background-position: right top;}
+.chzn-rtl.chzn-container-single .chzn-results { margin-left: 4px; margin-right: 0; padding-left: 0; padding-right: 4px; }
+.chzn-rtl .chzn-results .group-option { padding-left: 0; padding-right: 20px; }
+.chzn-rtl.chzn-container-active .chzn-single-with-drop div { border-right: none; }
+.chzn-rtl .chzn-search input {
+  background: url('chosen-sprite.png') no-repeat -38px -22px, #ffffff;
+  background: url('chosen-sprite.png') no-repeat -38px -22px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #eeeeee));
+  background: url('chosen-sprite.png') no-repeat -38px -22px, -webkit-linear-gradient(center bottom, white 85%, #eeeeee 99%);  
+  background: url('chosen-sprite.png') no-repeat -38px -22px, -moz-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background: url('chosen-sprite.png') no-repeat -38px -22px, -o-linear-gradient(bottom, white 85%, #eeeeee 99%);
+  background: url('chosen-sprite.png') no-repeat -38px -22px, -ms-linear-gradient(top, #ffffff 85%,#eeeeee 99%);
+  background: url('chosen-sprite.png') no-repeat -38px -22px, linear-gradient(top, #ffffff 85%,#eeeeee 99%);
+  padding: 4px 5px 4px 20px;
+}
+/* @end */
+
+
+/* JCalendar */
+.jCal {
+	/* each day width + border-left + border-right */
+	width:224px;
+	height:21px;
+	text-align:center;
+	vertical-align:top;
+	background: #EEEEEE url("eeGrad.gif") repeat-x scroll center bottom ;
+}
+/* default dimensions and justification for each month not including title */
+.jCalMo {
+	width:224px;		/* each day width + border-left + border-right */	
+	overflow:visible;
+	height:100%;
+	padding-right:2px;
+	padding-left:2px;
+	white-space:nowrap;
+	background-color: #fff;
+	
+}
+/* top month display block - i.e. January */
+.jCal .month, .jCal .monthSelect, .jCal .monthName, .jCal .monthYear {
+	line-height:16px;
+	height:16px;
+	text-align:center;
+	vertical-align:bottom;
+	font-family:Tahoma;
+	font-size:8pt;
+	color:#000000;
+	cursor:pointer;
+	float:left;
+	padding-top:2px;
+}
+/* month name per calendar style - includes left/right padding and alignment */
+.jCal .monthName {
+	padding-left:2px;
+	padding-right:2px; 
+	text-align:right;
+}
+/* year per calendar style - includes left/right padding and alignment */
+.jCal .monthYear {
+	float:right;
+	padding-left:2px;
+	padding-right:2px;
+	text-align:left;
+}
+/* hilight style for new month combobox pulldown for hover */
+.jCal .monthSelect {
+	background:#EEE url(eeGrad2.gif) bottom repeat-x;
+}
+/* do not edit - this enables the new month combobox selector */
+.jCal .monthSelector {
+	position:absolute;
+}
+/* do not edit - this enables the new month combobox selector "shadow" for capturing auto-hide */
+.jCal .monthSelectorShadow {
+	position:absolute;
+	background:#808080;
+	padding:0px;
+}
+/* this is the hover for the month name */
+.jCal .monthNameHover {
+	background:#EDEDED url(double-arrow-vert.gif) center left no-repeat;
+	color:#808080;
+}
+/* this is the hover for the year */
+.jCal .monthYearHover {
+	background:#EDEDED url(double-arrow-vert.gif) center right no-repeat;
+	color:#808080;
+}
+/* this is the hover for the new month or year hover in the new combobox selection */
+.jCal .monthSelectHover {
+	background:#069;
+	color:#FFF;
+}
+/* day block dimensions and style - for all day blocks */
+.jCalMo .dow, .jCalMo .day, .jCalMo .pday, .jCalMo .aday, .jCalMo .overDay, .jCalMo .invday, .jCalMo .selectedDay {
+	width:30px;	
+	font-size:12px;
+	color:#000000;
+	border-right:1px solid #CCC;
+	border-bottom:1px solid #CCC;	
+	border-left:1px solid #EEE;
+	text-align:center;
+	cursor:default;
+	float:left;
+	padding: 9px 0;
+}
+/* day of week header specific style */
+.jCalMo .dow {
+	background:#EEE url(eeGrad.gif) bottom repeat-x;
+	border-bottom:0px;
+}
+/* actual calendar day default style */
+.jCalMo .day, .jCalMo .invday {
+	height:12px;
+	text-align:center;
+}
+/* selectable calendar day specific style */
+.jCalMo .day {
+	cursor:pointer;
+	background:#FFF;
+}
+/* blacked-out calendar day specific style */
+.jCalMo .invday {
+	color:#808080;
+	background:#eeeeee;
+	text-decoration:line-through;
+}
+/* previous and subsequent months calendar day specific style */
+.jCalMo .pday, .jCalMo .aday {
+	height:12px;
+	background:#e3e3e3;
+	color:#CCC;
+}
+/* selected day */
+.jCalMo .selectedDay {
+	color:#FFF;
+	/* must use rgb() syntax for jquery.color.js compliance */
+	background:rgb(0, 143, 214);
+	border-left: 1px solid #008FD6;	
+	text-shadow:#000 1px 1px 1px;
+	box-shadow: inset 0 0 5px #000000;
+}
+/* mouseover hilighted selectable day */
+.jCalMo .overDay {
+	color:#FFF;
+	/* must use rgb() syntax for jquery.color.js compliance */
+	background:#46A546;
+	border-left: 1px solid #46A546;
+	font-weight:bold;
+	text-shadow:#000 1px 1px 1px;
+	box-shadow: inset 0 0 5px #000000;
+}
+/* left month navigation button - no need to change */
+.jCal .left {
+	background:url(_left.gif) center center no-repeat;
+	width:16px;
+	height:16px;
+	vertical-align:middle;
+	cursor:pointer;
+	float:left;
+}
+/* right month navigation button - no need to change */
+.jCal .right {
+	background:url(_right.gif) center center no-repeat;
+	width:16px;
+	height:16px;
+	vertical-align:middle;
+	cursor:pointer;
+	float:right;
+}
+/* no need to change - this is for carousel opacity */
+.jCalMask, .jCalMove {
+	position:absolute;
+	overflow:hidden;
+}
+
+.toggleIt-container {
+	cursor:pointer;
+	margin: 0px auto;
+}
+.toggleIt-bar{
+	font-weight:bold;
+}
+.fb{
+	font-weight:bold;
+}
+table th {
+	white-space:nowrap;
+}
+
+.container-fluid .row{
+	margin-left:0px;
+}
+.container-fluid form .input {
+    margin-left: 150px;
+}
+/* Swistok Theme*/
+
+div.main-products-cover img {
+    border: 1px solid #E6E6E6;
+    display: block;
+}
+
+.label.large {
+	font-size:16px;
+}
+.module-title{
+	font-size:22px;
+	font-weight:bold;
+	line-height:26px;
+  float:left;
+}
+.error{
+	color:#B94A48;
+}
+.tree-item{
+  padding: 10px 0px;
+}
+.tree-item{
+  border-bottom:1px solid #F0F0F0;  
+  border-left:1px solid #F0F0F0;  
+}
+.tree-item .tree-button {
+  /*margin:10px 0 0 20px;*/
+  margin:0;
+}
+.tree-item.hovered{
+  background-color:#FDF5D9;
+}
+.timesafe-message{
+  height: 40px;
+  position: fixed;
+  right: 1px;
+  top: 46px;
+  width:500px;
+}
+
+.media-grid .offset1{
+  margin-left:50px
+}
+.media-grid{
+  list-style: none;
+  margin:0;
+}
+.media-grid li{
+  list-style: none;
+}
+
+.media-grid .row{
+  padding:10px;
+  border-top:1px solid #eee;
+  border-left:1px solid #eee;
+  /*margin-left:20px;*/
+  background-color: #fff;
+
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  /*border: none;*/
+
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: whiteSmoke;
+  border: 1px solid #EEE;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.media-grid .row .row{
+  padding-right: 0;
+}
+.media-grid li:nth-child(odd) .row{
+  background-color: #f5f5f5;
+}
+.media-grid li:hover .row{
+  background-color: #f1f1f1;
+}
+.media-grid p{
+  margin-left:10px;
+  text-align:left;
+  margin-bottom: 0;
+}
+
+.list-view-loading {
+    background: url("/css/bootstrap/loading.gif") no-repeat scroll 0 0 transparent;
+}
+.list-view .summary {
+    margin: 0 0 5px;
+    text-align: right;
+}
+.list-view .sorter {
+    margin: 0 0 5px;
+    text-align: right;
+}
+.list-view .pager {
+    margin: 5px 0 0;
+    text-align: right;
+}
+.list-view .sorter {
+    font-size: 0.9em;
+}
+.list-view .sorter ul {
+    display: inline;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.list-view .sorter li {
+    display: inline;
+    margin: 0 0 0 5px;
+    padding: 0;
+}
+.list-view .sorter a.asc {
+    background: url("/css/bootstrap/up.gif") no-repeat scroll right center transparent;
+    padding-right: 10px;
+}
+.list-view .sorter a.desc {
+    background: url("/css/bootstrap/down.gif") no-repeat scroll right center transparent;
+    padding-right: 10px;
+}
+
+.timesafe-trash small{ 
+  font-size:11px;
+}
+
+.mr-5{
+  margin-right:5px;
+}
+.vmenu{ margin-left:5px;}
+.vmenu, .vmenu li {
+  list-style:none;
+
+}
+.list-view .empty{
+  display: block;
+  padding-top: 50px;
+  text-align:left;
+}
+a:hover i {
+  text-decoration:none;
+}
+small{
+  font-size:11px
+}
+.alert-timesafe{
+  padding-right:10px;
+}
+
+
+.bootstrap-timepicker.dropdown-menu {
+    border-radius: 4px 4px 4px 4px;
+    display: none;
+    left: 0;
+    margin-top: 1px;
+    padding: 4px;
+    top: 0;
+}
+.bootstrap-timepicker.dropdown-menu.open {
+    display: inline-block;
+}
+.bootstrap-timepicker.dropdown-menu:before {
+    border-bottom: 7px solid rgba(0, 0, 0, 0.2);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    content: "";
+    left: 6px;
+    position: absolute;
+    top: -7px;
+}
+.bootstrap-timepicker.dropdown-menu:after {
+    border-bottom: 6px solid #FFFFFF;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    content: "";
+    left: 7px;
+    position: absolute;
+    top: -6px;
+}
+.bootstrap-timepicker.modal {
+    margin-left: -100px;
+    margin-top: 0;
+    top: 30%;
+    width: 200px;
+}
+.bootstrap-timepicker.modal .modal-content {
+    padding: 0;
+}
+.bootstrap-timepicker table {
+    margin: 0;
+    width: 100%;
+}
+.bootstrap-timepicker table td {
+    height: 30px;
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+    width: 49%;
+}
+.bootstrap-timepicker table.show-meridian td, .bootstrap-timepicker table.show-seconds td {
+    width: 32%;
+}
+.bootstrap-timepicker table.show-seconds.show-meridian td {
+    width: 23.5%;
+}
+.bootstrap-timepicker table td.separator {
+    width: 2% !important;
+}
+.bootstrap-timepicker table td span {
+    width: 100%;
+}
+.bootstrap-timepicker table td a {
+    border: 1px solid transparent;
+    display: inline-block;
+    margin: 0;
+    outline: 0 none;
+    padding: 8px 0;
+    width: 90%;
+}
+.bootstrap-timepicker table td a:hover {
+    background-color: #EEEEEE;
+    border-color: #DDDDDD;
+    border-radius: 4px 4px 4px 4px;
+}
+.bootstrap-timepicker table td a i {
+    margin-top: 2px;
+}
+.bootstrap-timepicker table td input {
+    margin: 0;
+    text-align: center;
+    width: 25px;
+}
+.bootstrap-timepicker-component .add-on {
+    cursor: pointer;
+}
+.bootstrap-timepicker-component .add-on i {
+    display: block;
+    height: 16px;
+    width: 16px;
+}
+
+/*!
+* Datepicker for Bootstrap
+*
+* Copyright 2012 Stefan Petre
+* Licensed under the Apache License v2.0
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+*/
+.datepicker {
+top: 0;
+left: 0;
+padding: 4px;
+margin-top: 1px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+/*.dow {
+border-top: 1px solid #ddd !important;
+}*/
+}
+.datepicker:before {
+content: '';
+display: inline-block;
+border-left: 7px solid transparent;
+border-right: 7px solid transparent;
+border-bottom: 7px solid #ccc;
+border-bottom-color: rgba(0, 0, 0, 0.2);
+position: absolute;
+top: -7px;
+left: 6px;
+}
+.datepicker:after {
+content: '';
+display: inline-block;
+border-left: 6px solid transparent;
+border-right: 6px solid transparent;
+border-bottom: 6px solid #ffffff;
+position: absolute;
+top: -6px;
+left: 7px;
+}
+.datepicker > div {
+display: none;
+}
+.datepicker table {
+width: 100%;
+margin: 0;
+}
+.datepicker td, .datepicker th {
+text-align: center;
+width: 20px;
+height: 20px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+.datepicker td.day:hover {
+background: #eeeeee;
+cursor: pointer;
+}
+.datepicker td.old, .datepicker td.new {
+color: #999999;
+}
+.datepicker td.active, .datepicker td.active:hover {
+background-color: #006dcc;
+background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+background-image: -ms-linear-gradient(top, #0088cc, #0044cc);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+background-image: linear-gradient(top, #0088cc, #0044cc);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0);
+border-color: #0044cc #0044cc #002a80;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+color: #fff;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.datepicker td.active:hover,
+.datepicker td.active:hover:hover,
+.datepicker td.active:active,
+.datepicker td.active:hover:active,
+.datepicker td.active.active,
+.datepicker td.active:hover.active,
+.datepicker td.active.disabled,
+.datepicker td.active:hover.disabled,
+.datepicker td.active[disabled],
+.datepicker td.active:hover[disabled] {
+background-color: #0044cc;
+}
+.datepicker td.active:active,
+.datepicker td.active:hover:active,
+.datepicker td.active.active,
+.datepicker td.active:hover.active {
+background-color: #003399 \9;
+}
+.datepicker td span {
+display: block;
+width: 47px;
+height: 54px;
+line-height: 54px;
+float: left;
+margin: 2px;
+cursor: pointer;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+.datepicker td span:hover {
+background: #eeeeee;
+}
+.datepicker td span.active {
+background-color: #006dcc;
+background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+background-image: -ms-linear-gradient(top, #0088cc, #0044cc);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+background-image: linear-gradient(top, #0088cc, #0044cc);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0);
+border-color: #0044cc #0044cc #002a80;
+border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+color: #fff;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.datepicker td span.active:hover,
+.datepicker td span.active:active,
+.datepicker td span.active.active,
+.datepicker td span.active.disabled,
+.datepicker td span.active[disabled] {
+background-color: #0044cc;
+}
+.datepicker td span.active:active, .datepicker td span.active.active {
+background-color: #003399 \9;
+}
+.datepicker td span.old {
+color: #999999;
+}
+.datepicker th.switch {
+width: 145px;
+}
+.datepicker thead tr:first-child th {
+cursor: pointer;
+}
+.datepicker thead tr:first-child th:hover {
+background: #eeeeee;
+}
+.input-append.date .add-on i, .input-prepend.date .add-on i {
+display: block;
+cursor: pointer;
+width: 16px;
+height: 16px;
+}
+
+.ui-dialog input,  .ui-dialog select{
+  width:auto;
+  font-size:12px;
+  padding:1px 4px
+}

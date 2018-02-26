@@ -1,0 +1,1 @@
+$(function(){$(".jCarouselLite").jCarouselLite({btnNext:".next",btnPrev:".prev",vertical:true,visible:5,auto:2000,speed:2000});$('#s2').cycle({random:0,fx:'fade',delay:-2000,speed:2000,timeout:7000,next:'#next2',prev:'#prev2',after:onAfter});});function onAfter(curr,next,opts){var caption=(opts.currSlide+1)+' / '+opts.slideCount;$('#caption').html(caption);}

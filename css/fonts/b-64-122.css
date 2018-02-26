@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'TB64122Regular';
+    src: url('b-64-122.eot');
+    src: url('b-64-122.eot') format('embedded-opentype'),
+         url('b-64-122.woff') format('woff'),
+         url('b-64-122.ttf') format('truetype'),
+         url('b-64-122.svg#TB64122Regular') format('svg');
+}

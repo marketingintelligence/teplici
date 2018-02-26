@@ -1,0 +1,48 @@
+/* jQuery TreeTable Core 2.0 stylesheet
+ *
+ * This file contains styles that are used to display the tree table. Each tree
+ * table is assigned the +treeTable+ class.
+ * ========================================================================= */
+
+/* jquery.treeTable.collapsible
+ * ------------------------------------------------------------------------- */
+.treeTable tr td .expander {
+  background-position: left center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  padding: 0;
+  zoom: 1; /* IE7 Hack */
+}
+
+.treeTable tr.collapsed td .expander {
+  background-image: url(../images/toggle-expand-dark.png);
+}
+
+.treeTable tr.expanded td .expander {
+  background-image: url(../images/toggle-collapse-dark.png);
+}
+
+.treeTable .ui-draggable-dragging {
+  color: #000;
+  z-index: 1;
+}
+
+.treeTable thead th {
+}
+.treeTable tbody td {
+    padding: 0.3em 1.5em
+}
+.treeTable tbody td b{
+	font-size: 14px;	
+}
+.treeTable tbody .selected td{
+    background-color: #f8f8f8;
+}
+.treeTable tbody .accept{
+    background-color: #f1f1f1;
+}
+
+.treeTable .options{
+	text-align: center;
+	width: 50px;
+}

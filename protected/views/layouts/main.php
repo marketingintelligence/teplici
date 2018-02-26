@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/media/css/owl.css"/>
+    <link rel="stylesheet" type="text/css" href="/media/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/media/css/responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="/media/css/animate.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="/media/img/ico.png">
+
+    <title><?=$this->pageTitle?></title>
+</head>
+<body>
+<section id="home">
+    <?$this->renderPartial('/layouts/header');?>
+</section>
+    <?=$content?>
+    <? if ( (Yii::app()->controller->id == "site" || Yii::app()->controller->id == "about" || Yii::app()->controller->id == "association") && Yii::app()->controller->pageTitle != "Вход в Административную часть" ) { ?>
+        <?$this->renderPartial('/layouts/slider_and_news');?>
+    <? } ?>
+<section id="footer">
+    <?$this->renderPartial('/layouts/footer');?>
+</section>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--    <script type="text/javascript" src="/media/js/jquery.min.js"></script>
+-->
+<script type="text/javascript" src="/media/js/code.js"></script>
+<script type="text/javascript" src="/media/js/mask.js"></script>
+<script type="text/javascript" src="/media/js/owl-slider.js"></script>
+
+<script>
+    jQuery(function($){
+        $(".phone_number").inputmask("+7 (999) 999 99 99");
+    });
+</script>
+
+</html>
