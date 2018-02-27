@@ -21,7 +21,7 @@
 
 <body>
 <?php $this->widget('bootstrap.widgets.BootNavbar', array(
-    'brand'=>'AST LEGAL',
+    'brand'=>'Теплицы',
     'brandUrl'=>'/',
     'collapse'=>true,
     'items'=>array(
@@ -52,7 +52,7 @@
             'items'=>array(
                 array('label'=>'Настройки', 'url'=>'#','icon'=>'cogs', 'items'=>array(                                    
                     
-                       array('label'=>'Администраторы', 'url'=>array('user/list'),'icon'=>'user'),
+                       array('label'=>'Администратор', 'url'=>array('user/list'),'icon'=>'user'),
                 )),
                 array('label'=>Yii::app()->user->name, 'url'=>'#','icon'=>'user', 'items'=>array(
                

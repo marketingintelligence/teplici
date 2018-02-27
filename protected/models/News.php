@@ -23,18 +23,17 @@ class News extends CActiveRecord
     public function rules()
     {
         return array(
-            array('created_at, top_int, glav_int, glavniz_int', 'numerical', 'integerOnly'=>true),
-            array('name_text, url_text, weight_text', 'length', 'max'=>255),
+            array('created_at, glav_int', 'numerical', 'integerOnly'=>true),
+            array('name_text, url_text, serial_number', 'length', 'max'=>255),
             array('kazname_text', 'length', 'max'=>255),
             array('engname_text', 'length', 'max'=>255),
-            array('category_int', 'numerical', 'integerOnly'=>true),
             array('short_bigtext', 'length', 'max'=>255),
             array('kazshort_bigtext', 'length', 'max'=>255),
             array('engshort_bigtext', 'length', 'max'=>255),
             array('full_bigtexteditor', 'length', 'max'=>90000),
             array('kazfull_bigtexteditor', 'length', 'max'=>90000),
             array('engfull_bigtexteditor, image', 'length', 'max'=>90000),
-            array('views_int, status_int', 'numerical', 'integerOnly'=>true),
+            array('status_int', 'numerical', 'integerOnly'=>true),
         );
     }
 
@@ -47,27 +46,16 @@ class News extends CActiveRecord
             'name_text' => 'Заголовок',
             'kazname_text' => 'Заголовок (ҚАЗ)',
             'engname_text' => 'Заголовок (ENG)',
-            'category_int' => 'Категория',
             'short_bigtext' => 'Короткое описание',
             'kazshort_bigtext' => 'Короткое описание (ҚАЗ)',
             'engshort_bigtext' => 'Короткое описание (ENG)',
             'full_bigtexteditor' => 'Содержание',
             'kazfull_bigtexteditor' => 'Содержание (ҚАЗ)',
             'engfull_bigtexteditor' => 'Содержание (ENG)',
-            'views_int' => 'Просмотры',
             'status_int' => 'Видимость',
             'image' => 'Изображение',
-            'top_int' => 'Закрепить новость',
-            'weight_text' => 'Порядковый номер',
-            'glav_int' => 'Главная новость (ВЕРХ)',
-            'glavniz_int' => 'Главная новость (НИЗ)',
-        );
-    }
-
-    public function relations()
-    {
-        return array(
-            'parentCategory'=>array( self::BELONGS_TO, 'Newscategory', 'category_int' )
+            'serial_number' => 'Порядковый номер',
+            'glav_int' => 'Главные новости',
         );
     }
 
@@ -76,6 +64,9 @@ class News extends CActiveRecord
         $criteria=new CDbCriteria;
         $criteria->compare('id',$this->id);
         $criteria->compare('name_text',$this->name_text,true);
+        $criteria->compare('engname_text',$this->engname_text,true);
+        $criteria->compare('created_at',$this->created_at,true);
+        $criteria->compare('status_int',$this->status_int,true);
         $pagination = array('pageSize'=> 10);
         return new CActiveDataProvider($this,array(
             'criteria'   => $criteria,
@@ -113,3 +104,54 @@ class News extends CActiveRecord
         } elseif ($preview) {
             $filename = 'upload/' . __CLASS__ . '/preview.png';
             if(is_file($filename)){
+                $size     = getimagesize($filename);
+                return CHtml::image(
+                    '/'.$filename, '', array(
+                    'width'  => $size[0],
+                    'height' => $size[1]));
+            }
+        }
+        return null;
+    }
+
+    public function beforeDelete(){
+        $option  = $this->options();
+        foreach ($option['images'] as $type=>$size){
+
+            if(is_file('upload/'.__CLASS__.'/'.$type.'/'.$this->image)){
+                unlink('upload/'.__CLASS__.'/'.$type.'/'.$this->image);
+            }
+        }
+        return true;
+    }
+
+    public function defaultScope() {
+        return array(
+            'order' => 'created_at DESC, id + 0 DESC',
+        );
+    }
+
+    public function options()
+    {
+        return array(
+            'images' => array(
+                'full' => array(
+                    'width' => 1000,
+                    'height' => 1000,
+                    'type' => 'resize'
+                ),
+                'sm' => array(
+                    'width' => 195,
+                    'height' => 210,
+                    'type' => 'resize'
+                ),
+                'tm' => array(
+                    'width' => 195,
+                    'height' => 225,
+                    'type' => 'resize'
+                ),
+            )
+        );
+    }
+}
+?>

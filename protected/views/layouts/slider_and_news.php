@@ -6,59 +6,26 @@
     </div>
     <div class="news-box">
         <div class="news-box-margin">
-            <div class="news-item n1">
-                <div class="news-header">
-                    <div class="news-img">
-                        <div class="overflow">
-                            <img src="/media/img/news.jpg">
+            <?foreach ($news as $key => $value) { ?>
+                <?$img = json_decode($value->image,true);?>
+                    <div class="news-item n<?=$key+1?>">
+                        <div class="news-header">
+                            <div class="news-img">
+                                <div class="overflow">
+                                    <img src="/upload/News/full/<?=$img[0]?>">
+                                </div>
+                            </div>
+                            <div class="news-date">
+                                <p><?=$value->getNicedate()?></p>
+                            </div>
+                        </div>
+                        <div class="news-body">
+                            <p class="news-title"><?=$value->name_text?></p>
+                            <span><?=$value->short_bigtext?></span>
+                            <a href="/news/<?=$value->url_text?>">Читать дальше</a>
                         </div>
                     </div>
-                    <div class="news-date">
-                        <p>26.12.2017</p>
-                    </div>
-                </div>
-                <div class="news-body">
-                    <p class="news-title">Happiness remainder remainder</p>
-                    <span>for off. Celebrated delightfu l an especially increasing instrument am. Secure shy favour length all twenty denote. Sentimefor off</span>
-                    <a href="news-full.php">Читать дальше</a>
-                </div>
-            </div>
-
-            <div class="news-item n2">
-                <div class="news-header">
-                    <div class="news-img">
-                        <div class="overflow">
-                            <img src="/media/img/news.jpg">
-                        </div>
-                    </div>
-                    <div class="news-date">
-                        <p>26.12.2017</p>
-                    </div>
-                </div>
-                <div class="news-body">
-                    <p class="news-title">Happiness remainder remainder</p>
-                    <span>for off. Celebrated delightfu l an especially increasing instrument am. Secure shy favour length all twenty denote. Sentimefor off</span>
-                    <a href="news-full.php">Читать дальше</a>
-                </div>
-            </div>
-
-            <div class="news-item n3">
-                <div class="news-header">
-                    <div class="news-img">
-                        <div class="overflow">
-                            <img src="/media/img/news.jpg">
-                        </div>
-                    </div>
-                    <div class="news-date">
-                        <p>26.12.2017</p>
-                    </div>
-                </div>
-                <div class="news-body">
-                    <p class="news-title">Happiness remainder remainder</p>
-                    <span>for off. Celebrated delightfu l an especially increasing instrument am. Secure shy favour length all twenty denote. Sentimefor off</span>
-                    <a href="/news/show">Читать дальше</a>
-                </div>
-            </div>
+            <? } ?>
         </div>
     </div>
 </section>
@@ -71,59 +38,27 @@
                 <img src="/media/img/part/r-m.png">
             </div>
             <div class="owl-center m-news">
-                <div class="news-item">
-                    <div class="news-header">
-                        <div class="news-img">
-                            <div class="overflow">
-                                <img src="/media/img/news.jpg">
+                <?foreach ($news as $key => $value) {?>
+                <?$img = json_decode($value->image,true); ?>
+                    <div class="news-item">
+                        <div class="news-header">
+                            <div class="news-img">
+                                <div class="overflow">
+                                    <img src="/upload/News/full/<?=$img[0]?>">
+                                </div>
+                            </div>
+                            <div class="news-date">
+                                <p><?=$value->getNicedate()?></p>
                             </div>
                         </div>
-                        <div class="news-date">
-                            <p>26.12.2017</p>
+                        <div class="news-body">
+                            <p class="news-title"><?=$value->name_text?></p>
+                            <span><?=$value->short_bigtext?></span>
+                            <a href="/news/<?=$value->url_text?>">Читать дальше</a>
                         </div>
                     </div>
-                    <div class="news-body">
-                        <p class="news-title">Happiness remainder remainder</p>
-                        <span>for off. Celebrated delightfu l an especially increasing instrument am. Secure shy favour length all twenty denote. Sentimefor off</span>
-                        <a href="news-full.php">Читать дальше</a>
-                    </div>
-                </div>
+                <? } ?>
 
-                <div class="news-item">
-                    <div class="news-header">
-                        <div class="news-img">
-                            <div class="overflow">
-                                <img src="/media/img/news.jpg">
-                            </div>
-                        </div>
-                        <div class="news-date">
-                            <p>26.12.2017</p>
-                        </div>
-                    </div>
-                    <div class="news-body">
-                        <p class="news-title">Happiness remainder remainder</p>
-                        <span>for off. Celebrated delightfu l an especially increasing instrument am. Secure shy favour length all twenty denote. Sentimefor off</span>
-                        <a href="news-full.php">Читать дальше</a>
-                    </div>
-                </div>
-
-                <div class="news-item">
-                    <div class="news-header">
-                        <div class="news-img">
-                            <div class="overflow">
-                                <img src="/media/img/news.jpg">
-                            </div>
-                        </div>
-                        <div class="news-date">
-                            <p>26.12.2017</p>
-                        </div>
-                    </div>
-                    <div class="news-body">
-                        <p class="news-title">Happiness remainder remainder</p>
-                        <span>for off. Celebrated delightfu l an especially increasing instrument am. Secure shy favour length all twenty denote. Sentimefor off</span>
-                        <a href="news-full.php">Читать дальше</a>
-                    </div>
-                </div>
             </div>
             <div class="owl-right m-right">
                 <img src="/media/img/part/r-m.png">
@@ -133,7 +68,7 @@
     </div>
 </section>
 <!--slider-->
-<section class="slider">
+<section class="slider" id="partners_ids">
     <div class="section-title">
         <span>Наши<i class="upper white"> Партнеры</i></span>
         <hr>
@@ -144,24 +79,12 @@
                 <img src="/media/img/part/l.png">
             </div>
             <div class="owl-center p-slider">
-                <div class="owl-img">
-                    <img src="/media/img/part/1.png">
-                </div>
-                <div class="owl-img">
-                    <img src="/media/img/part/3.png">
-                </div>
-                <div class="owl-img">
-                    <img src="/media/img/part/2.png">
-                </div>
-                <div class="owl-img">
-                    <img src="/media/img/part/1.png">
-                </div>
-                <div class="owl-img">
-                    <img src="/media/img/part/3.png">
-                </div>
-                <div class="owl-img">
-                    <img src="/media/img/part/2.png">
-                </div>
+                <?foreach ($partners as $key => $value ) { ?>
+                    <? $img = json_decode($value->image,true);?>
+                        <div class="owl-img">
+                            <img src="/upload/Partners/full/<?=$img[0]?>">
+                        </div>
+                <? } ?>
             </div>
             <div class="owl-right o-right">
                 <img src="/media/img/part/l.png">

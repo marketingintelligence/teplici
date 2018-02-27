@@ -76,7 +76,6 @@ return array(
                 'registration'=>'site/registration',
                 'exit'=>'site/exit',
                 'news/<url:[\w_-]+>'=>'news/show',
-
             ),
         ),
 

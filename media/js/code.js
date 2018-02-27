@@ -63,15 +63,6 @@ $( document ).ready(function() {
             this.text('Читать дальше');
         }
         });
-    $("body").on("click",".n-news-digits a",function(e){
-        e.preventDefault();
-        $('.n-news-digits a').removeClass('active');
-        $(this).addClass('active');
-        var id = $(this).data('id');
-        $('.news-slider').removeClass('active animated slideInLeft').addClass('animated slideOutRight').fadeOut().promise().done(function () {
-            $('#news-' + id).removeClass('animated slideOutRight').addClass('active animated slideInLeft').fadeIn();
-        })
-    });
 
     $("body").on("click",".p-left a",function(e){
         e.preventDefault();
