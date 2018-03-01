@@ -84,11 +84,11 @@ return array(
             'connectionID'=>'db'
         ),
 
-		'db'          => array(
-            'connectionString'   => 'srv-pleskdb33.ps.kz:3306;dbname=instabos_teplic',
-            'emulatePrepare'     => true,
-            'username'           => 'insta_maint',
-            'password'           => 'Maint112233',
+        'db' => array(
+            'connectionString' => 'mysql:host=srv-pleskdb33.ps.kz:3306;dbname=instabos_teplici',
+            'emulatePrepare' => true,
+            'username' => 'insta_maint',
+            'password' => 'Maint112233',
 
             'charset'            => 'utf8',
             'enableProfiling'    => true,
