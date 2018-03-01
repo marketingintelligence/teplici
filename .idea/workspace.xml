@@ -2,90 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187074f3-6dc1-4647-9d39-fedc10f2617f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Combinates.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Countries.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Exfiles.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Exhibition.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Exupload.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Partlist.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Social.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Supplier.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/CombinatesController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/CountriesController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/ExfilesController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/ExhibitionController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/ExuploadController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/SocialController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/SupplierController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/combinates/_form.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/combinates/_item.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/combinates/_itemTrash.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/combinates/_list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/combinates/create.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/combinates/list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/combinates/update.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/countries/_form.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/countries/_item.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/countries/_itemTrash.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/countries/_list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/countries/create.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/countries/list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/countries/update.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_form.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_item.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_itemTrash.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/create.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/update.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/_form.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/_item.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/_itemTrash.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/_list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/create.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/update.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_form.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_item.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_itemTrash.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/create.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/update.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/social/_form.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/social/_item.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/social/_itemTrash.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/social/_list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/social/create.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/social/list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/social/update.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/supplier/_form.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/supplier/_item.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/supplier/_itemTrash.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/supplier/_list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/supplier/create.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/supplier/list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/supplier/update.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/media/css/style.css" afterPath="$PROJECT_DIR$/media/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/media/js/code.js" afterPath="$PROJECT_DIR$/media/js/code.js" />
-      <change beforePath="$PROJECT_DIR$/protected/controllers/AssociationController.php" afterPath="$PROJECT_DIR$/protected/controllers/AssociationController.php" />
-      <change beforePath="$PROJECT_DIR$/protected/controllers/ExhibitionController.php" afterPath="$PROJECT_DIR$/protected/controllers/ExhibitionController.php" />
-      <change beforePath="$PROJECT_DIR$/protected/models/Articles.php" afterPath="$PROJECT_DIR$/protected/models/Articles.php" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartnersController.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartnersController.php" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/controllers/VideoController.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/VideoController.php" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/views/partners/_form.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/partners/_form.php" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/views/partners/_list.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/partners/_list.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/about/index.php" afterPath="$PROJECT_DIR$/protected/views/about/index.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/articles/index.php" afterPath="$PROJECT_DIR$/protected/views/articles/index.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/association/index.php" afterPath="$PROJECT_DIR$/protected/views/association/index.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/exhibition/index.php" afterPath="$PROJECT_DIR$/protected/views/exhibition/index.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/layouts/footer.php" afterPath="$PROJECT_DIR$/protected/views/layouts/footer.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/layouts/header.php" afterPath="$PROJECT_DIR$/protected/views/layouts/header.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/views/layouts/main.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -296,7 +213,7 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="_form.php" pinned="false" current-in-tab="true">
+              <file leaf-file-name="_form.php" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_form.php">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="153">
@@ -364,6 +281,16 @@
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="0">
                       <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="102">
+                      <caret line="87" column="48" lean-forward="false" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="48" />
                       <folding />
                     </state>
                   </provider>
@@ -567,6 +494,12 @@
               <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
               <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -603,15 +536,6 @@
               <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="timesafe" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="timesafe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="exfiles" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
@@ -722,7 +646,7 @@
       <workItem from="1519703108159" duration="22278000" />
       <workItem from="1519788864204" duration="23835000" />
       <workItem from="1519839563493" duration="3647000" />
-      <workItem from="1519872430498" duration="12467000" />
+      <workItem from="1519872430498" duration="13445000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1515233406586</created>
@@ -815,17 +739,23 @@
       <option name="project" value="LOCAL" />
       <updated>1519725903367</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="01.03 changes">
+      <created>1519897590316</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1519897590316</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="369987000" />
+    <option name="totallyTimeSpent" value="370965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1172466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1172466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -876,7 +806,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="27.02 changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="27.02 changes" />
+    <MESSAGE value="01.03 changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="01.03 changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -885,13 +816,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/ExhibitionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/_item.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1036,6 +960,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="73" column="63" lean-forward="false" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,6 +975,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,6 +1195,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="87" column="48" lean-forward="false" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="48" />
           <folding />
         </state>
       </provider>
