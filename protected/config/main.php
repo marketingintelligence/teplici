@@ -85,10 +85,10 @@ return array(
         ),
 
 		'db'          => array(
-            'connectionString'   => 'mysql:host=localhost;dbname=teplici',
+            'connectionString'   => 'srv-pleskdb33.ps.kz:3306;dbname=instabos_teplic',
             'emulatePrepare'     => true,
-            'username'           => 'root',
-            'password'           => '',
+            'username'           => 'insta_maint',
+            'password'           => 'Maint112233',
 
             'charset'            => 'utf8',
             'enableProfiling'    => true,
