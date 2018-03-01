@@ -32,7 +32,7 @@ for ( $i=1; $i<=100; $i++) $number[$i]=$i; ?>
     	<?=CHtml::link('назад', array('list','Partners_page'=>$_GET['Partners_page'])); ?>    </div>
         <?php /*echo $form->textFieldRow($model, 'url_text', array('size' => 60, 'maxlength' => 255, 'class'=>'span12')); */?>
     	<?php echo $form->textFieldRow($model, 'name_text', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); ?>
-        <?php echo $form->textFieldRow($model, 'engname_text', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); ?>
+        <?php /*echo $form->textFieldRow($model, 'engname_text', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); */?>
         <?php echo $form->dropDownListRow($model, 'serial_number', $number, array('class'=>'span-number')); ?>
 
         <?php echo $form->singlefileFieldRow($model, 'image',array('class'=>'input-file'));; ?>

@@ -5,7 +5,7 @@ class VideoController extends RController
         'model'  => 'Video',
         'fields' => array(
             'name_text'=>array('type'=>'text'),
-            'created_at'=>array('type'=>'date'),
+/*            'created_at'=>array('type'=>'date'),*/
             'status_int'=>array('type'=>'checkbox'),
         )
     );

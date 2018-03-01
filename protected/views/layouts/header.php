@@ -87,13 +87,15 @@
                 <ul class="item-li">
                     <li>
                         <ul class="li">
-                            <li>
-                                <a href="#" class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                                </a>
-                            </li>
-                            <li>
+                            <? foreach ($social as $key => $value) {?>
+                                <li>
+                                    <a href="<?=$value->url_text?>" class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="<?=$value->short_description?>"></i>
+                                    </a>
+                                </li>
+                            <? } ?>
+                            <!--<li>
                                 <a href="#" class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -104,7 +106,7 @@
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
                                 </a>
-                            </li>
+                            </li>-->
                         </ul>
                     </li>
                     <li>

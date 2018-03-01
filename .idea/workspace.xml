@@ -2,46 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187074f3-6dc1-4647-9d39-fedc10f2617f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Articles.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Partners.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Video.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/ArticlesController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/NewsController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartnersController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/VideoController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/articles/_form.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/articles/_item.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/articles/_itemTrash.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/articles/_list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/articles/create.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/articles/list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/articles/update.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/partners/_form.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/partners/_item.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/partners/_itemTrash.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/partners/_list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/partners/create.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/partners/list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/partners/update.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/video/_form.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/video/_item.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/video/_itemTrash.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/video/_list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/video/create.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/video/list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/video/update.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Combinates.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Countries.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Exfiles.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Exhibition.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Exupload.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Partlist.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Social.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Supplier.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/CombinatesController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/CountriesController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/ExfilesController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/ExhibitionController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/ExuploadController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/SocialController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/SupplierController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/combinates/_form.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/combinates/_item.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/combinates/_itemTrash.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/combinates/_list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/combinates/create.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/combinates/list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/combinates/update.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/countries/_form.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/countries/_item.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/countries/_itemTrash.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/countries/_list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/countries/create.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/countries/list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/countries/update.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_form.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_item.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_itemTrash.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/create.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/update.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/_form.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/_item.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/_itemTrash.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/_list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/create.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/update.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_form.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_item.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_itemTrash.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/create.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/update.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/social/_form.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/social/_item.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/social/_itemTrash.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/social/_list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/social/create.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/social/list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/social/update.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/supplier/_form.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/supplier/_item.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/supplier/_itemTrash.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/supplier/_list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/supplier/create.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/supplier/list.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/supplier/update.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/media/css/style.css" afterPath="$PROJECT_DIR$/media/css/style.css" />
       <change beforePath="$PROJECT_DIR$/media/js/code.js" afterPath="$PROJECT_DIR$/media/js/code.js" />
-      <change beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
-      <change beforePath="$PROJECT_DIR$/protected/controllers/ArticlesController.php" afterPath="$PROJECT_DIR$/protected/controllers/ArticlesController.php" />
-      <change beforePath="$PROJECT_DIR$/protected/controllers/NewsController.php" afterPath="$PROJECT_DIR$/protected/controllers/NewsController.php" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/models/News.php" afterPath="$PROJECT_DIR$/protected/models/News.php" />
+      <change beforePath="$PROJECT_DIR$/protected/controllers/AssociationController.php" afterPath="$PROJECT_DIR$/protected/controllers/AssociationController.php" />
+      <change beforePath="$PROJECT_DIR$/protected/controllers/ExhibitionController.php" afterPath="$PROJECT_DIR$/protected/controllers/ExhibitionController.php" />
+      <change beforePath="$PROJECT_DIR$/protected/models/Articles.php" afterPath="$PROJECT_DIR$/protected/models/Articles.php" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartnersController.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartnersController.php" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/controllers/VideoController.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/VideoController.php" />
       <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/views/partners/_form.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/partners/_form.php" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/views/partners/_list.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/partners/_list.php" />
+      <change beforePath="$PROJECT_DIR$/protected/views/about/index.php" afterPath="$PROJECT_DIR$/protected/views/about/index.php" />
       <change beforePath="$PROJECT_DIR$/protected/views/articles/index.php" afterPath="$PROJECT_DIR$/protected/views/articles/index.php" />
+      <change beforePath="$PROJECT_DIR$/protected/views/association/index.php" afterPath="$PROJECT_DIR$/protected/views/association/index.php" />
+      <change beforePath="$PROJECT_DIR$/protected/views/exhibition/index.php" afterPath="$PROJECT_DIR$/protected/views/exhibition/index.php" />
+      <change beforePath="$PROJECT_DIR$/protected/views/layouts/footer.php" afterPath="$PROJECT_DIR$/protected/views/layouts/footer.php" />
+      <change beforePath="$PROJECT_DIR$/protected/views/layouts/header.php" afterPath="$PROJECT_DIR$/protected/views/layouts/header.php" />
       <change beforePath="$PROJECT_DIR$/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/views/layouts/main.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/layouts/slider_and_news.php" afterPath="$PROJECT_DIR$/protected/views/layouts/slider_and_news.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/news/index.php" afterPath="$PROJECT_DIR$/protected/views/news/index.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/news/show.php" afterPath="$PROJECT_DIR$/protected/views/news/show.php" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,111 +110,64 @@
     <favorites_list name="teplici" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.25399813">
+    <splitter split-orientation="horizontal" split-proportion="0.15939447">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="30" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="74" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="4" selection-end-column="74" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Video.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/protected/models/Video.php">
+          <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="275">
-                  <caret line="134" column="35" lean-forward="false" selection-start-line="134" selection-start-column="35" selection-end-line="134" selection-end-column="35" />
+                <state relative-caret-position="816">
+                  <caret line="48" column="70" lean-forward="false" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="VideoController.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/VideoController.php">
+          <file leaf-file-name="Exupload.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/protected/models/Exupload.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                <state relative-caret-position="156">
+                  <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="list.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/video/list.php">
+          <file leaf-file-name="ExuploadController.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/ExuploadController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
-                  <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-                  <folding>
-                    <element signature="e#55#61#0#HTML" expanded="true" />
-                    <element signature="e#413#420#1#HTML" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/video/update.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="18" />
+                <state relative-caret-position="272">
+                  <caret line="77" column="23" lean-forward="false" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_form.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/video/_form.php">
+          <file leaf-file-name="PartlistController.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="629">
-                  <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+                <state relative-caret-position="850">
+                  <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_item.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/video/_item.php">
+          <file leaf-file-name="ExhibitionController.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/protected/controllers/ExhibitionController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_itemTrash.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/video/_itemTrash.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="87" lean-forward="false" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_list.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/video/_list.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/video/create.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+                <state relative-caret-position="102">
+                  <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -179,63 +176,237 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="ArticlesController.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/protected/controllers/ArticlesController.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/protected/views/articles/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="256">
-                  <caret line="61" column="53" lean-forward="false" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="vertical" split-proportion="0.113175675">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="0">
+                      <caret line="4" column="74" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="4" selection-end-column="74" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="_form.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_form.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="68">
+                      <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/protected/views/exhibition/index.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="216">
+                      <caret line="144" column="96" lean-forward="false" selection-start-line="144" selection-start-column="96" selection-end-line="144" selection-end-column="96" />
+                      <folding>
+                        <element signature="n#style#0;n#iframe#0;n#div#1;n#div#6;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
+                        <marker date="1519894537837" expanded="true" signature="5024:5138" ph="..." />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="list.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exupload/list.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="51">
+                      <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exupload/update.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="34">
+                      <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="_item.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_item.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="272">
+                      <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="_itemTrash.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_itemTrash.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="119">
+                      <caret line="7" column="90" lean-forward="false" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="_list.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_list.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="119">
+                      <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exupload/create.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="34">
+                      <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="Exfiles.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/protected/models/Exfiles.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="221">
+                      <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="ExfilesController.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/ExfilesController.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="2017">
+                      <caret line="140" column="32" lean-forward="false" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="_form.php" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_form.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="153">
+                      <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="_item.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_item.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="119">
+                      <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="_itemTrash.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_itemTrash.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="119">
+                      <caret line="7" column="90" lean-forward="false" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="list.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/list.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="521">
+                      <caret line="34" column="55" lean-forward="false" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+                      <folding>
+                        <element signature="e#57#63#0#HTML" expanded="true" />
+                        <element signature="e#417#424#1#HTML" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="create.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/create.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="34">
+                      <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/update.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="34">
+                      <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="_list.php" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_list.php">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="0">
+                      <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-second>
     </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>created_at</find>
-      <find>польз</find>
-      <find>наши кон</find>
-      <find>filter</find>
-      <find>name_text</find>
-      <find>sear</find>
-      <find>m-flex</find>
-      <find>Social</find>
-      <find>спаси</find>
-      <find>почта</find>
-      <find>.top</find>
-      <find>отзывы</find>
-      <find>call-modal</find>
-      <find>мы</find>
-      <find>li</find>
-      <find>pagination</find>
-      <find>уголовно</find>
-      <find>social-icons</find>
-      <find>login</find>
-      <find>#ff</find>
       <find>owl-left</find>
       <find>slider-box</find>
       <find>mobile-menu</find>
       <find>assets</find>
       <find>n-news-digits</find>
       <find>Partners</find>
-      <find>News</find>
       <find>engname_text</find>
-      <find>engname</find>
       <find>eng</find>
+      <find>engname</find>
+      <find>о нас</find>
+      <find>index</find>
+      <find>узнать</find>
+      <find>узн</find>
+      <find>social</find>
+      <find>created</find>
+      <find>paggination p-right</find>
+      <find>p-right</find>
+      <find>news</find>
+      <find>gla</find>
+      <find>image</find>
+      <find>News</find>
+      <find>file</find>
+      <find>план выставки</find>
+      <find>reliz</find>
+      <find>iframe</find>
+      <find>exupload</find>
+      <find>план</find>
+      <find>2009</find>
+      <find>fi</find>
+      <find>Exupload</find>
     </findStrings>
     <replaceStrings>
       <replace>ryba</replace>
@@ -259,6 +430,13 @@
       <replace>Partners</replace>
       <replace>Articles</replace>
       <replace>Video</replace>
+      <replace>Supplier</replace>
+      <replace>Combinates</replace>
+      <replace>Exhibition</replace>
+      <replace>Countries</replace>
+      <replace>Partlist</replace>
+      <replace>Exupload</replace>
+      <replace>Exfiles</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/protected/views/myaso</dir>
@@ -285,57 +463,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/protected/views/site/login.php" />
-        <option value="$PROJECT_DIR$/protected/views/system/error404.php" />
-        <option value="$PROJECT_DIR$/protected/views/layouts/footer.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/AboutController.php" />
-        <option value="$PROJECT_DIR$/protected/views/about/index.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/AssociationController.php" />
-        <option value="$PROJECT_DIR$/protected/views/associatoin/index.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/ExhibitionController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/SupplierController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartnersController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partners/_form.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partners/_list.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/supplier/_list.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/CombinatesController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/VideoController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/_form.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/list.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/_item.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/_itemTrash.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/create.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/update.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/countries/list.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/countries/_itemTrash.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/countries/create.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/countries/update.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/countries/_list.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/countries/_item.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/countries/_form.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_itemTrash.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/create.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/list.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/update.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_item.php" />
+        <option value="$PROJECT_DIR$/protected/models/Countries.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/CountriesController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_form.php" />
+        <option value="$PROJECT_DIR$/protected/models/Partlist.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_item.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_itemTrash.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/create.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_list.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/list.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/update.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/ExuploadController.php" />
         <option value="$PROJECT_DIR$/protected/views/exhibition/index.php" />
         <option value="$PROJECT_DIR$/protected/controllers/ExhibitionController.php" />
-        <option value="$PROJECT_DIR$/protected/views/layouts/header.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/models/News.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/NewsController.php" />
-        <option value="$PROJECT_DIR$/protected/models/News.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/news/_item.php" />
-        <option value="$PROJECT_DIR$/media/js/code.js" />
-        <option value="$PROJECT_DIR$/protected/views/news/index.php" />
-        <option value="$PROJECT_DIR$/protected/config/main.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/news/_form.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/NewsController.php" />
-        <option value="$PROJECT_DIR$/protected/views/news/show.php" />
-        <option value="$PROJECT_DIR$/protected/models/Partners.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartnersController.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partners/_itemTrash.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partners/create.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partners/list.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partners/update.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partners/_form.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partners/_item.php" />
-        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/protected/views/layouts/slider_and_news.php" />
-        <option value="$PROJECT_DIR$/protected/models/Articles.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/ArticlesController.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/articles/_itemTrash.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/articles/create.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/articles/list.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/articles/update.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/articles/_form.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/articles/_item.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/video/_itemTrash.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/video/create.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/video/list.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/video/update.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/video/_form.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/video/_item.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/VideoController.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/video/_list.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/ArticlesController.php" />
-        <option value="$PROJECT_DIR$/protected/models/Video.php" />
-        <option value="$PROJECT_DIR$/protected/views/articles/index.php" />
+        <option value="$PROJECT_DIR$/protected/models/Exupload.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_form.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/ExfilesController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_item.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_itemTrash.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/list.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/create.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/update.php" />
+        <option value="$PROJECT_DIR$/protected/models/Exfiles.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_form.php" />
       </list>
     </option>
   </component>
@@ -433,7 +611,7 @@
               <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="timesafe" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="video" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="exfiles" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
@@ -446,21 +624,18 @@
               <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="articles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="exhibition" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
               <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="upload" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
               <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="news" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="upload" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Exupload" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -477,15 +652,15 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\teplici\protected\models" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\OSPanel\domains\teplici\protected\modules\timesafe\views" />
       <recent name="C:\OSPanel\domains\teplici\protected\modules\timesafe\controllers" />
       <recent name="C:\OSPanel\domains\teplici\protected\models" />
+      <recent name="C:\OSPanel\domains\teplici" />
       <recent name="C:\OSPanel\domains\teplici\media\img" />
-      <recent name="C:\OSPanel\domains\teplici\protected\modules\timesafe\models" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\OSPanel\domains\teplici\protected\models" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -544,7 +719,10 @@
       <workItem from="1519357585715" duration="14907000" />
       <workItem from="1519622192347" duration="888000" />
       <workItem from="1519626295902" duration="21371000" />
-      <workItem from="1519703108159" duration="15672000" />
+      <workItem from="1519703108159" duration="22278000" />
+      <workItem from="1519788864204" duration="23835000" />
+      <workItem from="1519839563493" duration="3647000" />
+      <workItem from="1519872430498" duration="12467000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1515233406586</created>
@@ -630,17 +808,24 @@
       <option name="project" value="LOCAL" />
       <updated>1516280860450</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="27.02 changes">
+      <created>1519725903367</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1519725903367</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="323432000" />
+    <option name="totallyTimeSpent" value="369987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19591528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1172466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -668,18 +853,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19591528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13993949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.030366492" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,7 +875,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="27.02 changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="27.02 changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -699,203 +885,205 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/ExhibitionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131">
-          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="-204">
+          <caret line="7" column="52" lean-forward="false" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/AboutController.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/_item.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="18" column="56" lean-forward="false" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/footer.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/_itemTrash.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="92" lean-forward="false" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/exhibition/index.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11101">
-          <caret line="653" column="40" lean-forward="false" selection-start-line="653" selection-start-column="40" selection-end-line="653" selection-end-column="40" />
+        <state relative-caret-position="986">
+          <caret line="58" column="60" lean-forward="false" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/header.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/association/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
-          <caret line="155" column="24" lean-forward="false" selection-start-line="155" selection-start-column="24" selection-end-line="155" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="52" lean-forward="false" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="2" column="10078" lean-forward="false" selection-start-line="2" selection-start-column="10078" selection-end-line="2" selection-end-column="10078" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/js/code.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="11" lean-forward="false" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/WPages.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/create.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="12" />
-          <folding />
+          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="34" column="57" lean-forward="false" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exhibition/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Exhibition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="129" column="41" lean-forward="false" selection-start-line="129" selection-start-column="41" selection-end-line="129" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/countries/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="34" column="56" lean-forward="false" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/countries/_item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/countries/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/news/_item.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="106" lean-forward="false" selection-start-line="20" selection-start-column="106" selection-end-line="20" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/news/list.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/NewsController.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/countries/_itemTrash.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
+          <caret line="7" column="91" lean-forward="false" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/News.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/countries/_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="66" column="52" lean-forward="false" selection-start-line="66" selection-start-column="52" selection-end-line="66" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Partners.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/countries/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="41" column="39" lean-forward="false" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="34">
+          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partners/_list.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/countries/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="850">
+          <caret line="50" column="14" lean-forward="false" selection-start-line="50" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partners/_form.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partlist/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="37" column="95" lean-forward="false" selection-start-line="37" selection-start-column="95" selection-end-line="37" selection-end-column="95" />
-          <folding />
+        <state relative-caret-position="578">
+          <caret line="34" column="55" lean-forward="false" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partners/_item.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partlist/update.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="17" column="56" lean-forward="false" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/img/cat.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/news/_form.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_itemTrash.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="119">
+          <caret line="7" column="90" lean-forward="false" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/news/show.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_item.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding />
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/CountriesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="77" column="50" lean-forward="false" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="73" column="63" lean-forward="false" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partners/list.php">
+    <entry file="file://$PROJECT_DIR$/protected/models/Countries.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="34" column="55" lean-forward="false" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-          <folding>
-            <element signature="e#58#64#0#HTML" expanded="false" />
-            <element signature="e#419#426#1#HTML" expanded="false" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partners/update.php">
+    <entry file="file://$PROJECT_DIR$/protected/models/Partlist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="476">
+          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partners/create.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partlist/create.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="70" lean-forward="false" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partners/_itemTrash.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_itemTrash.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="90" lean-forward="false" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
@@ -903,31 +1091,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/PartnersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1615">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/articles/_itemTrash.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="90" lean-forward="false" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/articles/_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/articles/create.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exupload/create.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
@@ -935,184 +1107,168 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/articles/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="34" column="55" lean-forward="false" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-          <folding>
-            <element signature="e#58#64#0#HTML" expanded="false" />
-            <element signature="e#419#426#1#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/articles/update.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exupload/update.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/articles/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/articles/_item.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Articles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="60" column="68" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/NewsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/news/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/ArticlesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2014">
-          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="68">
+          <caret line="4" column="74" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="4" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/slider_and_news.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exupload/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="90" column="18" lean-forward="false" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/video/create.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="850">
+          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/VideoController.php">
+    <entry file="file://$PROJECT_DIR$/protected/components/RController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="-633">
+          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/video/list.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/ExuploadController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        <state relative-caret-position="272">
+          <caret line="77" column="23" lean-forward="false" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/ExhibitionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Exupload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="32" column="122" lean-forward="false" selection-start-line="32" selection-start-column="122" selection-end-line="32" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/exhibition/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="144" column="96" lean-forward="false" selection-start-line="144" selection-start-column="96" selection-end-line="144" selection-end-column="96" />
           <folding>
-            <element signature="e#55#61#0#HTML" expanded="true" />
-            <element signature="e#413#420#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#6;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
+            <marker date="1519894537837" expanded="true" signature="5024:5138" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/video/update.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/ExfilesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="18" />
+        <state relative-caret-position="2017">
+          <caret line="140" column="32" lean-forward="false" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/video/_form.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/update.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/video/_item.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="6" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="521">
+          <caret line="34" column="55" lean-forward="false" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#57#63#0#HTML" expanded="true" />
+            <element signature="e#417#424#1#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/video/_itemTrash.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_itemTrash.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="87" lean-forward="false" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+          <caret line="7" column="90" lean-forward="false" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/video/_list.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_item.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/ArticlesController.php">
+    <entry file="file://$PROJECT_DIR$/protected/models/Exfiles.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="221">
+          <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Video.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="134" column="35" lean-forward="false" selection-start-line="134" selection-start-column="35" selection-end-line="134" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/articles/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="61" column="53" lean-forward="false" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
+        <state relative-caret-position="153">
+          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
           <folding />
         </state>
       </provider>

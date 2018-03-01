@@ -1,13 +1,14 @@
 <?php
 class ExhibitionController extends Controller {
     public function actionIndex() {
-        $this->pageTitle = "Теплицы";
-       /* $criteria = new CDbCriteria();
+        $criteria = new CDbCriteria();
         $criteria -> condition = " status_int = 1";
         $criteria -> order = " serial_number";
-        $page = Pages::model()->findAll($criteria);*/
 
-        $this->render('index' );
+        $exupload = Exupload::model()->findAll($criteria);
+
+        $this->pageTitle = "Теплицы";
+        $this->render('index' , array("exupload" => $exupload) );
     }
 }
 ?>

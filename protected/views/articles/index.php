@@ -59,11 +59,9 @@
             <? foreach ($video as $key=>$value) { ?>
                 <? $img = json_decode($value->image,true);?>
                 <div class="video-item">
-                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/pF65lcXmlbs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-                   <!-- <video width="100%" height="100%" controls="controls" poster="/upload/Video/full/<?/*=$img[0]*/?>">
-                        <source src="https://youtu.be/pF65lcXmlbs" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-                    </video>-->
+                    <video width="100%" height="100%" controls="controls" poster="/upload/Video/full/<?=$img[0]?>">
+                        <source src="/media/img/1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    </video>
                 </div>
             <?  } ?>
         </div>

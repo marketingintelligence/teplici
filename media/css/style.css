@@ -1581,7 +1581,7 @@ section{
     border-radius: 50%;
     width: 1.5em;
     height: 1.5em;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     transition: 0.2s;
@@ -1875,7 +1875,7 @@ p.n-news-date::before{
     border-radius: 50%;
     width: 1.5em;
     height: 1.5em;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     transition: 0.2s;
@@ -2404,4 +2404,9 @@ video{
 .mobile-menu a.active{
     text-decoration: underline;
     color: #677a00;
+}
+#social li:first-child {
+    border: 0;
+    padding: 0;
+    margin: 0;
 }

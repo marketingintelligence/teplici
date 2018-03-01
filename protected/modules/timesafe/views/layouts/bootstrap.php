@@ -36,13 +36,18 @@
 
                 array('label'=>'Новости','url'=>array('news/list'),'icon'=>'icon-th'),
                 array('label'=>'Статьи','url'=>'#','icon'=>'list-alt','items'=>array(
-                        array('label'=>'Категории статей','url'=>array('articlescategory/list'),'icon'=>'icon-link'),
-                        array('label'=>'Статьи','url'=>array('articles/list'),'icon'=>'icon-link'),
+                    array('label'=>'Статьи','url'=>array('articles/list'),'icon'=>'icon-file'),
+                    array('label'=>'Видео','url'=>array('video/list'),'icon'=>'icon-facetime-video'),
                 )),
-                array('label'=>'Услуги','url'=>'#','icon'=>'icon-th','items'=>array(
-                    array('label'=>'Услуги', 'url'=>array('services/list'),'icon'=>'icon-pencil'),
+                array('label'=>'Ассоциации','url'=>'#','icon'=>'icon-table','items'=>array(
+                    array('label'=>'Поставщики', 'url'=>array('supplier/list'),'icon'=>'icon-truck'),
+                    array('label'=>'Комбинаты', 'url'=>array('combinates/list'),'icon'=>'icon-table'),
                 )),
-                array('label'=>'Отзывы','url'=>array('reviews/list'),'icon'=>'comments'),
+                array('label'=>'Партнеры','url'=>array('partners/list'),'icon'=>'icon-picture'),
+                array('label'=>'Выставки','url'=>'#','icon'=>'icon-table','items'=>array(
+                    array('label'=>'Страны', 'url'=>array('countries/list'),'icon'=>'icon-truck'),
+                    array('label'=>'Комбинаты', 'url'=>array('partlist/list'),'icon'=>'icon-table'),
+                )),
             ),
         ),
          

@@ -13,7 +13,7 @@
             </ul>
             <hr>
             <p class="light">Мы помогаем нашим партнерам!</p>
-            <a class="download" href="">Узнать больше</a>
+            <a class="download" href="/about">Узнать больше</a>
         </div>
     </div>
     <hr class="bottom-line">

@@ -18,7 +18,7 @@
             </div>
             <ul class="item1_ul">
                 <li class="f_li">
-                    <a href="index.php"><img src="/media/img/m_logo.png"></a>
+                    <a href="/"><img src="/media/img/m_logo.png"></a>
                 </li>
                 <li>
                     <div class="align-top">
@@ -46,25 +46,15 @@
                         <a href="mailto: greenhouses.kz@mail.ru" class="align-top border">
                             greenhouses.kz@mail.ru
                         </a>
-                        <ul class="li li2" >
-                            <li style="border: 0; padding: 0; margin: 0;">
-                                <a href="#" class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://api.whatsapp.com/send?phone=877273036828" class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
-                                </a>
-                            </li>
+                        <ul class="li li2" id="social">
+                            <?foreach ($social as $key=>$value) { ?>
+                                <li>
+                                    <a href="<?=$value->url?>" class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="<?=$value->short_description?>"></i>
+                                    </a>
+                                </li>
+                            <? } ?>
                         </ul>
                     </li>
                 </div>
@@ -96,24 +86,14 @@
         <div class="hr"></div>
     </div>
     <ul class="li mobile-visible important" >
-        <li>
-            <a href="#" class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-            </a>
-        </li>
-        <li>
-            <a href="#" class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-            </a>
-        </li>
-        <li>
-            <a href="https://api.whatsapp.com/send?phone=877273036828" class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
-            </a>
-        </li>
+        <? foreach ( $social as $key=>$value ) { ?>
+            <li>
+                <a href="<?=$value->url?>" class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="<?=$value->short_description?>"></i>
+                </a>
+            </li>
+        <? } ?>
     </ul>
 </footer>
 <!--  footer  -->

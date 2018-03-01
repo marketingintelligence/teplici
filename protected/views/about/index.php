@@ -105,7 +105,7 @@
     <div class="about2-box">
         <span>Участвуйте в нашей ежегодной </span>
         <p>международной выставке! </p>
-        <a href="exhibition.php"><div class="pad">Подробнее</div> </a>
+        <a href="exhibition"><div class="pad">Подробнее</div> </a>
         <img src="/media/img/about-6.png" class="about-img">
     </div>
     <div class="shadow-bottom"><hr></div>

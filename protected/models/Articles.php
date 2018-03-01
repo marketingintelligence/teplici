@@ -8,7 +8,7 @@ class Articles extends CActiveRecord
 
     public static function modelTitle()
     {
-        return 'Статьи';
+        return 'Статьи и Публикации';
     }
 
     public function tableName()

@@ -103,7 +103,8 @@
                                             <div class="border_li"></div>
                                         </li>
                                     </a>
-                                    <a href="#" class="href" data-id="3">
+                                    <?$file = json_decode($exupload[0]->file,true);?>
+                                    <a href="#" class="href" data-id="3" data-route="<?=$file[0]?>" >
                                         <li>
                                             План выставки
                                             <div class="triangle"></div>
@@ -139,16 +140,10 @@
                                         </li>
                                         <div class="dropdown">
                                             <ul>
-                                                <a href="#" data-id="2009"><li>2009</li></a>
-                                                <a href="#" data-id="2010"><li>2010</li></a>
-                                                <a href="#" data-id="2011"><li>2011</li></a>
-                                                <a href="#" data-id="2012"><li>2012</li></a>
-                                                <a href="#" data-id="2013"><li>2013</li></a>
-                                                <a href="#" data-id="2014"><li>2014</li></a>
-                                                <a href="#" data-id="2015"><li>2015</li></a>
-                                                <a href="#" data-id="2016"><li>2016</li></a>
-                                                <a href="#" data-id="2017"><li>2017</li></a>
-
+                                                <?foreach ($exupload as $key=>$value) {?>
+                                                <?$file = json_decode($value->file,true);?>
+                                                    <a href="#" data-id="<?=(2009+$key)?>" data-routes="<?=$file[0]?>"><li><?=$value->name_text?></li></a>
+                                                <? } ?>
                                             </ul>
                                         </div>
                                     </a>
@@ -229,7 +224,9 @@
                     <p>План выставки</p>
                     <hr>
                 </div>
-                <img src="/media/img/pavilon.jpg" class="full">
+                <?$file = json_decode($exupload[0]->file,true);?>
+                    <iframe src="/upload/Exupload/<?=$file[0]?>"
+style="width: 800px; height: 600px;" frameborder="0">Ваш браузер не поддерживает фреймы</iframe>
             </div>
             <div class="content" id="4">
                 <div class="back-vystvka mobile-visible">
@@ -502,159 +499,21 @@
                     </table>
                 </div>
             </div>
-            <div class="content" id="2009">
-                <div class="back-vystvka mobile-visible">
-                    <a href="#">Назад</a>
-                </div>
-                <div class="reliz">
-                    <div class="top_text two three">
-                        <ul>
-                            <li>Пресс релиз</li>
-                            <li><span>2009 г.</span></li>
-                        </ul>
-                        <hr>
+
+            <?php foreach ($exupload as $key=>$value) {?>
+                <div class="content" id="<?=($key+2009)?>">
+                    <div class="back-vystvka mobile-visible">
+                        <a href="#">Назад</a>
                     </div>
-                    <div class="reliz-img">
-                        <img src="/media/img/reliz.jpg">
+                    <div class="reliz">
+                        <?$file = json_decode($value->file,true);?>
+                        <!--<object data="/upload/Exupload/<?/*=$file[0]*/?>" type="application/pdf" style="width: 100%; height: 100%;">-->
+                            <iframe src="/upload/Exupload/<?=$file[0]?>" style="width: 800px; height: 600px;"  frameborder="0">Ваш браузер не поддерживает фреймы</iframe>
+                        <!--</object>-->
                     </div>
                 </div>
-            </div>
-            <div class="content" id="2010">
-                <div class="back-vystvka mobile-visible">
-                    <a href="#">Назад</a>
-                </div>
-                <div class="reliz">
-                    <div class="top_text two three">
-                        <ul>
-                            <li>Пресс релиз</li>
-                            <li><span>2010 г.</span></li>
-                        </ul>
-                        <hr>
-                    </div>
-                    <div class="reliz-img">
-                        <img src="/media/img/reliz.jpg">
-                    </div>
-                </div>
-            </div>
-            <div class="content" id="2011">
-                <div class="back-vystvka mobile-visible">
-                    <a href="#">Назад</a>
-                </div>
-                <div class="reliz">
-                    <div class="top_text two three">
-                        <ul>
-                            <li>Пресс релиз</li>
-                            <li><span>2011 г.</span></li>
-                        </ul>
-                        <hr>
-                    </div>
-                    <div class="reliz-img">
-                        <img src="/media/img/reliz.jpg">
-                    </div>
-                </div>
-            </div>
-            <div class="content" id="2012">
-                <div class="back-vystvka mobile-visible">
-                    <a href="#">Назад</a>
-                </div>
-                <div class="reliz">
-                    <div class="top_text two three">
-                        <ul>
-                            <li>Пресс релиз</li>
-                            <li><span>2012 г.</span></li>
-                        </ul>
-                        <hr>
-                    </div>
-                    <div class="reliz-img">
-                        <img src="/media/img/reliz.jpg">
-                    </div>
-                </div>
-            </div>
-            <div class="content" id="2013">
-                <div class="back-vystvka mobile-visible">
-                    <a href="#">Назад</a>
-                </div>
-                <div class="reliz">
-                    <div class="top_text two three">
-                        <ul>
-                            <li>Пресс релиз</li>
-                            <li><span>2013 г.</span></li>
-                        </ul>
-                        <hr>
-                    </div>
-                    <div class="reliz-img">
-                        <img src="/media/img/reliz.jpg">
-                    </div>
-                </div>
-            </div>
-            <div class="content" id="2014">
-                <div class="back-vystvka mobile-visible">
-                    <a href="#">Назад</a>
-                </div>
-                <div class="reliz">
-                    <div class="top_text two three">
-                        <ul>
-                            <li>Пресс релиз</li>
-                            <li><span>2014 г.</span></li>
-                        </ul>
-                        <hr>
-                    </div>
-                    <div class="reliz-img">
-                        <img src="/media/img/reliz.jpg">
-                    </div>
-                </div>
-            </div>
-            <div class="content" id="2015">
-                <div class="back-vystvka mobile-visible">
-                    <a href="#">Назад</a>
-                </div>
-                <div class="reliz">
-                    <div class="top_text two three">
-                        <ul>
-                            <li>Пресс релиз</li>
-                            <li><span>2015 г.</span></li>
-                        </ul>
-                        <hr>
-                    </div>
-                    <div class="reliz-img">
-                        <img src="/media/img/reliz.jpg">
-                    </div>
-                </div>
-            </div>
-            <div class="content" id="2016">
-                <div class="back-vystvka mobile-visible">
-                    <a href="#">Назад</a>
-                </div>
-                <div class="reliz">
-                    <div class="top_text two three">
-                        <ul>
-                            <li>Пресс релиз</li>
-                            <li><span>2016 г.</span></li>
-                        </ul>
-                        <hr>
-                    </div>
-                    <div class="reliz-img">
-                        <img src="/media/img/reliz.jpg">
-                    </div>
-                </div>
-            </div>
-            <div class="content" id="2017">
-                <div class="back-vystvka mobile-visible">
-                    <a href="#">Назад</a>
-                </div>
-                <div class="reliz">
-                    <div class="top_text two three">
-                        <ul>
-                            <li>Пресс релиз</li>
-                            <li><span>2017 г.</span></li>
-                        </ul>
-                        <hr>
-                    </div>
-                    <div class="reliz-img">
-                        <img src="/media/img/reliz.jpg">
-                    </div>
-                </div>
-            </div>
+            <?  }  ?>
+
         </div>
     </div>
 </section>

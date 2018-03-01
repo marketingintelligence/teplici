@@ -5,7 +5,6 @@ class PartnersController extends RController
         'model'  => 'Partners',
         'fields' => array(
             'name_text'=>array('type'=>'text'),
-            'created_at'=>array('type'=>'date'),
             'status_int'=>array('type'=>'checkbox'),
         )
     );

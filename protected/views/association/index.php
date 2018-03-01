@@ -32,53 +32,7 @@
                     <hr>
                 </div>
                 <div class="shodow-body comb" id="combinat-1">
-                    <table class="tg">
-                        <tr>
-                            <td class="td1">ТОО «Тепличные комбинаты»</td>
-                            <td class="td2">10 000 км</td>
-                            <td class="td3">кукуруза</td>
-                        </tr>
-                        <tr>
-                            <td>ТОО «Тепличные комбинаты»</td>
-                            <td>25 000 км</td>
-                            <td>пшеница томат</td>
-                        </tr>
-                        <tr>
-                            <td>ТОО «Тепличные комбинаты»</td>
-                            <td>10 000 км</td>
-                            <td>кукуруза</td>
-                        </tr>
-                        <tr>
-                            <td>ТОО «Тепличные комбинаты»</td>
-                            <td>25 000 км</td>
-                            <td>пшеница томат</td>
-                        </tr>
-                        <tr>
-                            <td>ТОО «Тепличные комбинаты»</td>
-                            <td>10 000 км</td>
-                            <td>кукуруза</td>
-                        </tr>
-                        <tr>
-                            <td>ТОО «Тепличные комбинаты»</td>
-                            <td>25 000 км</td>
-                            <td>пшеница томат</td>
-                        </tr>
-                        <tr>
-                            <td>ТОО «Тепличные комбинаты»</td>
-                            <td>10 000 км</td>
-                            <td>кукуруза</td>
-                        </tr>
-                        <tr>
-                            <td>ТОО «Тепличные комбинаты»</td>
-                            <td>25 000 км</td>
-                            <td>пшеница томат</td>
-                        </tr>
-                        <tr>
-                            <td>ТОО «Тепличные комбинаты»</td>
-                            <td>10 000 км</td>
-                            <td>кукуруза</td>
-                        </tr>
-                    </table>
+                    <?=$combinates[0]->full_bigtexteditor?>
                 </div>
                 <div class="paggination p-left">
                     <a data-id="1" href="#" class="active">1</a>
@@ -93,54 +47,25 @@
                     <hr>
                 </div>
                 <div class="shodow-body post" id="postavshik-1">
-                    <div class="assoc-item2">
-                        <div class="item2-flex">
-                            <div class="item2-img">
-                                <img src="/media/img/assoc.jpg">
+                    <?php foreach ( $supplier as $key => $value ) { ?>
+                        <?$img = json_decode($value->image,true);?>
+                            <div class="assoc-item2">
+                                <div class="item2-flex">
+                                    <div class="item2-img">
+                                        <img src="/upload/Supplier/full/<?=$img[0]?>">
+                                    </div>
+                                    <div class="item2-text">
+                                        <p><?=$value->name_text?></p>
+                                    </div>
+                                </div>
+                                <div class="item2-body">
+                                    <span><?=$value->short_bigtext?></span>
+                                </div>
                             </div>
-                            <div class="item2-text">
-                                <p>ТОО «Тепличные комбинаты»</p>
-                            </div>
-                        </div>
-                        <div class="item2-body">
-                            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five </span>
-                        </div>
-                    </div>
-
-                    <div class="assoc-item2">
-                        <div class="item2-flex">
-                            <div class="item2-img">
-                                <img src="/media/img/assoc2.jpg">
-                            </div>
-                            <div class="item2-text">
-                                <p>ТОО «Тепличные комбинаты»</p>
-                            </div>
-                        </div>
-                        <div class="item2-body">
-                            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release</span>
-                        </div>
-                    </div>
-
-                    <div class="assoc-item2">
-                        <div class="item2-flex">
-                            <div class="item2-img">
-                                <img src="/media/img/assoc3.jpg">
-                            </div>
-                            <div class="item2-text">
-                                <p>ТОО «Тепличные комбинаты»</p>
-                            </div>
-                        </div>
-                        <div class="item2-body">
-                            <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining</span>
-                        </div>
-                    </div>
+                    <? } ?>
                 </div>
-
                 <div class="paggination p-right">
-                    <a data-id="1" href="#" class="active">1</a>
-                    <a data-id="1" href="#">2</a>
-                    <a data-id="1" href="#">3</a>
-                    <a data-id="1" href="#">4</a>
+                    <?php $this->widget('application.components.WPages',array('_pages'=>$pages)); ?>
                 </div>
             </div>
         </div>
@@ -152,8 +77,25 @@
     <div class="about2-box">
         <span>Участвуйте в нашей ежегодной </span>
         <p>международной выставке! </p>
-        <a href="exhibition.php"><div class="pad">Подробнее</div> </a>
+        <a href="exhibition"><div class="pad">Подробнее</div> </a>
         <img src="/media/img/about-6.png" class="about-img">
     </div>
     <div class="shadow-bottom"><hr></div>
 </section>
+
+<script>
+    $("body").on("click",".p-right a",function(e){
+        e.preventDefault();
+        var id = $(this).data('id');
+        alert(id);
+        $.ajax({
+            url: "/Association/getsuppliers",
+            type: "post",
+            data: {'id':id},
+            success:function(data){
+
+                console.log(data);
+            }
+        })
+    });
+</script>
