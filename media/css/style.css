@@ -1725,6 +1725,7 @@ section{
     transform: scale3d(1, 1, 1);
     -webkit-transition: all 0.5s linear;
     transition: all 0.5s linear;
+    object-fit: cover;
 }
 .n-news-item-img img.active{
     -webkit-transform: scale3d(1.2, 1.2, 1);
@@ -2409,4 +2410,143 @@ video{
     border: 0;
     padding: 0;
     margin: 0;
+}
+
+.anketa-box{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.anketa-box-item{
+    border: 1px dotted  #677a00;
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    margin-bottom: 3em;
+
+}
+.anketa-flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+.upper22{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-style: normal;
+    display: inline-block;
+}
+.upper23{
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-style: normal;
+    display: inline-block;
+}
+.danger{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 0.5em;
+    align-items: flex-end;
+}
+.anketa-item{
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+}
+.anketa-item input, .anketa-item textarea,.anketa-item select{
+    border: 1px solid  #677a00;
+    outline: none;
+    padding: 0.5em;
+    width: 100%;
+}
+.anketa-item input::placeholder{
+    font-size: 0.8em;
+}
+.anketa-item textarea{
+    height: 5em;
+}
+.item-input{
+    width: 50%;
+}
+.item-text{
+    text-align: right;
+    width: 45%;
+}
+.a-margin{
+    margin-top: 3em;
+}
+input.small{
+    width: 48%;
+    margin-right: 2%;
+}
+input.small2{
+    width: 48%;
+}
+.no-center{
+    align-items: flex-start;
+}
+.s-margin{
+    margin-bottom: 0.5em;
+}
+.button-submit{
+    width: 100%;
+    text-align: center;
+}
+.button-submit button{
+    padding: 1em 3em;
+    border: none;
+    background-color: #677a00;
+    outline: none;
+    border-radius: 3px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.button-submit button:hover{
+    opacity: 0.6;
+}
+@media screen and (max-width:900px){
+    .anketa-box {
+        width: 98%;
+    }
+}
+@media screen and (max-width:800px){
+    .anketa-flex {
+        display: block;
+    }
+    .anketa-item {
+        width: 100%;
+        margin-bottom: 0.5em;
+    }
+    .anketa-box {
+        width: 80%;
+    }
+}
+@media screen and (max-width:650px){
+    .anketa-box {
+        width: 98%;
+    }
+}
+@media screen and (max-width:500px){
+    .danger {
+        display: block;
+        text-align: center;
+    }
+
+}
+@media screen and (max-width:400px){
+    .anketa-box-item {
+        border: 1px dotted #677a00;
+        padding: 0.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-right: 0.5em;
+        margin-bottom: 2em;
+    }
 }

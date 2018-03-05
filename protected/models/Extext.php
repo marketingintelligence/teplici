@@ -1,5 +1,5 @@
 <?
-class Exhibition extends CActiveRecord
+class Extext extends CActiveRecord
 {
     public static function model($className=__CLASS__)
     {
@@ -8,12 +8,12 @@ class Exhibition extends CActiveRecord
 
     public static function modelTitle()
     {
-        return 'Выставка';
+        return 'Выставки текст';
     }
 
     public function tableName()
     {
-        return 'exhibition';
+        return 'extext';
     }
 
     public function getNiceDate() {
@@ -23,13 +23,13 @@ class Exhibition extends CActiveRecord
     public function rules()
     {
         return array(
-            array('created_at, glav_int', 'numerical', 'integerOnly'=>true),
+            array('created_at', 'numerical', 'integerOnly'=>true),
             array('name_text, url_text, serial_number', 'length', 'max'=>255),
             array('kazname_text', 'length', 'max'=>255),
             array('engname_text', 'length', 'max'=>255),
-            array('short_bigtext', 'length', 'max'=>255),
-            array('kazshort_bigtext', 'length', 'max'=>255),
-            array('engshort_bigtext', 'length', 'max'=>255),
+            array('short_bigtext', 'length', 'max'=>90000),
+            array('kazshort_bigtext', 'length', 'max'=>90000),
+            array('engshort_bigtext', 'length', 'max'=>90000),
             array('full_bigtexteditor', 'length', 'max'=>90000),
             array('kazfull_bigtexteditor', 'length', 'max'=>90000),
             array('engfull_bigtexteditor, image', 'length', 'max'=>90000),
@@ -43,19 +43,18 @@ class Exhibition extends CActiveRecord
             'id' => 'ID',
             'created_at' => 'Дата создания',
             'url_text' => 'ЧПУ',
-            'name_text' => 'Заголовок',
-            'kazname_text' => 'Заголовок (ҚАЗ)',
-            'engname_text' => 'Заголовок (ENG)',
-            'short_bigtext' => 'Короткое описание',
-            'kazshort_bigtext' => 'Короткое описание (ҚАЗ)',
-            'engshort_bigtext' => 'Короткое описание (ENG)',
-            'full_bigtexteditor' => 'Содержание',
-            'kazfull_bigtexteditor' => 'Содержание (ҚАЗ)',
-            'engfull_bigtexteditor' => 'Содержание (ENG)',
+            'name_text' => 'Название',
+            'kazname_text' => 'Название (ҚАЗ)',
+            'engname_text' => 'Название (ENG)',
+            'short_bigtext' => 'Содержание верхний блок',
+            'kazshort_bigtext' => 'Содержание верхний блок (ҚАЗ)',
+            'engshort_bigtext' => 'Содержание верхний блок (ENG)',
+            'full_bigtexteditor' => 'Содержание нижний блок',
+            'kazfull_bigtexteditor' => 'Содержание нижний блок (ҚАЗ)',
+            'engfull_bigtexteditor' => 'Содержание нижний блок (ENG)',
             'status_int' => 'Видимость',
             'image' => 'Изображение',
             'serial_number' => 'Порядковый номер',
-            'glav_int' => 'Главные новости',
         );
     }
 
@@ -65,7 +64,6 @@ class Exhibition extends CActiveRecord
         $criteria->compare('id',$this->id);
         $criteria->compare('name_text',$this->name_text,true);
         $criteria->compare('engname_text',$this->engname_text,true);
-        $criteria->compare('created_at',$this->created_at,true);
         $criteria->compare('status_int',$this->status_int,true);
         $pagination = array('pageSize'=> 10);
         return new CActiveDataProvider($this,array(

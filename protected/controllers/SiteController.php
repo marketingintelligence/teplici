@@ -22,6 +22,12 @@ class SiteController extends Controller {
         $this->render('index');
     }
 
+    public function actionAnketa() {
+
+        $this->pageTitle = "Анкета";
+        $this->render('anketa');
+    }
+
     public function actionLogin() {
 		$error = 0;
 		Yii::app()->user->setState('loginError',0);

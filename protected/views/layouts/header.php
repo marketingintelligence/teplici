@@ -4,18 +4,16 @@
     <div class="bmiddle">
         <span class="success">Спасибо Ваше сообщение отправлено!</span>
         <ul>
-            <form action="" method="">
-                <li><input type="text" placeholder="Имя" name="name"></li>
-                <li><input type="text" placeholder="Телефон" name="phone" class="phone_number"></li>
+            <li><input type="text" placeholder="Имя" name="name"></li>
+            <li><input type="text" placeholder="Телефон" name="phone" class="phone_number"></li>
                 <button class="bbtm bb2">
                     ОТПРАВИТЬ
                 </button>
-            </form>
         </ul>
     </div>
 </div>
 <div class="black-bg"></div>
-<a href="#" class="modal-button">
+<a href="/anketa" class="modal-button">
     <div class="modal-button-box">
         <span>Нужна теплица?</span>
     </div>

@@ -84,20 +84,56 @@ $( document ).ready(function() {
         })
     });*/
 
-    $("body").on("click",".modal-button",function(e){
+    /*$("body").on("click",".modal-button",function(e){
         e.preventDefault();
         $('.black-bg').fadeIn(0);
         $('.modal-form').fadeIn(0).addClass('animated slideInDown');
-    });
-    $("body").on("click",".bmiddle .bb3",function(e){
+    });*/
+
+    /* кнопка в footer*/
+    /*$("body").on("click",".bmiddle .bb3",function(e){
         e.preventDefault();
         $('footer span.success').fadeIn(0);
         $('footer span.message').fadeOut(0);
-    });
+    });*/
+/*
+    $("body").on("click",".bmiddle .bb3",function(){
+        var name=$(".name").val();var email=$(".email").val();var error=0;if(email==""){
+            $(".email").css("background","#D66161");error++;}
+            if(error==0){
+            Send(name,email);
+        }
+    });*/
+    function Send(name,email) {
+        $.ajax({
+            type:"POST",
+            url:"mail.php",
+            data:{name:name,email:email},
+            success:function(){
+                $('footer span.success').fadeIn(0);
+                $('footer span.message').fadeOut(0);
+                /*$('.before').animate({opacity:'0',width:'80%'},500,function(){$('.call-window-box2').append("<div class='transform' style='position:absolute;top:50%; left: 50%;width: 100%; text-align: center;'>Спасибо за обращение<br> в нашу компанию!<br> <br>Менеджер в скором времени<br> свяжется с Вами.</div>")});*/
+            }
+        });
+    }
+
+    $('#footer-form').submit(function(e) {
+        e.preventDefault();
+        var name=$(".name").val();var email=$(".email").val();var error=0;if(email==""){
+            $(".email").css("background","#D66161");error++;}
+        if(error==0){
+            Send(name,email);
+        }
+    })
+
+    //Кнопка "нужна теплица"
+    /*
     $("body").on("click",".modal-form .bb2",function(e){
         e.preventDefault();
-        $('.modal-form span.success').css('display', 'block');
-    });
+        var name=$(".name").val();var phone=$(".phone").val();var error=0;if(phone==""){
+            $(".phone").css("background","#D66161");error++;}if(error==0){
+            Send(name,phone);}
+    });*/
     $("body").on("click",".black-bg",function(){
         $(this).fadeOut(0);
         $('.modal-form').fadeOut(0).removeClass('animated slideInDown');
