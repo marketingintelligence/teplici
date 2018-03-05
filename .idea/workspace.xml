@@ -29,7 +29,7 @@
     <favorites_list name="teplici" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46139535">
+    <splitter split-orientation="horizontal" split-proportion="0.18604651">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
@@ -167,8 +167,8 @@
               <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/media/css/style.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="290">
-                      <caret line="1085" column="4" lean-forward="false" selection-start-line="1085" selection-start-column="4" selection-end-line="1085" selection-end-column="4" />
+                    <state relative-caret-position="307">
+                      <caret line="1166" column="14" lean-forward="true" selection-start-line="1166" selection-start-column="14" selection-end-line="1166" selection-end-column="14" />
                       <folding />
                     </state>
                   </provider>
@@ -246,7 +246,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>index</find>
       <find>узнать</find>
       <find>узн</find>
       <find>social</find>
@@ -276,6 +275,7 @@
       <find>Articles</find>
       <find>отправить</find>
       <find>.shodow-body table td</find>
+      <find>news-i</find>
     </findStrings>
     <replaceStrings>
       <replace>ryba</replace>
@@ -625,7 +625,7 @@
       <workItem from="1519971629411" duration="927000" />
       <workItem from="1520025709646" duration="34000" />
       <workItem from="1520072912286" duration="920000" />
-      <workItem from="1520219783126" duration="22134000" />
+      <workItem from="1520219783126" duration="23062000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1515233406586</created>
@@ -823,11 +823,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520249356283</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="правки новости">
+      <created>1520249931555</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1520249931555</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="401370000" />
+    <option name="totallyTimeSpent" value="402298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -895,7 +902,8 @@
     <MESSAGE value="changes" />
     <MESSAGE value="news changes" />
     <MESSAGE value="правки" />
-    <option name="LAST_COMMIT_MESSAGE" value="правки" />
+    <MESSAGE value="правки новости" />
+    <option name="LAST_COMMIT_MESSAGE" value="правки новости" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1290,18 +1298,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="1085" column="4" lean-forward="false" selection-start-line="1085" selection-start-column="4" selection-end-line="1085" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/slider_and_news.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="1166" column="14" lean-forward="true" selection-start-line="1166" selection-start-column="14" selection-end-line="1166" selection-end-column="14" />
           <folding />
         </state>
       </provider>

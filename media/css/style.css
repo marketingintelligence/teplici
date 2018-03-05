@@ -1098,6 +1098,8 @@ img.top{
     vertical-align: middle;
     margin-bottom: 3em;
     margin-left: 5em;
+    background: linear-gradient(to top, #bdd052 9%, white 23%);
+    position: relative;
 }
 .news-item.active{
     background: linear-gradient(to bottom, #bdd052 22%, white 36%)
@@ -1157,10 +1159,14 @@ img.top{
 .news-body{
     padding: 1em;
     padding-bottom: 0.5em;
-    background: linear-gradient(to top, #bdd052 9%, white 23%);
     transition: 1s;
+    padding-bottom: 4.5em;
 }
 .news-body a{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,-50%);
     width: 58%;
     padding-bottom: 1em;
     padding-top: 0.75em;
@@ -1183,6 +1189,9 @@ img.top{
 .news-box-margin{
     width: 100%;
     margin-left: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: normal;
 }
 .slider{
     background-image: url("../img/part/bg.jpg");
