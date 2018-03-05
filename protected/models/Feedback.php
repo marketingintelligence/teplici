@@ -23,8 +23,8 @@ class Feedback extends CActiveRecord
     public function rules()
     {
         return array(
-            array('created_at', 'numerical', 'integerOnly'=>true),
-            array('name, serial_number', 'length', 'max'=>255),
+            array('created_at,phone', 'numerical', 'integerOnly'=>true),
+            array('name, serial_number, text', 'length', 'max'=>500),
             array('email','email'),
         );
     }
@@ -35,6 +35,8 @@ class Feedback extends CActiveRecord
             'id' => 'ID',
             'created_at' => 'Дата создания',
             'name' => 'Имя',
+            'phone' => 'Номер телефона',
+            'text' => 'Сообщение',
             'serial_number' => 'Порядковый номер',
         );
     }
@@ -43,10 +45,9 @@ class Feedback extends CActiveRecord
     {
         $criteria=new CDbCriteria;
         $criteria->compare('id',$this->id);
-        $criteria->compare('name_text',$this->name_text,true);
-        $criteria->compare('engname_text',$this->engname_text,true);
-        $criteria->compare('created_at',$this->created_at,true);
-        $criteria->compare('status_int',$this->status_int,true);
+        $criteria->compare('name',$this->name,true);
+        $criteria->compare('name',$this->created_at,true);
+
         $pagination = array('pageSize'=> 10);
         return new CActiveDataProvider($this,array(
             'criteria'   => $criteria,
@@ -71,39 +72,6 @@ class Feedback extends CActiveRecord
         return true;
     }
 
-    public function getPreview($field = 'image', $type = 'sm', $preview = false, $allowEmpty = false) {
-        $filename = 'upload/' . __CLASS__ . '/' . $type . '/' . $this->$field;
-        if (is_file($filename) || $allowEmpty) {
-            $htmlSize = array('title' => CHtml::encode($this->title));
-            if (!$allowEmpty) {
-                $htmlSize['width']  = $size[0];
-                $htmlSize['height'] = $size[1];
-                $size = getimagesize($filename);
-            }
-            return CHtml::image('/' . $filename, CHtml::encode($this->title), $htmlSize);
-        } elseif ($preview) {
-            $filename = 'upload/' . __CLASS__ . '/preview.png';
-            if(is_file($filename)){
-                $size     = getimagesize($filename);
-                return CHtml::image(
-                    '/'.$filename, '', array(
-                    'width'  => $size[0],
-                    'height' => $size[1]));
-            }
-        }
-        return null;
-    }
-
-    public function beforeDelete(){
-        $option  = $this->options();
-        foreach ($option['images'] as $type=>$size){
-
-            if(is_file('upload/'.__CLASS__.'/'.$type.'/'.$this->image)){
-                unlink('upload/'.__CLASS__.'/'.$type.'/'.$this->image);
-            }
-        }
-        return true;
-    }
 
     public function defaultScope() {
         return array(
@@ -111,27 +79,5 @@ class Feedback extends CActiveRecord
         );
     }
 
-    public function options()
-    {
-        return array(
-            'images' => array(
-                'full' => array(
-                    'width' => 1000,
-                    'height' => 1000,
-                    'type' => 'resize'
-                ),
-                'sm' => array(
-                    'width' => 195,
-                    'height' => 210,
-                    'type' => 'resize'
-                ),
-                'tm' => array(
-                    'width' => 195,
-                    'height' => 225,
-                    'type' => 'resize'
-                ),
-            )
-        );
-    }
 }
 ?>

@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187074f3-6dc1-4647-9d39-fedc10f2617f" name="Default" comment="combinates edit">
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Feedback.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/FeedbackController.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/media/js/code.js" afterPath="$PROJECT_DIR$/media/js/code.js" />
+      <change beforePath="$PROJECT_DIR$/media/css/responsive.css" afterPath="$PROJECT_DIR$/media/css/responsive.css" />
       <change beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/layouts/footer.php" afterPath="$PROJECT_DIR$/protected/views/layouts/footer.php" />
+      <change beforePath="$PROJECT_DIR$/protected/models/Feedback.php" afterPath="$PROJECT_DIR$/protected/models/Feedback.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +31,7 @@
     <favorites_list name="teplici" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.1572093">
+    <splitter split-orientation="horizontal" split-proportion="0.65488374">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
@@ -67,8 +67,8 @@
           <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/views/layouts/footer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="295">
-                  <caret line="72" column="55" lean-forward="true" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
+                <state relative-caret-position="142">
+                  <caret line="45" column="61" lean-forward="false" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
                   <folding />
                 </state>
               </provider>
@@ -104,7 +104,17 @@
             <entry file="file://$PROJECT_DIR$/media/js/code.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="156">
-                  <caret line="106" column="15" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+                  <caret line="106" column="36" lean-forward="true" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="36" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Extext.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/protected/models/Extext.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="527">
+                  <caret line="31" column="60" lean-forward="false" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
                   <folding />
                 </state>
               </provider>
@@ -113,12 +123,12 @@
           <file leaf-file-name="mail.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mail.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="290">
-                  <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+                <state relative-caret-position="321">
+                  <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
                   <folding>
-                    <marker date="1520238004790" expanded="true" signature="465:697" ph="..." />
-                    <marker date="1520238004790" expanded="true" signature="475:558" ph="..." />
-                    <marker date="1520238004790" expanded="true" signature="568:688" ph="..." />
+                    <marker date="1520244954253" expanded="true" signature="465:697" ph="..." />
+                    <marker date="1520244954253" expanded="true" signature="475:558" ph="..." />
+                    <marker date="1520244954253" expanded="true" signature="568:688" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -134,11 +144,31 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Feedback.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Feedback.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/protected/models/Feedback.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="298">
-                  <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+                <state relative-caret-position="221">
+                  <caret line="26" column="67" lean-forward="false" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="FeedbackController.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/FeedbackController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="58" column="9" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="58" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="responsive.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/media/css/responsive.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="394">
+                  <caret line="1585" column="23" lean-forward="true" selection-start-line="1585" selection-start-column="23" selection-end-line="1585" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -150,8 +180,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>engname</find>
-      <find>о нас</find>
       <find>index</find>
       <find>узнать</find>
       <find>узн</find>
@@ -180,6 +208,8 @@
       <find>отправить</find>
       <find>bbtm</find>
       <find>bmiddle</find>
+      <find>Articles</find>
+      <find>.shodow-body table td</find>
     </findStrings>
     <replaceStrings>
       <replace>ryba</replace>
@@ -238,8 +268,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_itemTrash.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/create.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/list.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/update.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_item.php" />
@@ -285,10 +313,12 @@
         <option value="$PROJECT_DIR$/protected/models/Supplier.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/supplier/_form.php" />
         <option value="$PROJECT_DIR$/media/css/style.css" />
-        <option value="$PROJECT_DIR$/mail.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/footer.php" />
         <option value="$PROJECT_DIR$/media/js/code.js" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/FeedbackController.php" />
+        <option value="$PROJECT_DIR$/mail.php" />
         <option value="$PROJECT_DIR$/protected/models/Feedback.php" />
+        <option value="$PROJECT_DIR$/media/css/responsive.css" />
       </list>
     </option>
   </component>
@@ -381,6 +411,14 @@
               <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="timesafe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="timesafe" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -421,11 +459,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\teplici\protected\modules\timesafe\controllers" />
       <recent name="C:\OSPanel\domains\teplici\protected\models" />
       <recent name="C:\OSPanel\domains\teplici\protected\views\site" />
       <recent name="C:\OSPanel\domains" />
       <recent name="C:\OSPanel\domains\teplici\protected\modules\timesafe\views" />
-      <recent name="C:\OSPanel\domains\teplici\protected\modules\timesafe\controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\OSPanel\domains\teplici\protected\models" />
@@ -495,7 +533,7 @@
       <workItem from="1519971629411" duration="927000" />
       <workItem from="1520025709646" duration="34000" />
       <workItem from="1520072912286" duration="920000" />
-      <workItem from="1520219783126" duration="15833000" />
+      <workItem from="1520219783126" duration="18548000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1515233406586</created>
@@ -644,11 +682,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520237367080</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feedback changes">
+      <created>1520242090226</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1520242090226</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="395069000" />
+    <option name="totallyTimeSpent" value="397784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -711,7 +756,8 @@
     <MESSAGE value="combinates edit" />
     <MESSAGE value="supplier changes" />
     <MESSAGE value="form changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="form changes" />
+    <MESSAGE value="feedback changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feedback changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -720,27 +766,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exupload/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="32" column="122" lean-forward="false" selection-start-line="32" selection-start-column="122" selection-end-line="32" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/ExfilesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2017">
-          <caret line="140" column="32" lean-forward="false" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exfiles/_list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -974,14 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Extext.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="60" lean-forward="false" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Exhibition.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1078,22 +1095,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail.php">
+    <entry file="file://$PROJECT_DIR$/protected/models/Extext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding>
-            <marker date="1520238004790" expanded="true" signature="465:697" ph="..." />
-            <marker date="1520238004790" expanded="true" signature="475:558" ph="..." />
-            <marker date="1520238004790" expanded="true" signature="568:688" ph="..." />
-          </folding>
+        <state relative-caret-position="527">
+          <caret line="31" column="60" lean-forward="false" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/footer.php">
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/ArticlesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="72" column="55" lean-forward="true" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1101,15 +1114,51 @@
     <entry file="file://$PROJECT_DIR$/media/js/code.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
-          <caret line="106" column="15" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <caret line="106" column="36" lean-forward="true" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/FeedbackController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="58" column="9" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="58" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="41" column="16" lean-forward="false" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+          <folding>
+            <marker date="1520244954253" expanded="true" signature="465:697" ph="..." />
+            <marker date="1520244954253" expanded="true" signature="475:558" ph="..." />
+            <marker date="1520244954253" expanded="true" signature="568:688" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Feedback.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        <state relative-caret-position="221">
+          <caret line="26" column="67" lean-forward="false" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/css/responsive.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="1585" column="23" lean-forward="true" selection-start-line="1585" selection-start-column="23" selection-end-line="1585" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="45" column="61" lean-forward="false" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
           <folding />
         </state>
       </provider>
