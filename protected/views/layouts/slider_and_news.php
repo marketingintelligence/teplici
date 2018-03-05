@@ -25,7 +25,19 @@
                         </div>
                         <div class="news-body">
                             <p class="news-title"><?=$value->name_text?></p>
-                            <span><?=$value->short_bigtext?></span>
+                            <?
+                            $text = $value->full_bigtexteditor;
+                            $max_lengh = 115;
+                            $numbers = mb_strlen($text,"UTF-8")/$max_lengh;
+                            $text = str_replace("img src"," ", $text);
+                            if(mb_strlen($text, "UTF-8") > $max_lengh) {
+                                $text_cut = mb_substr($text, 0, $max_lengh, "UTF-8");
+                                $text_explode = explode(" ", $text_cut);
+                                unset($text_explode[count($text_explode) - 1]);
+                                $text_implode = implode(" ", $text_explode); ?>
+                                <span><?=$text_implode."...";?></span>
+                            <?} else { ?> <span> <?=$text;?> </span>
+                            <? } ?>
                             <a href="/news/<?=$value->url_text?>">Читать дальше</a>
                         </div>
                     </div>
@@ -57,7 +69,19 @@
                         </div>
                         <div class="news-body">
                             <p class="news-title"><?=$value->name_text?></p>
-                            <span><?=$value->short_bigtext?></span>
+                            <?
+                            $text = $value->description;
+                            $max_lengh = 115;
+                            $numbers = mb_strlen($text,"UTF-8")/$max_lengh;
+                            $text = str_replace("img src"," ", $text);
+                            if(mb_strlen($text, "UTF-8") > $max_lengh) {
+                                $text_cut = mb_substr($text, 0, $max_lengh, "UTF-8");
+                                $text_explode = explode(" ", $text_cut);
+                                unset($text_explode[count($text_explode) - 1]);
+                                $text_implode = implode(" ", $text_explode); ?>
+                                <span><?=$text_implode."...";?></span>
+                            <?} else { ?> <span> <?=$text;?> </span>
+                            <? } ?>
                             <a href="/news/<?=$value->url_text?>">Читать дальше</a>
                         </div>
                     </div>

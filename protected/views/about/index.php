@@ -2,7 +2,7 @@
     <div class="shadow2"></div>
     <div class="header-container mobile-none">
         <div class="header-container-item">
-            <p class="light">Мы трудимся радипроцветания</p>
+            <p class="light">Мы трудимся ради процветания</p>
             <hr>
             <h1>сельского хозяйства Казахстана!</h1>
         </div>

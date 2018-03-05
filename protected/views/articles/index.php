@@ -18,7 +18,11 @@
                     <div class="n-news-item-img">
                         <div class="n-news-img-border"></div>
                         <div class="overflow">
-                            <img src="/upload/Articles/full/<?=$img[0]?>">
+                            <?if ($img == null){ ?>
+                                <img src="/media/img/logo/ATK.JPG">
+                            <? }else {?>
+                                <img src="/upload/Articles/full/<?=$img[0]?>">
+                            <? } ?>
                         </div>
                     </div>
                     <div class="n-news-body">

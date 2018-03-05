@@ -1,4 +1,29 @@
-<section class="second-header about assoc">
+<section class="second-header about">
+    <div class="shadow2"></div>
+    <div class="header-container mobile-none">
+        <div class="header-container-item">
+            <p class="light">Мы трудимся ради процветания</p>
+            <hr>
+            <h1>сельского хозяйства Казахстана!</h1>
+        </div>
+    </div>
+
+    <div class="header-container mobile-visible">
+        <div class="header-container-item">
+            <h2>АССОЦИАЦИЯ ТЕПЛИЦ </h2>
+            <h1>КАЗАХСТАНА</h1>
+        </div>
+        <div class="header-container-item-2">
+            <ul>
+                <li><h3>Мы трудимся радипроцветания</h3></li>
+                <li><h2>сельского хозяйства Казахстана!</h2></li>
+            </ul>
+        </div>
+    </div>
+    <hr class="bottom-line">
+    <hr class="bottom-line2">
+</section>
+<!--<section class="second-header about assoc">
     <div class="shadow2"></div>
     <div class="header-container mobile-none">
         <div class="header-container-item">
@@ -21,7 +46,7 @@
     </div>
     <hr class="bottom-line">
     <hr class="bottom-line2">
-</section>
+</section>-->
 
 <section class="assoc-block">
     <div class="box2">
