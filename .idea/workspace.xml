@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="187074f3-6dc1-4647-9d39-fedc10f2617f" name="Default" comment="combinates edit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/media/css/style.css" afterPath="$PROJECT_DIR$/media/css/style.css" />
       <change beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/layouts/slider_and_news.php" afterPath="$PROJECT_DIR$/protected/views/layouts/slider_and_news.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +29,7 @@
     <favorites_list name="teplici" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7281192">
+    <splitter split-orientation="horizontal" split-proportion="0.46139535">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
@@ -85,8 +85,8 @@
           <file leaf-file-name="slider_and_news.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/views/layouts/slider_and_news.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="901">
-                  <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+                <state relative-caret-position="238">
+                  <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
                   <folding />
                 </state>
               </provider>
@@ -164,11 +164,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+              <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/media/css/style.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="323">
-                      <caret line="1743" column="21" lean-forward="false" selection-start-line="1743" selection-start-column="21" selection-end-line="1743" selection-end-column="21" />
+                    <state relative-caret-position="290">
+                      <caret line="1085" column="4" lean-forward="false" selection-start-line="1085" selection-start-column="4" selection-end-line="1085" selection-end-column="4" />
                       <folding />
                     </state>
                   </provider>
@@ -184,7 +184,7 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+              <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/protected/views/about/index.php">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="-102">
@@ -380,11 +380,11 @@
         <option value="$PROJECT_DIR$/protected/models/Feedback.php" />
         <option value="$PROJECT_DIR$/media/css/responsive.css" />
         <option value="$PROJECT_DIR$/protected/views/news/index.php" />
-        <option value="$PROJECT_DIR$/media/css/style.css" />
         <option value="$PROJECT_DIR$/protected/views/articles/index.php" />
         <option value="$PROJECT_DIR$/protected/views/about/index.php" />
         <option value="$PROJECT_DIR$/protected/views/association/index.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/slider_and_news.php" />
+        <option value="$PROJECT_DIR$/media/css/style.css" />
       </list>
     </option>
   </component>
@@ -625,7 +625,7 @@
       <workItem from="1519971629411" duration="927000" />
       <workItem from="1520025709646" duration="34000" />
       <workItem from="1520072912286" duration="920000" />
-      <workItem from="1520219783126" duration="21561000" />
+      <workItem from="1520219783126" duration="22134000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1515233406586</created>
@@ -816,11 +816,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520249232437</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="правки">
+      <created>1520249356283</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1520249356283</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="400797000" />
+    <option name="totallyTimeSpent" value="401370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1259,14 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="1743" column="21" lean-forward="false" selection-start-line="1743" selection-start-column="21" selection-end-line="1743" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-238">
@@ -1291,10 +1290,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/media/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="1085" column="4" lean-forward="false" selection-start-line="1085" selection-start-column="4" selection-end-line="1085" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/slider_and_news.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+        <state relative-caret-position="238">
+          <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
           <folding />
         </state>
       </provider>
