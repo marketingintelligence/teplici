@@ -4,9 +4,6 @@
     <list default="true" id="187074f3-6dc1-4647-9d39-fedc10f2617f" name="Default" comment="combinates edit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/about/index.php" afterPath="$PROJECT_DIR$/protected/views/about/index.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/articles/index.php" afterPath="$PROJECT_DIR$/protected/views/articles/index.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/association/index.php" afterPath="$PROJECT_DIR$/protected/views/association/index.php" />
       <change beforePath="$PROJECT_DIR$/protected/views/layouts/slider_and_news.php" afterPath="$PROJECT_DIR$/protected/views/layouts/slider_and_news.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,8 +85,8 @@
           <file leaf-file-name="slider_and_news.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/views/layouts/slider_and_news.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="117">
-                  <caret line="28" column="62" lean-forward="false" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+                <state relative-caret-position="901">
+                  <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -628,7 +625,7 @@
       <workItem from="1519971629411" duration="927000" />
       <workItem from="1520025709646" duration="34000" />
       <workItem from="1520072912286" duration="920000" />
-      <workItem from="1520219783126" duration="21441000" />
+      <workItem from="1520219783126" duration="21561000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1515233406586</created>
@@ -812,11 +809,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520248951309</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="правки">
+      <created>1520249232437</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1520249232437</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="400677000" />
+    <option name="totallyTimeSpent" value="400797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1289,8 +1293,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/slider_and_news.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="28" column="62" lean-forward="false" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+        <state relative-caret-position="901">
+          <caret line="71" column="30" lean-forward="true" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
           <folding />
         </state>
       </provider>

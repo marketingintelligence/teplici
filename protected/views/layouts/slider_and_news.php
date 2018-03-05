@@ -70,7 +70,7 @@
                         <div class="news-body">
                             <p class="news-title"><?=$value->name_text?></p>
                             <?
-                            $text = $value->description;
+                            $text = $value->full_bigtexteditor;
                             $max_lengh = 115;
                             $numbers = mb_strlen($text,"UTF-8")/$max_lengh;
                             $text = str_replace("img src"," ", $text);
