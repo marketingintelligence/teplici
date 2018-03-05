@@ -13,7 +13,7 @@ class Combinates extends CActiveRecord
 
     public function tableName()
     {
-        return 'Combinates';
+        return 'combinates';
     }
 
     public function getNiceDate() {
