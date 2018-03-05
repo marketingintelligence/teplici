@@ -27,9 +27,9 @@ class Supplier extends CActiveRecord
             array('name_text, url_text, serial_number', 'length', 'max'=>255),
             array('kazname_text', 'length', 'max'=>255),
             array('engname_text', 'length', 'max'=>255),
-            array('short_bigtext', 'length', 'max'=>1000),
-            array('kazshort_bigtext', 'length', 'max'=>1000),
-            array('engshort_bigtext', 'length', 'max'=>1000),
+            array('short_bigtext', 'length', 'max'=>10000),
+            array('kazshort_bigtext', 'length', 'max'=>10000),
+            array('engshort_bigtext', 'length', 'max'=>10000),
             array('status_int', 'numerical', 'integerOnly'=>true),
         );
     }
