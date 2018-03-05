@@ -27,7 +27,7 @@
                             <p class="news-title"><?=$value->name_text?></p>
                             <?
                             $text = $value->full_bigtexteditor;
-                            $max_lengh = 115;
+                            $max_lengh = 220;
                             $numbers = mb_strlen($text,"UTF-8")/$max_lengh;
                             $text = str_replace("img src"," ", $text);
                             if(mb_strlen($text, "UTF-8") > $max_lengh) {
@@ -71,7 +71,7 @@
                             <p class="news-title"><?=$value->name_text?></p>
                             <?
                             $text = $value->full_bigtexteditor;
-                            $max_lengh = 115;
+                            $max_lengh = 220;
                             $numbers = mb_strlen($text,"UTF-8")/$max_lengh;
                             $text = str_replace("img src"," ", $text);
                             if(mb_strlen($text, "UTF-8") > $max_lengh) {
