@@ -104,14 +104,17 @@ $( document ).ready(function() {
             Send(name,email);
         }
     });*/
-    function Send(name,email) {
+    function Send(name,email,text) {
         $.ajax({
             type:"POST",
             url:"mail.php",
-            data:{name:name,email:email},
+            data:{name:name,email:email,text:text},
             success:function(){
                 $('footer span.success').fadeIn(0);
+                $("#footer-form").fadeOut(300);
+                $(".border2").css("margin-top","9em");
                 $('footer span.message').fadeOut(0);
+
                 /*$('.before').animate({opacity:'0',width:'80%'},500,function(){$('.call-window-box2').append("<div class='transform' style='position:absolute;top:50%; left: 50%;width: 100%; text-align: center;'>Спасибо за обращение<br> в нашу компанию!<br> <br>Менеджер в скором времени<br> свяжется с Вами.</div>")});*/
             }
         });
@@ -119,10 +122,11 @@ $( document ).ready(function() {
 
     $('#footer-form').submit(function(e) {
         e.preventDefault();
-        var name=$(".name").val();var email=$(".email").val();var error=0;if(email==""){
-            $(".email").css("background","#D66161");error++;}
+        var name=$(".name").val();
+        var text=$(".messages").val();
+        var email=$(".email").val();var error=0;if(email==""){error++;}
         if(error==0){
-            Send(name,email);
+            Send(name,email,text);
         }
     })
 

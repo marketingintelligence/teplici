@@ -69,9 +69,9 @@
                 <div class="bmiddle">
                     <ul>
                         <form action="" id="footer-form" method="POST">
-                            <li><input type="text" required placeholder="Имя" name="name"></li>
+                            <li><input  class="name" type="text" required placeholder="Имя" name="name"></li>
                             <li><input class="email" required type="email" placeholder="E-mail" name="email"></li>
-                            <li><textarea name="textarea"  cols="30" rows="5"  placeholder="Сообщение"></textarea></li>
+                            <li><textarea class="messages" name="textarea"  cols="30" rows="5"  placeholder="Сообщение"></textarea></li>
                             <button class="bbtm bb3">
                                 ОТПРАВИТЬ
                             </button>
