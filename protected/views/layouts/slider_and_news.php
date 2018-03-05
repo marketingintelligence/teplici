@@ -12,7 +12,11 @@
                         <div class="news-header">
                             <div class="news-img">
                                 <div class="overflow">
-                                    <img src="/upload/News/full/<?=$img[0]?>">
+                                    <?if($img == null){?>
+                                        <img src="/media/img/logo/ATK.JPG">
+                                    <? }else { ?>
+                                        <img src="/upload/News/full/<?=$img[0]?>">
+                                    <? } ?>
                                 </div>
                             </div>
                             <div class="news-date">
