@@ -225,8 +225,10 @@
                     <hr>
                 </div>
                 <?$file = json_decode($exupload[0]->file,true);?>
-                    <iframe src="/upload/Exupload/<?=$file[0]?>"
-style="width: 800px; height: 600px;" frameborder="0">Ваш браузер не поддерживает фреймы</iframe>
+                <iframe src="/upload/Exupload/<?=$file[0]?>" style="width:100%; height:1000px;" frameborder="0"></iframe>
+
+ <!--               <iframe src="/upload/Exupload/<?/*=$file[0]*/?>"
+style="width: 800px; height: 600px;" frameborder="0">Ваш браузер не поддерживает фреймы</iframe>-->
             </div>
             <div class="content" id="4">
                 <div class="back-vystvka mobile-visible">
