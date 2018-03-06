@@ -4,7 +4,6 @@
     <list default="true" id="187074f3-6dc1-4647-9d39-fedc10f2617f" name="Default" comment="выставки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/exhibition/index.php" afterPath="$PROJECT_DIR$/protected/views/exhibition/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +34,8 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/views/exhibition/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="229">
-                  <caret line="513" column="0" lean-forward="true" selection-start-line="513" selection-start-column="0" selection-end-line="513" selection-end-column="0" />
+                <state relative-caret-position="166">
+                  <caret line="229" column="27" lean-forward="false" selection-start-line="229" selection-start-column="21" selection-end-line="229" selection-end-column="27" />
                   <folding>
                     <element signature="n#style#0;n#iframe#0;n#div#2;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#iframe#0;n#div#1;n#div#6;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
@@ -652,7 +651,7 @@
       <workItem from="1520025709646" duration="34000" />
       <workItem from="1520072912286" duration="920000" />
       <workItem from="1520219783126" duration="24378000" />
-      <workItem from="1520310615562" duration="5332000" />
+      <workItem from="1520310615562" duration="5412000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1515233406586</created>
@@ -920,11 +919,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520330008230</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="выставки">
+      <created>1520330214533</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1520330214533</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="408946000" />
+    <option name="totallyTimeSpent" value="409026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1378,8 +1384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/exhibition/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="513" column="0" lean-forward="true" selection-start-line="513" selection-start-column="0" selection-end-line="513" selection-end-column="0" />
+        <state relative-caret-position="166">
+          <caret line="229" column="27" lean-forward="false" selection-start-line="229" selection-start-column="21" selection-end-line="229" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#2;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#6;n#div#1;n#div#0;n#section#1;n#!!top" expanded="true" />
