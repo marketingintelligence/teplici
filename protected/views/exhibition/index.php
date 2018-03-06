@@ -225,7 +225,7 @@
                     <hr>
                 </div>
                 <?$file = json_decode($exupload[0]->file,true);?>
-                <iframe src="/upload/Exupload/<?=$file[0]?>" style="width:100%; height:600px;" frameborder="0"></iframe>
+                <iframe src="http://docs.google.com/gview?url=/upload/Exupload/<?=$file[0]?>.pdf&embedded=true" style="width:100%; height:1000px;" frameborder="0"></iframe>
 
  <!--               <iframe src="/upload/Exupload/<?/*=$file[0]*/?>"
 style="width: 800px; height: 600px;" frameborder="0">Ваш браузер не поддерживает фреймы</iframe>-->
