@@ -1529,6 +1529,7 @@ section{
 .shodow-body table{
     width: 100%;border-collapse: collapse;
     font-size: 0.8em;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 .shodow-body table td {
     border: 1px solid #9e9e9e;

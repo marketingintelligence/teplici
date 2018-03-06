@@ -167,8 +167,8 @@
               <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/media/css/style.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="118">
-                      <caret line="1510" column="1" lean-forward="true" selection-start-line="1510" selection-start-column="1" selection-end-line="1510" selection-end-column="1" />
+                    <state relative-caret-position="373">
+                      <caret line="1531" column="63" lean-forward="false" selection-start-line="1531" selection-start-column="63" selection-end-line="1531" selection-end-column="63" />
                       <folding />
                     </state>
                   </provider>
@@ -626,7 +626,7 @@
       <workItem from="1520025709646" duration="34000" />
       <workItem from="1520072912286" duration="920000" />
       <workItem from="1520219783126" duration="24378000" />
-      <workItem from="1520310615562" duration="1932000" />
+      <workItem from="1520310615562" duration="2546000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1515233406586</created>
@@ -845,11 +845,25 @@
       <option name="project" value="LOCAL" />
       <updated>1520251932589</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="таблица">
+      <created>1520326124099</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1520326124099</updated>
+    </task>
+    <task id="LOCAL-00033" summary="table">
+      <created>1520326373183</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1520326373183</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="405546000" />
+    <option name="totallyTimeSpent" value="406160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -919,7 +933,8 @@
     <MESSAGE value="правки новости" />
     <MESSAGE value="news changes" />
     <MESSAGE value="таблица" />
-    <option name="LAST_COMMIT_MESSAGE" value="таблица" />
+    <MESSAGE value="table" />
+    <option name="LAST_COMMIT_MESSAGE" value="table" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1303,8 +1318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/media/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="1510" column="1" lean-forward="true" selection-start-line="1510" selection-start-column="1" selection-end-line="1510" selection-end-column="1" />
+        <state relative-caret-position="373">
+          <caret line="1531" column="63" lean-forward="false" selection-start-line="1531" selection-start-column="63" selection-end-line="1531" selection-end-column="63" />
           <folding />
         </state>
       </provider>
