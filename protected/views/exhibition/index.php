@@ -225,7 +225,7 @@
                     <hr>
                 </div>
                 <?$file = json_decode($exupload[0]->file,true);?>
-                <iframe src="/upload/Exupload/<?=$file[0]?>" style="width:100%; height:1000px;" frameborder="0"></iframe>
+                <iframe src="/upload/Exupload/<?=$file[0]?>" style="width:100%; height:600px;" frameborder="0"></iframe>
 
  <!--               <iframe src="/upload/Exupload/<?/*=$file[0]*/?>"
 style="width: 800px; height: 600px;" frameborder="0">Ваш браузер не поддерживает фреймы</iframe>-->
@@ -510,7 +510,7 @@ style="width: 800px; height: 600px;" frameborder="0">Ваш браузер не 
                     <div class="reliz">
                         <?$file = json_decode($value->file,true);?>
                         <!--<object data="/upload/Exupload/<?/*=$file[0]*/?>" type="application/pdf" style="width: 100%; height: 100%;">-->
-                            <iframe src="/upload/Exupload/<?=$file[0]?>" style="width: 800px; height: 600px;"  frameborder="0">Ваш браузер не поддерживает фреймы</iframe>
+                            <iframe src="/upload/Exupload/<?=$file[0]?>" style="width: 100%; height: 600px;"  frameborder="0">Ваш браузер не поддерживает фреймы</iframe>
                         <!--</object>-->
                     </div>
                 </div>
