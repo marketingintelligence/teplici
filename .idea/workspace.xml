@@ -4,6 +4,7 @@
     <list default="true" id="187074f3-6dc1-4647-9d39-fedc10f2617f" name="Default" comment="выставки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
+      <change beforePath="$PROJECT_DIR$/protected/controllers/AssociationController.php" afterPath="$PROJECT_DIR$/protected/controllers/AssociationController.php" />
       <change beforePath="$PROJECT_DIR$/protected/views/association/index.php" afterPath="$PROJECT_DIR$/protected/views/association/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +30,7 @@
     <favorites_list name="teplici" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.20944741">
+    <splitter split-orientation="horizontal" split-proportion="0.5317116">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
@@ -77,9 +78,20 @@
           <file leaf-file-name="AssociationController.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/controllers/AssociationController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-                  <folding />
+                <state relative-caret-position="85">
+                  <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+                  <folding>
+                    <marker date="1520846688366" expanded="true" signature="1310:1830" ph="..." />
+                    <marker date="1520846688366" expanded="true" signature="1355:1672" ph="..." />
+                    <marker date="1520846688366" expanded="true" signature="1403:1464" ph="..." />
+                    <marker date="1520846688366" expanded="true" signature="1403:1474" ph="..." />
+                    <marker date="1520846688366" expanded="true" signature="1403:1508" ph="..." />
+                    <marker date="1520846688366" expanded="true" signature="1557:1589" ph="..." />
+                    <marker date="1520846688366" expanded="true" signature="1557:1590" ph="..." />
+                    <marker date="1520846688366" expanded="true" signature="1557:1645" ph="..." />
+                    <marker date="1520846688366" expanded="true" signature="1717:1749" ph="..." />
+                    <marker date="1520846688366" expanded="true" signature="1717:1807" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -101,11 +113,9 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/views/association/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="193">
-                  <caret line="136" column="28" lean-forward="true" selection-start-line="136" selection-start-column="28" selection-end-line="136" selection-end-column="28" />
-                  <folding>
-                    <marker date="1520843638883" expanded="true" signature="4620:4632" ph="..." />
-                  </folding>
+                <state relative-caret-position="210">
+                  <caret line="81" column="26" lean-forward="false" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -348,9 +358,9 @@
         <option value="P:/PC/Desktop/ru.php" />
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/protected/views/exhibition/index.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/AssociationController.php" />
         <option value="$PROJECT_DIR$/media/js/code.js" />
         <option value="$PROJECT_DIR$/protected/views/association/index.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/AssociationController.php" />
       </list>
     </option>
   </component>
@@ -497,14 +507,7 @@
       <workItem from="1520397939645" duration="353000" />
       <workItem from="1520401600527" duration="61000" />
       <workItem from="1520423563934" duration="1632000" />
-      <workItem from="1520825313402" duration="12008000" />
-    </task>
-    <task id="LOCAL-00003" summary="commit">
-      <created>1515314230676</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1515314230676</updated>
+      <workItem from="1520825313402" duration="15055000" />
     </task>
     <task id="LOCAL-00004" summary="commit">
       <created>1515319290780</created>
@@ -842,17 +845,24 @@
       <option name="project" value="LOCAL" />
       <updated>1520843501877</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="ass">
+      <created>1520843663260</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1520843663260</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="426686000" />
+    <option name="totallyTimeSpent" value="429733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15128593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12934947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -921,12 +931,12 @@
     <MESSAGE value="выставки pdf" />
     <MESSAGE value="association" />
     <MESSAGE value="ассоцияции" />
-    <MESSAGE value="ass" />
     <MESSAGE value="associations" />
     <MESSAGE value="asss" />
     <MESSAGE value="ajax" />
     <MESSAGE value="выставки ass" />
-    <option name="LAST_COMMIT_MESSAGE" value="выставки ass" />
+    <MESSAGE value="ass" />
+    <option name="LAST_COMMIT_MESSAGE" value="ass" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1274,14 +1284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/AssociationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/exhibition/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
@@ -1300,13 +1302,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/AssociationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <marker date="1520846688366" expanded="true" signature="1310:1830" ph="..." />
+            <marker date="1520846688366" expanded="true" signature="1355:1672" ph="..." />
+            <marker date="1520846688366" expanded="true" signature="1403:1464" ph="..." />
+            <marker date="1520846688366" expanded="true" signature="1403:1474" ph="..." />
+            <marker date="1520846688366" expanded="true" signature="1403:1508" ph="..." />
+            <marker date="1520846688366" expanded="true" signature="1557:1589" ph="..." />
+            <marker date="1520846688366" expanded="true" signature="1557:1590" ph="..." />
+            <marker date="1520846688366" expanded="true" signature="1557:1645" ph="..." />
+            <marker date="1520846688366" expanded="true" signature="1717:1749" ph="..." />
+            <marker date="1520846688366" expanded="true" signature="1717:1807" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/association/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="136" column="28" lean-forward="true" selection-start-line="136" selection-start-column="28" selection-end-line="136" selection-end-column="28" />
-          <folding>
-            <marker date="1520843638883" expanded="true" signature="4620:4632" ph="..." />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="81" column="26" lean-forward="false" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

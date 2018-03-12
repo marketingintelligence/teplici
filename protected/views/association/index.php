@@ -62,9 +62,9 @@
                 <div class="paggination p-left">
                     <? for($i=1; $i<=$comb_count; $i++){ ?>
                         <? if ( $i == 1 ) {?>
-                        <a data-id="<?=$i?>" class="active"><?=$i?></a>
+                        <a data-id="<?=$i?>" href="#" class="active"><?=$i?></a>
                     <? }else { ?>
-                            <a data-id="<?=$i?>"><?=$i?></a>
+                            <a data-id="<?=$i?>" href="#" > <?=$i?></a>
                         <? } ?>
                     <?} ?>
                 </div>
@@ -93,7 +93,13 @@
                     <? } ?>
                 </div>
                 <div class="paggination p-right">
-                    <?php $this->widget('application.components.WPages',array('_pages'=>$pages)); ?>
+                    <? for($i=0; $i<$s_pages; $i++){ ?>
+                        <? if ( $i == 0 ) {?>
+                            <a data-numbers="<?=($i*5)?>" href="#" class="active"><?=$i+1?></a>
+                        <? }else { ?>
+                            <a data-numbers="<?=($i*5)?>" href="#" > <?=$i+1?></a>
+                        <? } ?>
+                    <?} ?>
                 </div>
             </div>
         </div>
@@ -114,13 +120,18 @@
 <script>
     $("body").on("click",".p-right a",function(e){
         e.preventDefault();
-        var id = $(this).data('id');
-        alert(id);
+        var numbers = $(this).data('numbers');
+        $('.p-right a').removeClass('active');
+        $(this).addClass('active');
         $.ajax({
             url: "/Association/getsuppliers",
             type: "post",
-            data: {'id':id},
+            data: {'numbers':numbers},
             success:function(data){
+                e.preventDefault();
+                $('.post').removeClass('active animated slideInLeft').addClass('animated slideOutLeft').fadeOut().promise().done(function () {
+                    $('.post').html(data).removeClass('animated slideOutLeft').addClass('active animated slideInLeft').fadeIn();
+                });
                 console.log(data);
             }
         })
