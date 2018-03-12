@@ -13,11 +13,12 @@ class AssociationController extends Controller {
         $pages->applyLimit($criteria);
 
         $comb_count = Combinates::model()->count($criteria);
+
         $supplier = Supplier::model()->findAll($criteria);
         $combinates = Combinates::model()->findAll($criteria);
 
         $this->pageTitle = "Ассоциация";
-        $this->render('index', array( "supplier" => $supplier, "combinates" => $combinates,"pages"=>$pages,"c_pages"=>$c_pages,"comb_count"=>$comb_count));
+        $this->render('index', array( "supplier" => $supplier, "combinates" => $combinates,"pages"=>$pages,"c_pages"=>$c_pages,"comb_count"=>$comb_count ));
     }
 
     public function actionGetsuppliers(){
