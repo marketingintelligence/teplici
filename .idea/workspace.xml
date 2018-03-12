@@ -101,10 +101,10 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/views/association/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="346">
-                  <caret line="148" column="10" lean-forward="true" selection-start-line="148" selection-start-column="10" selection-end-line="148" selection-end-column="10" />
+                <state relative-caret-position="278">
+                  <caret line="142" column="16" lean-forward="false" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="16" />
                   <folding>
-                    <marker date="1520842651988" expanded="true" signature="4620:4632" ph="..." />
+                    <marker date="1520843490287" expanded="true" signature="4620:4632" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -497,14 +497,7 @@
       <workItem from="1520397939645" duration="353000" />
       <workItem from="1520401600527" duration="61000" />
       <workItem from="1520423563934" duration="1632000" />
-      <workItem from="1520825313402" duration="11077000" />
-    </task>
-    <task id="LOCAL-00001" summary="commit">
-      <created>1515233406586</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1515233406586</updated>
+      <workItem from="1520825313402" duration="11847000" />
     </task>
     <task id="LOCAL-00002" summary="commit">
       <created>1515308935839</created>
@@ -842,11 +835,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520841741269</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="ajax">
+      <created>1520842735452</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1520842735453</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="425755000" />
+    <option name="totallyTimeSpent" value="426525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -924,7 +924,8 @@
     <MESSAGE value="ass" />
     <MESSAGE value="associations" />
     <MESSAGE value="asss" />
-    <option name="LAST_COMMIT_MESSAGE" value="asss" />
+    <MESSAGE value="ajax" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajax" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1300,10 +1301,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/association/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="148" column="10" lean-forward="true" selection-start-line="148" selection-start-column="10" selection-end-line="148" selection-end-column="10" />
+        <state relative-caret-position="278">
+          <caret line="142" column="16" lean-forward="false" selection-start-line="142" selection-start-column="16" selection-end-line="142" selection-end-column="16" />
           <folding>
-            <marker date="1520842651988" expanded="true" signature="4620:4632" ph="..." />
+            <marker date="1520843490287" expanded="true" signature="4620:4632" ph="..." />
           </folding>
         </state>
       </provider>
