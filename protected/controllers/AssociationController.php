@@ -24,5 +24,14 @@ class AssociationController extends Controller {
     public function actionGetsuppliers(){
 
     }
+    public function actionGetcombines(){
+        $serial_number = $_POST['id'];
+
+        $criteria = new CDbCriteria();
+        $criteria -> condition = " status_int = 1 AND serial_number = '$serial_number' ";
+        $com = Combinates::model()->find($criteria);
+
+        echo $com->full_bigtexteditor;
+    }
 }
 ?>
