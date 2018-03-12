@@ -60,10 +60,13 @@
                     <?=$combinates[0]->full_bigtexteditor?>
                 </div>
                 <div class="paggination p-left">
-                    <a data-id="1" href="#" class="active">1</a>
-                    <a data-id="1" href="#">2</a>
-                    <a data-id="1" href="#">3</a>
-                    <a data-id="1" href="#">4</a>
+                    <? for($i=1; $i<$sup_count; $i++){ ?>
+                        <? if ( $i == 1 ) {?>
+                        <a data-id="<?=$i?>" class="active">1</a>
+                    <? }else { ?>
+                            <a data-id="<?=$i?>"><?=$i?></a>
+                        <? } ?>
+                    <?} ?>
                 </div>
             </div>
             <div class="assoc-item">
@@ -118,7 +121,6 @@
             type: "post",
             data: {'id':id},
             success:function(data){
-
                 console.log(data);
             }
         })
