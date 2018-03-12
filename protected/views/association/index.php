@@ -129,14 +129,22 @@
     $("body").on("click",".p-left a",function(e){
         e.preventDefault();
         var id = $(this).data('id');
-        alert(id);
         $.ajax({
             url: "/Association/getcombines",
             type: "post",
             data: {'id':id},
             success:function(data){
-                $('.comb').html(data);
-                console.log(data);
+                $("body").on("click",".p-left a",function(e){
+                    e.preventDefault();
+                    $('.p-left a').removeClass('active');
+                    $(this).addClass('active');
+                    var id = $(this).data('id');
+                    $('.comb').removeClass('active animated slideInLeft').addClass('animated slideOutLeft').fadeOut().promise().done(function () {
+                        $('.comb').html(data).removeClass('animated slideOutLeft').addClass('active animated slideInLeft').fadeIn();
+                    })
+                });
+                /*$('.comb').html(data);
+                console.log(data);*/
             }
         })
     });

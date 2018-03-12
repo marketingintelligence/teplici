@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="187074f3-6dc1-4647-9d39-fedc10f2617f" name="Default" comment="выставки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/media/js/code.js" afterPath="$PROJECT_DIR$/media/js/code.js" />
       <change beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
       <change beforePath="$PROJECT_DIR$/protected/views/association/index.php" afterPath="$PROJECT_DIR$/protected/views/association/index.php" />
     </list>
@@ -102,10 +101,10 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/views/association/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="125">
-                  <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+                <state relative-caret-position="346">
+                  <caret line="148" column="10" lean-forward="true" selection-start-line="148" selection-start-column="10" selection-end-line="148" selection-end-column="10" />
                   <folding>
-                    <marker date="1520841702679" expanded="true" signature="4620:4632" ph="..." />
+                    <marker date="1520842651988" expanded="true" signature="4620:4632" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -126,8 +125,8 @@
           <file leaf-file-name="code.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/media/js/code.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-390">
-                  <caret line="66" column="28" lean-forward="false" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+                <state relative-caret-position="222">
+                  <caret line="75" column="7" lean-forward="false" selection-start-line="67" selection-start-column="6" selection-end-line="75" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -498,7 +497,7 @@
       <workItem from="1520397939645" duration="353000" />
       <workItem from="1520401600527" duration="61000" />
       <workItem from="1520423563934" duration="1632000" />
-      <workItem from="1520825313402" duration="10083000" />
+      <workItem from="1520825313402" duration="11077000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1515233406586</created>
@@ -836,11 +835,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520841085978</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="asss">
+      <created>1520841741269</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1520841741269</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="424761000" />
+    <option name="totallyTimeSpent" value="425755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -917,7 +923,8 @@
     <MESSAGE value="ассоцияции" />
     <MESSAGE value="ass" />
     <MESSAGE value="associations" />
-    <option name="LAST_COMMIT_MESSAGE" value="associations" />
+    <MESSAGE value="asss" />
+    <option name="LAST_COMMIT_MESSAGE" value="asss" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1285,18 +1292,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/media/js/code.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
-          <caret line="66" column="28" lean-forward="false" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+        <state relative-caret-position="222">
+          <caret line="75" column="7" lean-forward="false" selection-start-line="67" selection-start-column="6" selection-end-line="75" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/association/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        <state relative-caret-position="346">
+          <caret line="148" column="10" lean-forward="true" selection-start-line="148" selection-start-column="10" selection-end-line="148" selection-end-column="10" />
           <folding>
-            <marker date="1520841702679" expanded="true" signature="4620:4632" ph="..." />
+            <marker date="1520842651988" expanded="true" signature="4620:4632" ph="..." />
           </folding>
         </state>
       </provider>
