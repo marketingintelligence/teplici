@@ -129,12 +129,13 @@
     $("body").on("click",".p-left a",function(e){
         e.preventDefault();
         var id = $(this).data('id');
+        alert(id);
         $.ajax({
             url: "/Association/getcombines",
             type: "post",
             data: {'id':id},
             success:function(data){
-                $('.shodow-body comb').html(data);
+                $('.comb').html(data);
                 console.log(data);
             }
         })
