@@ -60,7 +60,7 @@
                     <?=$combinates[0]->full_bigtexteditor?>
                 </div>
                 <div class="paggination p-left">
-                    <? for($i=1; $i<$sup_count; $i++){ ?>
+                    <? for($i=1; $i<$comb_count; $i++){ ?>
                         <? if ( $i == 1 ) {?>
                         <a data-id="<?=$i?>" class="active">1</a>
                     <? }else { ?>
