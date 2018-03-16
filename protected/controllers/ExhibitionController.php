@@ -6,10 +6,11 @@ class ExhibitionController extends Controller {
         $criteria -> order = " serial_number";
 
         $exupload = Exupload::model()->findAll($criteria);
+        $explan = Explan::model()->findAll($criteria);
         $extext = Extext::model()->findAll($criteria);
 
         $this->pageTitle = "Теплицы";
-        $this->render('index' , array("exupload" => $exupload, "extext" => $extext));
+        $this->render('index' , array("exupload" => $exupload, "extext" => $extext,"explan"=>$explan));
     }
 }
 ?>

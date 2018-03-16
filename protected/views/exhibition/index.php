@@ -224,10 +224,12 @@
                     <p>План выставки</p>
                     <hr>
                 </div>
-                <?$file = json_decode($exupload[0]->file,true);?>
-                    <!--<iframe src="/upload/Exupload/<?/*=$file[0]*/?>"
-style="width: 100%; height: 600px;" frameborder="0">Ваш браузер не поддерживает фреймы</iframe>-->
-                <embed src="/upload/Exupload/<?=$file[0]?>" width="100%" height="700px" />
+                <?foreach ($explan as $key=>$value){?>
+                    <?$file = json_decode($value->file,true);?>
+                        <div class="ex-plan">
+                            <embed src="/upload/Explan/<?=$file[0]?>" width="100%" height="100%" />
+                        </div>
+                <? } ?>
             </div>
             <div class="content" id="4">
                 <div class="back-vystvka mobile-visible">

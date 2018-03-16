@@ -770,6 +770,13 @@ hr.bottom-line2{
     font-size: 1.7vw;
     font-family: regular;
 }
+.section-title-success{
+    display: none;
+    width: 100%;
+    text-align: center;
+    font-size: 1.7vw;
+    font-family: regular;
+}
 .section-title hr{
     background-color: #acacac;
     width: 20%;
@@ -2562,4 +2569,65 @@ input.small2{
         padding-right: 0.5em;
         margin-bottom: 2em;
     }
+}
+.anketa-modal{
+    position: fixed;
+    z-index: 9999;
+    transform:translate(0);
+    top:30%;
+    left: 40%;
+    width: 30%;
+    height: 20%;
+    background-color:#ffffff;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    border-radius:6px;
+    box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);
+    background-clip:padding-box;
+}
+.anketa-thanks{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    font-style:normal;
+    font-family:regular;
+}
+.anketa-modal h2{
+    color:#bccf4f;
+    font-style:normal;
+    font-size:1.7vw;
+}
+.anketa-modal p{
+    font-size:1.3vw;
+}
+.anketa-close{
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 22px;
+    color:#000000;
+    opacity:0.5;
+}
+.anketa-modal-header{
+    padding:9px 15px;
+}
+/* The Close Button */
+.anketa-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.anketa-close:hover,
+.anketa-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.ex-plan{
+    margin-bottom: 60px;
+    height: 450px;
 }

@@ -62,7 +62,7 @@ $( document ).ready(function() {
             h2.animate({height: '4.7em'}).removeClass('active');
             this.text('Читать дальше');
         }
-        });
+    });
 
     //association pagination
     /*$("body").on("click",".p-left a",function(e){
@@ -97,31 +97,176 @@ $( document ).ready(function() {
         $('footer span.success').fadeIn(0);
         $('footer span.message').fadeOut(0);
     });*/
-/*
+
     $("body").on("click",".bmiddle .bb3",function(){
-        var name=$(".name").val();var email=$(".email").val();var error=0;if(email==""){
-            $(".email").css("background","#D66161");error++;}
+        var name=$(".name").val();var email=$(".email").val();var error=0;
+        if(IsEmail(email) == false){
+            error++;
+        }
             if(error==0){
             Send(name,email);
         }
-    });*/
+    });
+
+    function IsEmail(email) {
+        var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        if (!regex.test(email)) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
     function Send(name,email,text) {
         $.ajax({
             type:"POST",
-            url:"mail.php",
+            url:"..mail.php",
             data:{name:name,email:email,text:text},
             success:function(){
                 $('footer span.success').fadeIn(0);
-                $("#footer-form").fadeOut(300);
-                $(".border2").css("margin-top","9em");
+                $("#footer-form").fadeOut(200);
+                $(".border2").css("margin-top","9em").css("border-top","2px solid #bccf4f");
                 $('footer span.message').fadeOut(0);
-
-                /*$('.before').animate({opacity:'0',width:'80%'},500,function(){$('.call-window-box2').append("<div class='transform' style='position:absolute;top:50%; left: 50%;width: 100%; text-align: center;'>Спасибо за обращение<br> в нашу компанию!<br> <br>Менеджер в скором времени<br> свяжется с Вами.</div>")});*/
             }
         });
     }
 
-    $('#footer-form').submit(function(e) {
+    $("body").on("click",".button-submit",function() {
+        $('.anketa-box').fadeOut(0);
+        $('.section-title').fadeOut(0);
+        $('.section-title-success').fadeIn(200);
+        console.log("clicked");
+    });
+
+    /*$("body").on("click",".button-submit",function(){
+
+        var nomination = $("#nomination").val();
+        var self_form = $("#self_form").val();
+        var address = $("#address").val();
+        var head_name = $("#head_name").val();
+        var headtel_number = $("#headtel_number").val();
+        var head_fax = $("#head_fax").val();
+        var head_mobile = $("#head_mobile").val();
+        var contact_name = $("#contact_name").val();
+        var contacttel_number = $("#contacttel_number").val();
+        var contact_mobile = $("#contact_mobile").val();
+
+        var wind_strength = $("#wind_strength").val();
+        var snow_load = $("#snow_load").val();
+        var seismicity = $("#seismicity").val();
+        var region = $("#region").val();
+        var place = $("#place").val();
+        var greenhouse_size = $("#greenhouse_size").val();
+        var culture = $("#culture").val();
+        var greenhouse_width = $("#greenhouse_width").val();
+        var greenhouse_length = $("#greenhouse_length").val();
+        var system = $("#system").val();
+        var substrate = $("#substrate").val();
+        var message = $('textarea#message').val();
+
+        var greenhouse_type = $("#greenhouse_type option:selected").text();
+        var greenhouse_coating = $("#greenhouse_coating option:selected").text();
+        var heating_source = $("#heating_source option:selected").text();
+
+        var error =0;
+
+        if ( nomination=="" ){
+            $("#nomination").css("background","#D66161");
+            error++;
+        }else { $("#nomination").css("background","#fff");}
+        if( self_form=="" ){
+            $("#self_form").css("background","#D66161");
+            error++;
+        }else { $("#self_form").css("background","#fff"); }
+        if ( address=="" ){
+            $("#address").css("background","#D66161");
+            error++;
+        }else { $("#address").css("background","#fff");}
+        if ( contact_name=="" ){
+            $("#contact_name").css("background","#D66161");
+            error++;
+        }else { $("#contact_name").css("background","#fff");}
+        if ( contact_mobile=="" ){
+            $("#contact_mobile").css("background","#D66161");
+            error++;
+        }else { $("#contact_mobile").css("background","#fff");}
+        if ( contacttel_number=="" ){
+            $("#contacttel_number").css("background","#D66161");
+            error++;
+        }else { $("#contacttel_number").css("background","#fff");}
+        if ( wind_strength=="" ){
+            $("#wind_strength").css("background","#D66161");
+            error++;
+        }else { $("#wind_strength").css("background","#fff");}
+        if ( snow_load=="" ){
+            $("#snow_load").css("background","#D66161");
+            error++;
+        }else { $("#snow_load").css("background","#fff");}
+        if ( seismicity=="" ){
+            $("#seismicity").css("background","#D66161");
+            error++;
+        }else { $("#seismicity").css("background","#fff");}
+        if ( region=="" ){
+            $("#region").css("background","#D66161");
+            error++;
+        }else { $("#region").css("background","#fff");}
+        if ( place=="" ){
+            $("#place").css("background","#D66161");
+            error++;
+        }else { $("#place").css("background","#fff");}
+        if ( greenhouse_size=="" ){
+            $("#greenhouse_size").css("background","#D66161");
+            error++;
+        }else { $("#greenhouse_size").css("background","#fff");}
+        if ( culture=="" ){
+            $("#culture").css("background","#D66161");
+            error++;
+        }else { $("#culture").css("background","#fff");}
+
+        if( error == 0)
+        {
+            Sendanketa(nomination,self_form,address,head_name,headtel_number,head_fax,
+                head_mobile,contact_name,contacttel_number,contact_mobile,
+                wind_strength,snow_load,seismicity,region,place,greenhouse_size,
+                culture,greenhouse_width,greenhouse_length,system,
+                substrate,message,greenhouse_type,greenhouse_coating,heating_source);
+            console.log("success");
+        }else { console.log("Заполните все поля"); }
+    });*/
+
+    function Sendanketa(nomination,self_form,address,head_name,headtel_number,head_fax,
+                        head_mobile,contact_name,contacttel_number,contact_mobile,
+                        wind_strength,snow_load,seismicity,region,place,
+                        greenhouse_size,culture,greenhouse_width,greenhouse_length,system,
+                        substrate,message,greenhouse_type,greenhouse_coating,heating_source){
+        $.ajax({
+            type:"POST",
+            url:"mailanketa.php",
+            data:{
+                nomination:nomination,
+                self_form:self_form,address:address,
+                head_name:head_name,headtel_number:headtel_number,
+                head_fax:head_fax,head_mobile:head_mobile,contact_name:contact_name,
+                contacttel_number:contacttel_number,contact_mobile:contact_mobile,
+                wind_strength:wind_strength,snow_load:snow_load,seismicity:seismicity,
+                region:region,place:place,greenhouse_size:greenhouse_size,culture:culture,
+                greenhouse_width:greenhouse_width,greenhouse_length:greenhouse_length,system:system,
+                substrate:substrate,message:message,greenhouse_type:greenhouse_type,greenhouse_coating:greenhouse_coating,
+                heating_source:heating_source
+            },
+            success:function(data){
+                $('.section-block m-bg-none').fadeIn(0);
+                /*$('footer span.success').fadeIn(0);
+                $("#footer-form").fadeOut(200);
+                $(".border2").css("margin-top","9em").css("border-top","2px solid #bccf4f");
+                $('footer span.message').fadeOut(0);*/
+            console.log("ваша заявка успешно принята");
+            }
+        });
+    }
+
+    //???????
+    /*$('#footer-form').submit(function(e) {
         e.preventDefault();
         var name=$(".name").val();
         var text=$(".messages").val();
@@ -129,7 +274,7 @@ $( document ).ready(function() {
         if(error==0){
             Send(name,email,text);
         }
-    })
+    })*/
 
     //Кнопка "нужна теплица"
     /*

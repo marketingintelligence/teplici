@@ -23,8 +23,8 @@ class Feedback extends CActiveRecord
     public function rules()
     {
         return array(
-            array('created_at,phone', 'numerical', 'integerOnly'=>true),
-            array('name, serial_number, text', 'length', 'max'=>500),
+            array('created_at', 'numerical', 'integerOnly'=>true),
+            array('name, serial_number, text', 'length', 'max'=>5000),
             array('email','email'),
         );
     }
@@ -35,7 +35,6 @@ class Feedback extends CActiveRecord
             'id' => 'ID',
             'created_at' => 'Дата создания',
             'name' => 'Имя',
-            'phone' => 'Номер телефона',
             'text' => 'Сообщение',
             'serial_number' => 'Порядковый номер',
         );
@@ -71,7 +70,6 @@ class Feedback extends CActiveRecord
         }
         return true;
     }
-
 
     public function defaultScope() {
         return array(
