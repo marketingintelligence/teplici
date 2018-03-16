@@ -32,7 +32,6 @@ for ( $i=1; $i<=100; $i++) $number[$i]=$i; ?>
     	<?=CHtml::link('назад', array('list','Explan_page'=>$_GET['Explan_page'])); ?>    </div>
     	<?php echo $form->textFieldRow($model, 'name_text', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); ?>
         <?php echo $form->dropDownListRow($model, 'serial_number', $number, array('class'=>'span-number')); ?>
-        <?php echo $form->singlefileFieldRow($model, 'image',array('class'=>'input-file'));; ?>
         <?php echo $form->singlefileFieldRow($model, 'file',array('class'=>'input-file'));; ?>
         <?php echo $form->singlefileFieldRow($model, 'engfile',array('class'=>'input-file'));; ?>
 
