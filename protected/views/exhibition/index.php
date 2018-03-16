@@ -243,11 +243,14 @@
                     </ul>
                 </div>
                 <div class="reg-form">
-                    <form action="" method="">
-                        <input type="text" placeholder="Имя *" class="inline">
-                        <input type="text" placeholder="E-mail *" class="margin inline">
-                        <input type="text" placeholder="Компания">
-                        <input type="text" placeholder="Контакты" class="margin">
+                    <div class="reg-thanks">
+                        <p>Спасибо, ваше сообщение отправлено!</p>
+                    </div>
+                    <form>
+                        <input id="name" required="" type="text" placeholder="Имя *" class="inline">
+                        <input id="email" required="" type="email" placeholder="E-mail *" class="margin inline">
+                        <input id="company" type="text" placeholder="Компания">
+                        <input id="contact" type="text" placeholder="Контакты" class="margin">
                         <div class="right-float">
                             <button type="submit">Зарегистрироваться</button>
                         </div>
@@ -276,11 +279,12 @@
                 <div class="box-shadow">
                     <div class="top_text two">
                         <ul>
-                            <li>Тематики выставки «ТЕПЛИЦЫ. ОВОЩЕВОДСТВО. ОРОШЕНИЕ»</li>
-                            <li><span>«ЦВЕТЫ АЛМАТЫ 2018»</span> Алматы, КЦДС «Атакент», 9-ый павильон</li>
+                            <li>Тематики выставки <?=$exprogram[0]->name_text?></li>
+                            <li><span><?=$exprogram[0]->title?></li>
                         </ul>
                     </div>
-                    <table>
+                    <?=$exprogram[0]->full_bigtexteditor?>
+                    <!--<table>
                         <tr>
                             <td colspan="2" class="bg">19 апреля, четверг</td>
                         </tr>
@@ -314,7 +318,7 @@
                                 <p>Вступительное слово на открытии семинара: Президент ОЮЛ "Ассоциация теплиц Казахстана"-Кошман Канат Кошманович.</p>
                             </td>
                         </tr>
-                    </table>
+                    </table>-->
                 </div>
             </div>
             <div class="content" id="6">
@@ -325,180 +329,32 @@
                 </div>
                 <div class="box-shadow">
                     <table class="uchastnik">
-                        <tr>
-                            <td width="56%">J.M. van der Hoeven BV</td>
-                            <td width="4%" class="td-none"><img src="/media/img/flag/1.jpg"></td>
-                            <td width="4%" class="td-none"></td>
-                            <td width="34%" class="td-border">The Netherlands</td>
-                        </tr>
-                        <tr>
-                            <td>ТОО «АлемАгро»</td>
-                            <td><img src="/media/img/flag/2.jpg"></td>
-                            <td></td>
-                            <td>Kazakhstan</td>
-                        </tr>
-                        <tr>
-                            <td>ТОО "КосАгроКоммерц"</td>
-                            <td><img src="/media/img/flag/2.jpg"></td>
-                            <td></td>
-                            <td>Kazakhstan</td>
-                        </tr>
-                        <tr>
-                            <td>Walzmatic</td>
-                            <td><img src="/media/img/flag/3.jpg"></td>
-                            <td></td>
-                            <td>Russia</td>
-                        </tr>
-                        <tr>
-                            <td>Certhon Greenhouse solutions</td>
-                            <td><img src="/media/img/flag/1.jpg"></td>
-                            <td></td>
-                            <td>The Netherlands</td>
-                        </tr>
-                        <tr>
-                            <td>Beijing Kingpeng International Hi-Tech Corporation</td>
-                            <td><img src="/media/img/flag/4.jpg"></td>
-                            <td></td>
-                            <td>China</td>
-                        </tr>
-                        <tr>
-                            <td>Advance Premium / Phito LED</td>
-                            <td><img src="/media/img/flag/2.jpg"></td>
-                            <td></td>
-                            <td>Kazakhstan</td>
-                        </tr>
-                        <tr>
-                            <td>ТОО ЭКОКУЛЬТУРА КЗ</td>
-                            <td><img src="/media/img/flag/2.jpg"></td>
-                            <td></td>
-                            <td>Kazakhstan</td>
-                        </tr>
-                        <tr>
-                            <td>ООО НПО "Cascad"</td>
-                            <td><img src="/media/img/flag/3.jpg"></td>
-                            <td></td>
-                            <td>Russia</td>
-                        </tr>
-                        <tr>
-                            <td>Delphy BV</td>
-                            <td><img src="/media/img/flag/1.jpg"></td>
-                            <td></td>
-                            <td>The Netherlands</td>
-                        </tr>
-                        <tr>
-                            <td>GEERLOFS REFRIGERATION B.V.</td>
-                            <td><img src="/media/img/flag/1.jpg"></td>
-                            <td></td>
-                            <td>The Netherlands</td>
-                        </tr>
-                        <tr>
-                            <td>ООО Роквул Grodan</td>
-                            <td><img src="/media/img/flag/1.jpg"></td>
-                            <td></td>
-                            <td>The Netherlands</td>
-                        </tr>
-                        <tr>
-                            <td>"Prime HortiSolutions (Прайм ХортиСолюшнс)" LLP</td>
-                            <td><img src="/media/img/flag/2.jpg"></td>
-                            <td><img src="/media/img/flag/1.jpg"></td>
-                            <td>Kazakhstan / The Netherlands</td>
-                        </tr>
-                        <tr>
-                            <td>Agro-Mayak Corporation</td>
-                            <td><img src="/media/img/flag/5.jpg"></td>
-                            <td></td>
-                            <td>Seychelles</td>
-                        </tr>
-                        <tr>
-                            <td>Dalsem Horticulturals Projects B.V.</td>
-                            <td><img src="/media/img/flag/1.jpg"></td>
-                            <td></td>
-                            <td>The Netherlands</td>
-                        </tr>
-                        <tr>
-                            <td>ТОО KAZ BIO PROTECT</td>
-                            <td><img src="/media/img/flag/2.jpg"></td>
-                            <td></td>
-                            <td>Kazakhstan</td>
-                        </tr>
-                        <tr>
-                            <td>LUCCHINI IDROMECCANICA S.p.A</td>
-                            <td><img src="/media/img/flag/6.jpg"></td>
-                            <td></td>
-                            <td>Italy</td>
-                        </tr>
-                        <tr>
-                            <td>Brinkman International BV</td>
-                            <td><img src="/media/img/flag/1.jpg"></td>
-                            <td></td>
-                            <td>The Netherlands</td>
-                        </tr>
-                        <tr>
-                            <td>NETAFIM Sulama Sistemleri San. Ve Tic.Ltd. Şti</td>
-                            <td><img src="/media/img/flag/7.jpg"></td>
-                            <td></td>
-                            <td>Turkey</td>
-                        </tr>
-                        <tr>
-                            <td>RICHEL GROUP</td>
-                            <td><img src="/media/img/flag/8.jpg"></td>
-                            <td></td>
-                            <td>France</td>
-                        </tr>
-                        <tr>
-                            <td>FormFlex/Metazet</td>
-                            <td><img src="/media/img/flag/1.jpg"></td>
-                            <td></td>
-                            <td>The Netherlands</td>
-                        </tr>
-                        <tr>
-                            <td>ТОО «PolyМИР»</td>
-                            <td><img src="/media/img/flag/2.jpg"></td>
-                            <td></td>
-                            <td>Kazakhstan</td>
-                        </tr>
-                        <tr>
-                            <td>KG Greenhouses</td>
-                            <td><img src="/media/img/flag/1.jpg"></td>
-                            <td></td>
-                            <td>The Netherlands</td>
-                        </tr>
-                        <tr>
-                            <td>ТОО "EAST-WEST LLC"</td>
-                            <td><img src="/media/img/flag/2.jpg"></td>
-                            <td><img src="/media/img/flag/1.jpg"></td>
-                            <td>Kazakhstan / The Netherlands</td>
-                        </tr>
-                        <tr>
-                            <td>BG GLOBAL B.V.</td>
-                            <td><img src="/media/img/flag/1.jpg"></td>
-                            <td></td>
-                            <td>The Netherlands</td>
-                        </tr>
-                        <tr>
-                            <td>RUFEPA TECNOAGRO</td>
-                            <td><img src="/media/img/flag/9.jpg"></td>
-                            <td></td>
-                            <td>Spain</td>
-                        </tr>
-                        <tr>
-                            <td>Ceyhinz Link, Inc / RIOCOCO</td>
-                            <td><img src="/media/img/flag/10.jpg"></td>
-                            <td></td>
-                            <td>Sri Lanka</td>
-                        </tr>
-                        <tr>
-                            <td>ИП Ахраров С. А.</td>
-                            <td><img src="/media/img/flag/2.jpg"></td>
-                            <td></td>
-                            <td>Kazakhstan</td>
-                        </tr>
-                        <tr>
-                            <td>ООО CASCAD</td>
-                            <td><img src="/media/img/flag/3.jpg"></td>
-                            <td></td>
-                            <td>Russia</td>
-                        </tr>
+                        <?foreach ($partlist as $key=>$value){ ?>
+                            <?php
+                            $criteria = new CDbCriteria();
+                            $criteria -> condition = " status_int = 1 AND id ='$value->country_id'";
+                            $countries = Countries::model()->find($criteria);
+                            $img = json_decode($countries->image,true);
+                            ?>
+                          <?php
+                            if( !empty($value->partnercountry_id)) {
+                                $partcriteria = new CDbCriteria();
+                                $partcriteria->condition = " status_int = 1 AND id ='$value->partnercountry_id'";
+                                $partcountries = Countries::model()->find($partcriteria);
+                                $partimg = json_decode($partcountries->image, true);
+                            }?>
+                                <tr>
+                                    <td width="56%"><?=$value->name_text?></td>
+                                    <td width="4%" class="td-none"><img src="/upload/Countries/full/<?=$img[0]?>"></td>
+                                    <?if ( !empty($partcountries) ) {?>
+                                        <td width="4%" class="td-none"><img src="/upload/Countries/full/<?=$partimg[0]?>"></td>
+                                        <td width="34%" class="td-border"><?=$countries->name_text?>/<?=$partcountries->name_text?></td>
+                                    <? }else { ?>
+                                        <td width="4%" class="td-none"></td>
+                                        <td width="34%" class="td-border"><?=$countries->name_text?></td>
+                                    <? } ?>
+                                </tr>
+                        <? } ?>
                     </table>
                 </div>
             </div>

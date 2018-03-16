@@ -2631,3 +2631,13 @@ input.small2{
     margin-bottom: 60px;
     height: 450px;
 }
+.reg-form p{
+    text-align: center;
+    font-size: 1.6em;
+}
+.reg-thanks{
+    display: none;
+    width: 80%;
+    border: 1px solid #A7B746;
+    padding: 7px;
+}

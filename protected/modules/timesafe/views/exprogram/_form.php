@@ -1,6 +1,6 @@
 <?php
     $form = $this->beginWidget('BootActiveForm', array(
-        'id' => 'Partlist-form',
+        'id' => 'Exprogram-form',
         'type'=>'horizontal',
         'enableAjaxValidation' => true,
             'focus' => array($model, 'name_text'),
@@ -10,7 +10,7 @@
             'enctype'=>'multipart/form-data'
         ),
     ));
-    echo CHtml::hiddenField('Partlist_page',$_GET['Partlist_page']);
+    echo CHtml::hiddenField('Exprogram_page',$_GET['Exprogram_page']);
 ?>
 <style>
     .span {
@@ -29,24 +29,31 @@ for ( $i=1; $i<=100; $i++) $number[$i]=$i; ?>
             <?=$model->isNewRecord ? 'Добавить' : 'Сохранить'; ?>
         </button>
         <span class="text_button_padding">или</span>        
-    	<?=CHtml::link('назад', array('list','Partlist_page'=>$_GET['Partlist_page'])); ?>    </div>
+    	<?=CHtml::link('назад', array('list','Exprogram_page'=>$_GET['Exprogram_page'])); ?>    </div>
     	<?php echo $form->textFieldRow($model, 'name_text', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); ?>
         <?php echo $form->textFieldRow($model, 'engname_text', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); ?>
-        <?php echo $form->autoFieldRow($model, 'country_id', array('class' => 'span6'), array('relation'=>'country','title'=>'name_text'));; ?>
-        <?php echo $form->autoFieldRow($model, 'partnercountry_id', array('class' => 'span6'), array('relation'=>'partner_country','title'=>'name_text'));; ?>
+
+        <?php echo $form->textFieldRow($model, 'title', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); ?>
+        <?php echo $form->textFieldRow($model, 'engtitle', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); ?>
         <?php echo $form->dropDownListRow($model, 'serial_number', $number, array('class'=>'span-number')); ?>
+
+        <?php echo $form->textAreaRow($model, 'full_bigtexteditor',array('class'=>'span12'));; ?>
+        <?php $this->widget('application.extensions.elrte.elRTE', array('model'=>$model,'attribute'=>'full_bigtexteditor')); ?>
+        <?php echo $form->textAreaRow($model, 'engfull_bigtexteditor',array('class'=>'span12'));; ?>
+        <?php $this->widget('application.extensions.elrte.elRTE', array('model'=>$model,'attribute'=>'engfull_bigtexteditor')); ?>
+
         <?php echo $form->checkBoxRow($model, 'status_int');; ?>
     <div class="form-actions">
         <button class="btn btn-success" type="submit">
             <?=$model->isNewRecord ? 'Добавить' : 'Сохранить'; ?>
         </button>
         <span class="text_button_padding">или</span>
-        <?=CHtml::link('назад', array('list','Partlist_page'=>$_GET['Partlist_page'])); ?>
+        <?=CHtml::link('назад', array('list','Exprogram_page'=>$_GET['Exprogram_page'])); ?>
 	</div>
 
 <script>
-    $('#Partlist_name_text').change(function() {
-        $('#Partlist_url_text').val(cyr2lat($('#Partlist_name_text').val()));
+    $('#Exprogram_name_text').change(function() {
+        $('#Exprogram_url_text').val(cyr2lat($('#Exprogram_name_text').val()));
     });
     function cyr2lat(str) {
 

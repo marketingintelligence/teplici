@@ -1,5 +1,5 @@
 <?
-class Partlist extends CActiveRecord
+class Exprogram extends CActiveRecord
 {
     public static function model($className=__CLASS__)
     {
@@ -8,12 +8,12 @@ class Partlist extends CActiveRecord
 
     public static function modelTitle()
     {
-        return 'Список участников';
+        return 'Программа выставки';
     }
 
     public function tableName()
     {
-        return 'partlist';
+        return 'exprogram';
     }
 
     public function getNiceDate() {
@@ -23,19 +23,14 @@ class Partlist extends CActiveRecord
     public function rules()
     {
         return array(
-            array('created_at, country_id,partnercountry_id', 'numerical', 'integerOnly'=>true),
-            array('name_text, url_text, serial_number', 'length', 'max'=>255),
-            array('kazname_text', 'length', 'max'=>255),
-            array('engname_text', 'length', 'max'=>255),
+            array('created_at', 'numerical', 'integerOnly'=>true),
+            array('name_text,title, url_text, serial_number', 'length', 'max'=>255),
+            array('kazname_text,kaztitle', 'length', 'max'=>255),
+            array('engname_text,engtitle', 'length', 'max'=>255),
+            array('full_bigtexteditor', 'length', 'max'=>90000),
+            array('kazfull_bigtexteditor', 'length', 'max'=>90000),
+            array('engfull_bigtexteditor, image', 'length', 'max'=>90000),
             array('status_int', 'numerical', 'integerOnly'=>true),
-        );
-    }
-
-    public function relations()
-    {
-        return array(
-            'country'=>array( self::BELONGS_TO, 'Countries', 'country_id' ),
-            'partner_country'=>array( self::BELONGS_TO, 'Countries', 'partnercountry_id' ),
         );
     }
 
@@ -45,14 +40,18 @@ class Partlist extends CActiveRecord
             'id' => 'ID',
             'created_at' => 'Дата создания',
             'url_text' => 'ЧПУ',
-            'name_text' => 'Название участника',
-            'kazname_text' => 'Название участника (ҚАЗ)',
-            'engname_text' => 'Название участника (ENG)',
+            'name_text' => 'Тематика',
+            'kazname_text' => 'Тематика (ҚАЗ)',
+            'engname_text' => 'Тематика (ENG)',
+            'title' => 'Заголовок',
+            'kaztitle' => 'Заголовок (ҚАЗ)',
+            'engtitle' => 'Заголовок (ENG)',
+            'full_bigtexteditor' => 'Таблица',
+            'kazfull_bigtexteditor' => 'Таблица (ҚАЗ)',
+            'engfull_bigtexteditor' => 'Таблица (ENG)',
             'status_int' => 'Видимость',
             'image' => 'Изображение',
             'serial_number' => 'Порядковый номер',
-            'country_id' => 'Страна участника',
-            'partnercountry_id' => 'Страна партнера участника',
         );
     }
 
@@ -61,6 +60,7 @@ class Partlist extends CActiveRecord
         $criteria=new CDbCriteria;
         $criteria->compare('id',$this->id);
         $criteria->compare('name_text',$this->name_text,true);
+        $criteria->compare('engname_text',$this->engname_text,true);
         $criteria->compare('created_at',$this->created_at,true);
         $criteria->compare('status_int',$this->status_int,true);
         $pagination = array('pageSize'=> 10);
@@ -123,7 +123,7 @@ class Partlist extends CActiveRecord
 
     public function defaultScope() {
         return array(
-            'order' => 'serial_number +0 ',
+            'order' => 'serial_number + 0',
         );
     }
 

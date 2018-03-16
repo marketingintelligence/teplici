@@ -8,9 +8,11 @@ class ExhibitionController extends Controller {
         $exupload = Exupload::model()->findAll($criteria);
         $explan = Explan::model()->findAll($criteria);
         $extext = Extext::model()->findAll($criteria);
+        $exprogram = Exprogram::model()->findAll($criteria);
+        $partlist = Partlist::model()->findAll($criteria);
 
         $this->pageTitle = "Теплицы";
-        $this->render('index' , array("exupload" => $exupload, "extext" => $extext,"explan"=>$explan));
+        $this->render('index' , array("exupload" => $exupload, "extext" => $extext,"explan"=>$explan,"exprogram"=>$exprogram,"partlist"=>$partlist));
     }
 }
 ?>

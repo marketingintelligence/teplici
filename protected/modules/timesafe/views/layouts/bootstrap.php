@@ -45,11 +45,12 @@
                 )),
                 array('label'=>'Партнеры','url'=>array('partners/list'),'icon'=>'icon-picture'),
                 array('label'=>'Выставки','url'=>'#','icon'=>'icon-table','items'=>array(
-                    /*array('label'=>'Страны', 'url'=>array('countries/list'),'icon'=>'icon-truck'),*/
-                    /*array('label'=>'Партнеры лист', 'url'=>array('partlist/list'),'icon'=>'icon-table'),*/
                     array('label'=>'Пресс релизы', 'url'=>array('exupload/list'),'icon'=>'icon-table'),
                     array('label'=>'План выставки', 'url'=>array('explan/list'),'icon'=>'icon-save'),
-                    array('label'=>'Выставка draft', 'url'=>array('exhibition/list'),'icon'=>'icon-table'),
+                    array('label'=>'План выставки', 'url'=>array('exprogram/list'),'icon'=>'icon-tasks'),
+                    array('label'=>'Список участников', 'url'=>array('partlist/list'),'icon'=>'icon-table'),
+                    array('label'=>'Страны', 'url'=>array('countries/list'),'icon'=>'icon-flag'),
+                    /*array('label'=>'Выставка draft', 'url'=>array('exhibition/list'),'icon'=>'icon-table'),*/
                 )),
             ),
         ),

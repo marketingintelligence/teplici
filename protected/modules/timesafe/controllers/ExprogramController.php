@@ -1,11 +1,11 @@
 <?php
-class PartlistController extends RController
+class ExprogramController extends RController
 {
     public $filterOption = array(
-        'model'  => 'Partlist',
+        'model'  => 'Exprogram',
         'fields' => array(
             'name_text'=>array('type'=>'text'),
-            'created_at'=>array('type'=>'date'),
+            'engname_text'=>array('type'=>'text'),
             'status_int'=>array('type'=>'checkbox'),
         )
     );
@@ -17,15 +17,15 @@ class PartlistController extends RController
     }
 
     public function actionList() {
-        $model = new Partlist('search');
+        $model = new Exprogram('search');
         $model->unsetAttributes();
 
-        if (isset($_GET['Partlist'])) {
-            $model->attributes = $_GET['Partlist'];
-            Yii::app()->user->setState('_filter_Partlist', $_GET['Partlist']);
+        if (isset($_GET['Exprogram'])) {
+            $model->attributes = $_GET['Exprogram'];
+            Yii::app()->user->setState('_filter_Exprogram', $_GET['Exprogram']);
         } else
-            if (Yii::app()->user->hasState('_filter_Partlist')) {
-                $model->attributes = Yii::app()->user->getState('_filter_Partlist');
+            if (Yii::app()->user->hasState('_filter_Exprogram')) {
+                $model->attributes = Yii::app()->user->getState('_filter_Exprogram');
             }
         $this->filter = $model->attributes;
         if (isset($_GET['ajax'])) {
@@ -41,12 +41,12 @@ class PartlistController extends RController
     }
 
     public function actionCreate() {
-        $model = new Partlist;
+        $model = new Exprogram;
 
         $this->performAjaxValidation($model);
 
-        if (isset($_POST['Partlist'])) {
-            $model->attributes = $_POST['Partlist'];
+        if (isset($_POST['Exprogram'])) {
+            $model->attributes = $_POST['Exprogram'];
             $model->image=$this->saveFile($model,'image');
             if ($model->save()) {
                 Yii::app()->user->setFlash('success', 'Сохранено');
@@ -67,10 +67,10 @@ class PartlistController extends RController
     public function actionUpdate($id) {
         $model = $this->loadModel($id);
         $this->performAjaxValidation($model);
-        $page = (int)Yii::app()->request->getParam('Partlist_page');
+        $page = (int)Yii::app()->request->getParam('Exprogram_page');
 
-        if (isset($_POST['Partlist'])) {
-            $model->attributes = $_POST['Partlist'];
+        if (isset($_POST['Exprogram'])) {
+            $model->attributes = $_POST['Exprogram'];
             $model->image=$this->saveFile($model,'image');
             if ($model->save()) {
                 Yii::app()->user->setFlash('success', 'Сохранено');
@@ -78,7 +78,7 @@ class PartlistController extends RController
                 $this->redirect(
                     array(
                         'list',
-                        'Partlist_page' => $page));
+                        'Exprogram_page' => $page));
             } else {
                 Yii::app()->user->setFlash('error', 'Ошибка при сохранении');
             }
@@ -96,7 +96,7 @@ class PartlistController extends RController
     public function actionDelete($id) {
         //$id = Yii::app()->request->getParam('id');
         //$this->loadModel(1)->delete();
-        $model = Partlist::model()->find("id = '".$id."'");
+        $model = Exprogram::model()->find("id = '".$id."'");
         $model->delete();
         if (!isset($_GET['ajax'])) {
             // $this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('list'));
@@ -109,7 +109,7 @@ class PartlistController extends RController
      * @param integer the ID of the model to be loaded
      */
     public function loadModel($id) {
-        $model = Partlist::model()->find("id = '".$id."'");
+        $model = Exprogram::model()->find("id = '".$id."'");
 
         if ($model === null) {
             throw new CHttpException(404, 'Страница не существует.');
@@ -123,7 +123,7 @@ class PartlistController extends RController
      * @param CModel the model to be validated
      */
     protected function performAjaxValidation($model) {
-        if (isset($_POST['ajax']) && $_POST['ajax'] === 'Partlist-form') {
+        if (isset($_POST['ajax']) && $_POST['ajax'] === 'Exprogram-form') {
             echo CActiveForm::validate($model);
             Yii::app()->end();
         }
@@ -131,10 +131,10 @@ class PartlistController extends RController
 
     public function beforeAction($action) {
         if ($_GET['ajax'] === 'state')
-            if (count($_GET['PartlistCheck']) > 0) {
-                foreach ($_GET['PartlistCheck'] as $column => $value) {
+            if (count($_GET['ExprogramCheck']) > 0) {
+                foreach ($_GET['ExprogramCheck'] as $column => $value) {
                     foreach ($value as $id => $val) {
-                        Partlist::model()->updateByPk((int)$id, array($column => (int)$val));
+                        Exprogram::model()->updateByPk((int)$id, array($column => (int)$val));
                     }
                 }
                 Yii::app()->end();

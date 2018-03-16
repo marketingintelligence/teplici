@@ -120,7 +120,7 @@ $( document ).ready(function() {
     function Send(name,email,text) {
         $.ajax({
             type:"POST",
-            url:"..mail.php",
+            url:"../mail.php",
             data:{name:name,email:email,text:text},
             success:function(){
                 $('footer span.success').fadeIn(0);
@@ -261,6 +261,41 @@ $( document ).ready(function() {
                 $(".border2").css("margin-top","9em").css("border-top","2px solid #bccf4f");
                 $('footer span.message').fadeOut(0);*/
             console.log("ваша заявка успешно принята");
+            }
+        });
+    }
+
+    $("body").on("click",".right-float button",function(e){
+        e.preventDefault();
+        var name=$("#name").val();
+        var email=$("#email").val();
+        var company=$("#company").val();
+        var contact=$("#contact").val();
+        var error=0;
+        if(IsEmail(email) == false){
+            error++;
+            $("#email").css("background","#D66161");
+        }else {
+            $("#email").css("background","#fff");
+        }
+        if(name == ""){
+            error++;
+            $("#name").css("background","#D66161");
+        }else { $("#name").css("background","#fff"); }
+
+        if(error==0){
+            Sendform(name,email,company,contact);
+        }
+    });
+
+    function Sendform(name,email,company,contact) {
+        $.ajax({
+            type:"POST",
+            url:"../mailform.php",
+            data:{name:name,email:email,company:company,contact:contact},
+            success:function(){
+                $('.reg-form form').fadeOut(300);
+                $('.reg-thanks').fadeIn(0);
             }
         });
     }
