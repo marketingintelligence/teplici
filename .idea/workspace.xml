@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187074f3-6dc1-4647-9d39-fedc10f2617f" name="Default" comment="выставки">
-      <change beforePath="" afterPath="$PROJECT_DIR$/mailform.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Exprogram.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/ExprogramController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exprogram/_form.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exprogram/_item.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exprogram/_itemTrash.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exprogram/_list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exprogram/create.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exprogram/list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/exprogram/update.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/media/css/style.css" afterPath="$PROJECT_DIR$/media/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/media/js/code.js" afterPath="$PROJECT_DIR$/media/js/code.js" />
       <change beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
-      <change beforePath="$PROJECT_DIR$/protected/controllers/ExhibitionController.php" afterPath="$PROJECT_DIR$/protected/controllers/ExhibitionController.php" />
-      <change beforePath="$PROJECT_DIR$/protected/models/Partlist.php" afterPath="$PROJECT_DIR$/protected/models/Partlist.php" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php" />
       <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_form.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_form.php" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_list.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_list.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/exhibition/index.php" afterPath="$PROJECT_DIR$/protected/views/exhibition/index.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/layouts/footer.php" afterPath="$PROJECT_DIR$/protected/views/layouts/footer.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,7 +52,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/protected/views/exhibition/index.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1875">
@@ -93,11 +74,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="442">
-                  <caret line="50" column="53" lean-forward="false" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+                <state relative-caret-position="425">
+                  <caret line="49" column="45" lean-forward="false" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
                   <folding />
                 </state>
               </provider>
@@ -349,13 +330,13 @@
         <option value="$PROJECT_DIR$/media/css/style.css" />
         <option value="$PROJECT_DIR$/protected/views/layouts/footer.php" />
         <option value="$PROJECT_DIR$/media/js/code.js" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php" />
         <option value="$PROJECT_DIR$/protected/models/Partlist.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_list.php" />
         <option value="$PROJECT_DIR$/protected/controllers/ExhibitionController.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_form.php" />
         <option value="$PROJECT_DIR$/protected/views/exhibition/index.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php" />
       </list>
     </option>
   </component>
@@ -580,14 +561,7 @@
       <workItem from="1521099480801" duration="2742000" />
       <workItem from="1521105898771" duration="1104000" />
       <workItem from="1521116901822" duration="2005000" />
-      <workItem from="1521170794462" duration="23952000" />
-    </task>
-    <task id="LOCAL-00009" summary="commit">
-      <created>1516180652081</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1516180652081</updated>
+      <workItem from="1521170794462" duration="24651000" />
     </task>
     <task id="LOCAL-00010" summary="commit">
       <created>1516196113150</created>
@@ -925,11 +899,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521183542981</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="выставки">
+      <created>1521205571012</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1521205571012</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="494429000" />
+    <option name="totallyTimeSpent" value="495128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1311,14 +1292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="50" column="53" lean-forward="false" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/js/code.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1453,6 +1426,14 @@
           <folding>
             <marker date="1521205521922" expanded="true" signature="5024:5138" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="49" column="45" lean-forward="false" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
