@@ -335,9 +335,11 @@
                             $criteria -> condition = " status_int = 1 AND id ='$value->country_id'";
                             $countries = Countries::model()->find($criteria);
                             $img = json_decode($countries->image,true);
+
+                            $check = Countries::model()->findBySql('SELECT id FROM countries WHERE name_text="Не выбрано"');
                             ?>
                           <?php
-                            if( !empty($value->partnercountry_id)) {
+                            if( !empty($value->partnercountry_id AND $value->partnercountry_id != $check->id )) {
                                 $partcriteria = new CDbCriteria();
                                 $partcriteria->condition = " status_int = 1 AND id ='$value->partnercountry_id'";
                                 $partcountries = Countries::model()->find($partcriteria);

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="187074f3-6dc1-4647-9d39-fedc10f2617f" name="Default" comment="выставки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mailform.php" afterPath="$PROJECT_DIR$/mailform.php" />
       <change beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
       <change beforePath="$PROJECT_DIR$/protected/views/exhibition/index.php" afterPath="$PROJECT_DIR$/protected/views/exhibition/index.php" />
     </list>
@@ -30,14 +29,14 @@
     <favorites_list name="teplici" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.34976304">
+    <splitter split-orientation="horizontal" split-proportion="0.53554505">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/config/main.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1326">
-                  <caret line="78" column="40" lean-forward="false" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
+                <state relative-caret-position="170">
+                  <caret line="93" column="10" lean-forward="true" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -57,17 +56,17 @@
             <entry file="file://$PROJECT_DIR$/protected/views/exhibition/index.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="5865">
-                  <caret line="351" column="36" lean-forward="false" selection-start-line="351" selection-start-column="36" selection-end-line="351" selection-end-column="36" />
+                  <caret line="353" column="36" lean-forward="false" selection-start-line="353" selection-start-column="36" selection-end-line="353" selection-end-column="36" />
                   <folding>
-                    <marker date="1521454154813" expanded="true" signature="5024:5138" ph="..." />
-                    <marker date="1521454154813" expanded="true" signature="20632:21551" ph="..." />
-                    <marker date="1521454154813" expanded="true" signature="21801:21976" ph="..." />
+                    <marker date="1521456709034" expanded="true" signature="5024:5138" ph="..." />
+                    <marker date="1521456709034" expanded="true" signature="20803:21722" ph="..." />
+                    <marker date="1521456709034" expanded="true" signature="21972:22147" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ExhibitionController.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ExhibitionController.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/protected/controllers/ExhibitionController.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="170">
@@ -144,11 +143,32 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/views/exhibition/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="355" column="101" lean-forward="true" selection-start-line="355" selection-start-column="101" selection-end-line="355" selection-end-column="101" />
+                <state relative-caret-position="255">
+                  <caret line="360" column="2" lean-forward="false" selection-start-line="360" selection-start-column="2" selection-end-line="360" selection-end-column="2" />
                   <folding>
-                    <marker date="1521454154813" expanded="true" signature="5024:5138" ph="..." />
+                    <marker date="1521456709034" expanded="true" signature="5024:5138" ph="..." />
+                    <marker date="1521456709034" expanded="true" signature="20570:20623" ph="SELECT id FR... countries" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_form.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_form.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="38" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PartlistController.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="48" column="52" lean-forward="false" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -252,7 +272,6 @@
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/extext/_item.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/header.php" />
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
-        <option value="$PROJECT_DIR$/protected/config/main.php" />
         <option value="$PROJECT_DIR$/protected/models/Supplier.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/supplier/_form.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/FeedbackController.php" />
@@ -288,7 +307,6 @@
         <option value="$PROJECT_DIR$/protected/models/Exprogram.php" />
         <option value="$PROJECT_DIR$/media/css/style.css" />
         <option value="$PROJECT_DIR$/media/js/code.js" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php" />
         <option value="$PROJECT_DIR$/protected/models/Partlist.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_list.php" />
         <option value="$PROJECT_DIR$/protected/controllers/ExhibitionController.php" />
@@ -297,6 +315,8 @@
         <option value="$PROJECT_DIR$/protected/views/layouts/footer.php" />
         <option value="$PROJECT_DIR$/mailform.php" />
         <option value="$PROJECT_DIR$/mail.php" />
+        <option value="$PROJECT_DIR$/protected/config/main.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php" />
         <option value="$PROJECT_DIR$/protected/views/exhibition/index.php" />
       </list>
     </option>
@@ -352,18 +372,6 @@
               <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
               <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="models" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -386,6 +394,23 @@
               <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="timesafe" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="timesafe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="timesafe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="partlist" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
@@ -510,14 +535,7 @@
       <workItem from="1521394505065" duration="1087000" />
       <workItem from="1521411070104" duration="1492000" />
       <workItem from="1521430186594" duration="2324000" />
-      <workItem from="1521443647986" duration="3394000" />
-    </task>
-    <task id="LOCAL-00011" summary="commit">
-      <created>1516255458374</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1516255458374</updated>
+      <workItem from="1521443647986" duration="5968000" />
     </task>
     <task id="LOCAL-00012" summary="commit">
       <created>1516280860450</created>
@@ -855,11 +873,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521206452917</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="выставки">
+      <created>1521454204500</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1521454204500</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="504135000" />
+    <option name="totallyTimeSpent" value="506709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1187,34 +1212,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="41" lean-forward="false" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="40" lean-forward="false" selection-start-line="78" selection-start-column="40" selection-end-line="78" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Partlist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1666">
           <caret line="98" column="86" lean-forward="false" selection-start-line="98" selection-start-column="86" selection-end-line="98" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1306,14 +1307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/ExhibitionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -1322,12 +1315,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/ExhibitionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/partlist/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="48" column="52" lean-forward="false" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="93" column="10" lean-forward="true" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/exhibition/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="355" column="101" lean-forward="true" selection-start-line="355" selection-start-column="101" selection-end-line="355" selection-end-column="101" />
+        <state relative-caret-position="255">
+          <caret line="360" column="2" lean-forward="false" selection-start-line="360" selection-start-column="2" selection-end-line="360" selection-end-column="2" />
           <folding>
-            <marker date="1521454154813" expanded="true" signature="5024:5138" ph="..." />
+            <marker date="1521456709034" expanded="true" signature="5024:5138" ph="..." />
+            <marker date="1521456709034" expanded="true" signature="20570:20623" ph="SELECT id FR... countries" />
           </folding>
         </state>
       </provider>
