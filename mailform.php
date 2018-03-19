@@ -11,8 +11,10 @@ $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
 $mail->Username = "maint.zakaz@gmail.com";
 $mail->Password = "MMaint112233";
-$mail->setFrom('savezhanov.d@maint.kz');
-$mail->addAddress('savezhanov.d@maint.kz', 'Maint Company');
+$mail->setFrom('greenhouses.kz@mail.ru');
+$mail->addAddress('greenhouses.kz@mail.ru', 'Maint Company');
+/*$mail->setFrom('savezhanov.d@maint.kz');
+$mail->addAddress('savezhanov.d@maint.kz', 'Maint Company');*/
 $mail->isHTML(true);
 
 $mail->Subject = 'Заявка';

@@ -341,19 +341,21 @@
                                 $partcriteria = new CDbCriteria();
                                 $partcriteria->condition = " status_int = 1 AND id ='$value->partnercountry_id'";
                                 $partcountries = Countries::model()->find($partcriteria);
-                                $partimg = json_decode($partcountries->image, true);
-                            }?>
+                                $partimg = json_decode($partcountries->image, true);?>
                                 <tr>
                                     <td width="56%"><?=$value->name_text?></td>
                                     <td width="4%" class="td-none"><img src="/upload/Countries/full/<?=$img[0]?>"></td>
-                                    <?if ( !empty($partcountries) ) {?>
-                                        <td width="4%" class="td-none"><img src="/upload/Countries/full/<?=$partimg[0]?>"></td>
-                                        <td width="34%" class="td-border"><?=$countries->name_text?>/<?=$partcountries->name_text?></td>
-                                    <? }else { ?>
-                                        <td width="4%" class="td-none"></td>
-                                        <td width="34%" class="td-border"><?=$countries->name_text?></td>
-                                    <? } ?>
+                                    <td width="4%" class="td-none"><img src="/upload/Countries/full/<?=$partimg[0]?>"></td>
+                                    <td width="34%" class="td-border"><?=$countries->name_text?>/<?=$partcountries->name_text?></td>
                                 </tr>
+                            <? }else  {?>
+                                <tr>
+                                    <td width="56%"><?=$value->name_text?></td>
+                                    <td width="4%" class="td-none"><img src="/upload/Countries/full/<?=$img[0]?>"></td>
+                                    <td width="4%" class="td-none"></td>
+                                    <td width="34%" class="td-border"><?=$countries->name_text?></td>
+                                </tr>
+                                <? } ?>
                         <? } ?>
                     </table>
                 </div>
