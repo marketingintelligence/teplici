@@ -63,11 +63,37 @@
             <? foreach ($video as $key=>$value) { ?>
                 <? $img = json_decode($value->image,true);?>
                 <div class="video-item">
-                    <video width="100%" height="100%" controls="controls" poster="/upload/Video/full/<?=$img[0]?>">
-                        <source src="/media/img/1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    <video width="100%" height="100%" controls="true" poster="/upload/Video/full/<?=$img[0]?>">
+                        <source src="www.youtube.com/watch?v=3bGNuRtlqAQ" type="video/mp4" />
                     </video>
                 </div>
             <?  } ?>
         </div>
     </div>
 </section>
+<script>
+    videos = document.querySelectorAll("video");
+    for (var i = 0, l = videos.length; i < l; i++) {
+        var video = videos[i];
+        var src = video.src || (function () {
+            var sources = video.querySelectorAll("source");
+            for (var j = 0, sl = sources.length; j < sl; j++) {
+                var source = sources[j];
+                var type = source.type;
+                var isMp4 = type.indexOf("mp4") != -1;
+                if (isMp4) return source.src;
+            }
+            return null;
+        })();
+        if (src) {
+            var isYoutube = src && src.match(/(?:youtu|youtube)(?:\.com|\.be)\/([\w\W]+)/i);
+            if (isYoutube) {
+                var id = isYoutube[1].match(/watch\?v=|[\w\W]+/gi);
+                id = (id.length > 1) ? id.splice(1) : id;
+                id = id.toString();
+                var mp4url = "http://www.youtubeinmp4.com/redirect.php?video=";
+                video.src = mp4url + id;
+            }
+        }
+    }
+</script>

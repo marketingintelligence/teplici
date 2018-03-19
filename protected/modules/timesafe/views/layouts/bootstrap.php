@@ -48,6 +48,7 @@
                     array('label'=>'Пресс релизы', 'url'=>array('exupload/list'),'icon'=>'icon-table'),
                     array('label'=>'План выставки', 'url'=>array('explan/list'),'icon'=>'icon-save'),
                     array('label'=>'Программа выставки', 'url'=>array('exprogram/list'),'icon'=>'icon-tasks'),
+                    array('label'=>'Выставки текст', 'url'=>array('extext/list'),'icon'=>'icon-file'),
                     array('label'=>'Список участников', 'url'=>array('partlist/list'),'icon'=>'icon-table'),
                     array('label'=>'Страны', 'url'=>array('countries/list'),'icon'=>'icon-flag'),
                     /*array('label'=>'Выставка draft', 'url'=>array('exhibition/list'),'icon'=>'icon-table'),*/

@@ -36,12 +36,12 @@ for ( $i=1; $i<=100; $i++) $number[$i]=$i; ?>
 
         <?php echo $form->textAreaRow($model, 'short_bigtext',array('class'=>'span12'));; ?>
         <?php $this->widget('application.extensions.elrte.elRTE', array('model'=>$model,'attribute'=>'short_bigtext')); ?>
+        <?php echo $form->textAreaRow($model, 'full_bigtexteditor',array('class'=>'span12'));; ?>
+        <?php $this->widget('application.extensions.elrte.elRTE', array('model'=>$model,'attribute'=>'full_bigtexteditor')); ?>
+
 
         <?php echo $form->textAreaRow($model, 'engshort_bigtext',array('class'=>'span12'));; ?>
         <?php $this->widget('application.extensions.elrte.elRTE', array('model'=>$model,'attribute'=>'engshort_bigtext')); ?>
-
-        <?php echo $form->textAreaRow($model, 'full_bigtexteditor',array('class'=>'span12'));; ?>
-        <?php $this->widget('application.extensions.elrte.elRTE', array('model'=>$model,'attribute'=>'full_bigtexteditor')); ?>
         <?php echo $form->textAreaRow($model, 'engfull_bigtexteditor',array('class'=>'span12'));; ?>
         <?php $this->widget('application.extensions.elrte.elRTE', array('model'=>$model,'attribute'=>'engfull_bigtexteditor')); ?>
 
