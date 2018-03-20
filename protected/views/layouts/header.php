@@ -87,7 +87,7 @@
                         <ul class="li">
                             <? foreach ($social as $key => $value) {?>
                                 <li>
-                                    <a href="<?=$value->url?>" class="fa-stack fa-lg">
+                                    <a  target="_blank" href="<?=$value->url?>" class="fa-stack fa-lg">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                         <i class="<?=$value->short_description?>"></i>
                                     </a>
