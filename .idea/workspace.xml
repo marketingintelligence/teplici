@@ -4,11 +4,7 @@
     <list default="true" id="187074f3-6dc1-4647-9d39-fedc10f2617f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
-      <change beforePath="$PROJECT_DIR$/protected/models/Explan.php" afterPath="$PROJECT_DIR$/protected/models/Explan.php" />
-      <change beforePath="$PROJECT_DIR$/protected/models/Exupload.php" afterPath="$PROJECT_DIR$/protected/models/Exupload.php" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/views/extext/_form.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/extext/_form.php" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/views/extext/_list.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/extext/_list.php" />
+      <change beforePath="$PROJECT_DIR$/protected/views/layouts/header.php" afterPath="$PROJECT_DIR$/protected/views/layouts/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +29,7 @@
     <favorites_list name="teplici" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5234657">
+    <splitter split-orientation="horizontal" split-proportion="0.8312274">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Contacts.php" pinned="false" current-in-tab="false">
@@ -66,21 +62,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_formmap.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_formmap.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PartlistController.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="PartlistController.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="255">
-                  <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+                  <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -132,6 +118,18 @@
                 <state relative-caret-position="394">
                   <caret line="119" column="30" lean-forward="false" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/protected/views/layouts/header.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="183">
+                  <caret line="89" column="59" lean-forward="false" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
+                  <folding>
+                    <marker date="1521542338475" expanded="true" signature="4162:4198" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -226,8 +224,8 @@
           <file leaf-file-name="_form.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_form.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+                <state relative-caret-position="153">
+                  <caret line="27" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -365,7 +363,6 @@
         <option value="$PROJECT_DIR$/protected/views/layouts/footer.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_item.php" />
         <option value="$PROJECT_DIR$/protected/models/Contacts.php" />
-        <option value="$PROJECT_DIR$/protected/views/layouts/header.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/updatemap.php" />
@@ -378,6 +375,7 @@
         <option value="$PROJECT_DIR$/protected/models/Explan.php" />
         <option value="$PROJECT_DIR$/protected/models/Exupload.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/header.php" />
       </list>
     </option>
   </component>
@@ -473,16 +471,14 @@
               <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
               <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="timesafe" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="exupload" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
               <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -595,14 +591,7 @@
       <workItem from="1521411070104" duration="1492000" />
       <workItem from="1521430186594" duration="2324000" />
       <workItem from="1521443647986" duration="12962000" />
-      <workItem from="1521514213266" duration="17207000" />
-    </task>
-    <task id="LOCAL-00019" summary="combinates edit">
-      <created>1520230235085</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1520230235085</updated>
+      <workItem from="1521514213266" duration="18036000" />
     </task>
     <task id="LOCAL-00020" summary="supplier changes">
       <created>1520230395022</created>
@@ -940,11 +929,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521539266196</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="admin panel">
+      <created>1521541057993</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1521541057993</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="530910000" />
+    <option name="totallyTimeSpent" value="531739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -999,7 +995,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="supplier edit" />
     <MESSAGE value="combinates edit" />
     <MESSAGE value="supplier changes" />
     <MESSAGE value="form changes" />
@@ -1024,7 +1019,8 @@
     <MESSAGE value="главная" />
     <MESSAGE value="главная карта" />
     <MESSAGE value="контакты" />
-    <option name="LAST_COMMIT_MESSAGE" value="контакты" />
+    <MESSAGE value="admin panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin panel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1359,16 +1355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="96" column="25" lean-forward="true" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
-          <folding>
-            <marker date="1521538110543" expanded="true" signature="4167:4203" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -1405,14 +1391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1481,11 +1459,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/PartlistController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="89" column="59" lean-forward="false" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
+          <folding>
+            <marker date="1521542338475" expanded="true" signature="4162:4198" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
