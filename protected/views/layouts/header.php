@@ -93,31 +93,19 @@
                                     </a>
                                 </li>
                             <? } ?>
-                            <!--<li>
-                                <a href="#" class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://api.whatsapp.com/send?phone=877273036828" class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
-                                </a>
-                            </li>-->
                         </ul>
                     </li>
                     <li>
                         <div class="align-top mobile-visible">
                             <img src="/media/img/tel.png">
                         </div>
-                        <a href="tel: +7 (727) 303 68 28">+7 (727) 303 68 28</a>
+                        <a href="tel: <?=$contacts[1]->full_bigtexteditor?>"><?=$contacts[1]->full_bigtexteditor?></a>
                     </li>
                     <li>
                         <div class="align-top mobile-visible">
                             <img src="/media/img/mail.png" class="i-marg">
                         </div>
-                        <a href="mailto: greenhouses.kz@mail.ru">greenhouses.kz@mail.ru</a>
+                        <a href="<?=$contacts[2]->full_bigtexteditor?>"><?=$contacts[2]->full_bigtexteditor?></a>
                     </li>
                 </ul>
             </div>

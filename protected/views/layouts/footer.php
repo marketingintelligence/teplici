@@ -1,7 +1,8 @@
 <!--  footer  -->
 <footer>
     <div class="shadow2"></div>
-    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af27467eb5c235d962865c364fa46c9d0019f5d8eaa257d3a8ac962a518e3be3b&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+    <?=$contacts[3]->engname_text?>
+    <!--<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af27467eb5c235d962865c364fa46c9d0019f5d8eaa257d3a8ac962a518e3be3b&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>-->
     <div class="form flex">
         <div class="item">
             <div class="footer mobile-visible margg">
@@ -25,9 +26,7 @@
                         <img src="/media/img/map2.png">
                     </div>
                     <div class="align-top border">
-                        г.Алматы<br>
-                        ул.Жандосова,51<br>
-                        здание КазНИИ, офис 606
+                        <?=$contacts[0]->full_bigtexteditor?>
                     </div>
                 </li>
                 <div class="m-foot">
@@ -35,16 +34,16 @@
                         <div class="align-top">
                             <img src="/media/img/tel.png">
                         </div>
-                        <a href="tel: +7 (727) 303 68 28" class="align-top border">
-                            +7 (727) 303 68 28
+                        <a href="tel:<?=$contacts[1]->full_bigtexteditor?>" class="align-top border">
+                            <?=$contacts[1]->full_bigtexteditor?>
                         </a>
                     </li>
                     <li>
                         <div class="align-top">
                             <img src="/media/img/mail.png" class="i-marg">
                         </div>
-                        <a href="mailto: greenhouses.kz@mail.ru" class="align-top border">
-                            greenhouses.kz@mail.ru
+                        <a href="mailto: <?=$contacts[2]->full_bigtexteditor?>" class="align-top border">
+                            <?=$contacts[2]->full_bigtexteditor?>
                         </a>
                         <ul class="li li2" id="social">
                             <?foreach ($social as $key=>$value) { ?>

@@ -1,6 +1,6 @@
 <?php
     $form = $this->beginWidget('BootActiveForm', array(
-        'id' => 'Maps-form',
+        'id' => 'Contacts-form',
         'type'=>'horizontal',
         'enableAjaxValidation' => true,
             'focus' => array($model, 'name_text'),
@@ -10,7 +10,7 @@
             'enctype'=>'multipart/form-data'
         ),
     ));
-    echo CHtml::hiddenField('Maps_page',$_GET['Maps_page']);
+    echo CHtml::hiddenField('Contacts_page',$_GET['Contacts_page']);
 ?>
 <style>
     .span {
@@ -21,15 +21,14 @@
         width: 60px !important;
     };
 </style>
-<?php /*for ( $i=1; $i<=100; $i++) $number[$i]=$i; */?>
+<?php for ( $i=1; $i<=100; $i++) $number[$i]=$i; ?>
     <div class="form-actions">
         <button class="btn btn-success" type="submit">
             <?=$model->isNewRecord ? 'Добавить' : 'Сохранить'; ?>
         </button>
         <span class="text_button_padding">или</span>        
-    	<?=CHtml::link('назад', array('list','Maps_page'=>$_GET['Maps_page'])); ?>    </div>
+    	<?=CHtml::link('назад', array('list','Contacts_page'=>$_GET['Contacts_page'])); ?>    </div>
     	<?php echo $form->textFieldRow($model, 'name_text', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); ?>
-        <?php echo $form->textFieldRow($model, 'engname_text', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); ?>
         <?php /*echo $form->dropDownListRow($model, 'serial_number', $number, array('class'=>'span-number')); */?>
 
         <?php echo $form->textAreaRow($model, 'full_bigtexteditor',array('class'=>'span12'));; ?>
@@ -38,18 +37,19 @@
         <?php echo $form->textAreaRow($model, 'engfull_bigtexteditor',array('class'=>'span12'));; ?>
         <?php $this->widget('application.extensions.elrte.elRTE', array('model'=>$model,'attribute'=>'engfull_bigtexteditor')); ?>
 
+        <?php echo $form->textFieldRow($model, 'engname_text', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); ?>
         <?php echo $form->checkBoxRow($model, 'status_int');; ?>
     <div class="form-actions">
         <button class="btn btn-success" type="submit">
             <?=$model->isNewRecord ? 'Добавить' : 'Сохранить'; ?>
         </button>
         <span class="text_button_padding">или</span>
-        <?=CHtml::link('назад', array('list','Maps_page'=>$_GET['Maps_page'])); ?>
+        <?=CHtml::link('назад', array('list','Contacts_page'=>$_GET['Contacts_page'])); ?>
 	</div>
 
 <script>
-    $('#Maps_name_text').change(function() {
-        $('#Maps_url_text').val(cyr2lat($('#Maps_name_text').val()));
+    $('#Contacts_name_text').change(function() {
+        $('#Contacts_url_text').val(cyr2lat($('#Contacts_name_text').val()));
     });
     function cyr2lat(str) {
 

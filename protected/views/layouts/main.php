@@ -17,8 +17,11 @@
     <?  $criteria = new CDbCriteria();
         $criteria -> condition = " status_int = 1";
         $criteria -> order = "serial_number";
-        $social = Social::model()->findAll($criteria); ?>
-    <?$this->renderPartial('/layouts/header',array("social"=>$social));?>
+
+        $social = Social::model()->findAll($criteria);
+        $contacts = Contacts::model()->findAll($criteria);
+        ?>
+    <?$this->renderPartial('/layouts/header',array("social"=>$social,"contacts"=>$contacts));?>
 </section>
     <?=$content?>
     <? if ( (Yii::app()->controller->id == "site" || Yii::app()->controller->id == "about" || Yii::app()->controller->id == "association") && Yii::app()->controller->pageTitle != "Вход в Административную часть" ) { ?>
@@ -33,12 +36,12 @@
         $cr -> order = "serial_number";
 
         $partners = Partners::model()->findAll($cr);
-        $news = News::model()->findAll($criteria)
+        $news = News::model()->findAll($criteria);
         ?>
         <?$this->renderPartial('/layouts/slider_and_news',array("news"=>$news, "partners" => $partners));?>
     <? } ?>
 <section id="footer">
-    <?$this->renderPartial('/layouts/footer', array("social"=>$social));?>
+    <?$this->renderPartial('/layouts/footer', array("social"=>$social,"contacts"=>$contacts));?>
 </section>
 </body>
 

@@ -29,9 +29,8 @@
             'class'=>'bootstrap.widgets.BootMenu',
             'items'=>array(
                 array('label'=>'Навигация','url'=>'#','icon'=>'icon-th','items'=>array(
-                    array('label'=>'Социальные сети', 'url'=>array('social/list'),'icon'=>'icon-link'),
-                    array('label'=>'Контакты', 'url'=>array('contacts/list'),'icon'=>'icon-link'),
-                    array('label'=>'Страницы', 'url'=>array('pages/list'),'icon'=>'icon-link'),
+                    array('label'=>'Социальные сети', 'url'=>array('social/list'),'icon'=>'icon-bullhorn'),
+                    array('label'=>'Контакты', 'url'=>array('contacts/list'),'icon'=>'icon-external-link'),
                     array('label'=>'Карта теплиц', 'url'=>array('maps/list'),'icon'=>'icon-globe'),
                 )),
 
