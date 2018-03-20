@@ -83,7 +83,7 @@ class ContactsController extends RController
             }
         }
 
-        if( $model->id == 4) {
+        if( $model->name_text == "Карта") {
             $this->render(
                 'updatemap', array(
                 'model' => $model,
