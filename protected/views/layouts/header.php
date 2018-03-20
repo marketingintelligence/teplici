@@ -105,7 +105,7 @@
                         <div class="align-top mobile-visible">
                             <img src="/media/img/mail.png" class="i-marg">
                         </div>
-                        <a href="<?=$contacts[2]->full_bigtexteditor?>"><?=$contacts[2]->full_bigtexteditor?></a>
+                        <a href="mailto:<?=$contacts[2]->full_bigtexteditor?>"><?=$contacts[2]->full_bigtexteditor?></a>
                     </li>
                 </ul>
             </div>

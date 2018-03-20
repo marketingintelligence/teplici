@@ -125,10 +125,10 @@
           <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/views/layouts/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="183">
-                  <caret line="89" column="55" lean-forward="true" selection-start-line="89" selection-start-column="55" selection-end-line="89" selection-end-column="55" />
+                <state relative-caret-position="277">
+                  <caret line="107" column="40" lean-forward="false" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
                   <folding>
-                    <marker date="1521542574217" expanded="true" signature="4179:4215" ph="..." />
+                    <marker date="1521542775388" expanded="true" signature="4179:4215" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -591,14 +591,7 @@
       <workItem from="1521411070104" duration="1492000" />
       <workItem from="1521430186594" duration="2324000" />
       <workItem from="1521443647986" duration="12962000" />
-      <workItem from="1521514213266" duration="18271000" />
-    </task>
-    <task id="LOCAL-00021" summary="form changes">
-      <created>1520237367080</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1520237367080</updated>
+      <workItem from="1521514213266" duration="18479000" />
     </task>
     <task id="LOCAL-00022" summary="feedback changes">
       <created>1520242090226</created>
@@ -936,11 +929,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521542351674</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="правки">
+      <created>1521542584843</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1521542584843</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="531974000" />
+    <option name="totallyTimeSpent" value="532182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1477,10 +1477,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="89" column="55" lean-forward="true" selection-start-line="89" selection-start-column="55" selection-end-line="89" selection-end-column="55" />
+        <state relative-caret-position="277">
+          <caret line="107" column="40" lean-forward="false" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
           <folding>
-            <marker date="1521542574217" expanded="true" signature="4179:4215" ph="..." />
+            <marker date="1521542775388" expanded="true" signature="4179:4215" ph="..." />
           </folding>
         </state>
       </provider>
