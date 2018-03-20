@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="187074f3-6dc1-4647-9d39-fedc10f2617f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/models/Contacts.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/ContactsController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_form.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_item.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_itemTrash.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/create.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/list.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/update.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_formmap.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/updatemap.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/views/maps/_form.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/maps/_form.php" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/views/maps/_item.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/maps/_item.php" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/views/maps/_list.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/maps/_list.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/layouts/footer.php" afterPath="$PROJECT_DIR$/protected/views/layouts/footer.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/layouts/header.php" afterPath="$PROJECT_DIR$/protected/views/layouts/header.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/views/layouts/main.php" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/controllers/ContactsController.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/controllers/ContactsController.php" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_form.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_form.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,7 +32,7 @@
     <favorites_list name="teplici" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8474434">
+    <splitter split-orientation="horizontal" split-proportion="0.13267148">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
@@ -67,7 +55,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="323">
@@ -97,21 +85,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="116" column="40" lean-forward="true" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ContactsController.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="ContactsController.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/ContactsController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+                <state relative-caret-position="266">
+                  <caret line="89" column="31" lean-forward="true" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -135,6 +113,26 @@
                   <folding>
                     <marker date="1521538110543" expanded="true" signature="4167:4203" ph="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="updatemap.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/contacts/updatemap.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="85">
+                  <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_formmap.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_formmap.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -330,8 +328,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/explan/_itemTrash.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/explan/create.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/explan/update.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/explan/list.php" />
         <option value="$PROJECT_DIR$/protected/models/Explan.php" />
@@ -376,11 +372,13 @@
         <option value="$PROJECT_DIR$/protected/views/layouts/footer.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_item.php" />
         <option value="$PROJECT_DIR$/protected/models/Contacts.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/ContactsController.php" />
-        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_form.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/header.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/updatemap.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_formmap.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/controllers/ContactsController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_form.php" />
       </list>
     </option>
   </component>
@@ -441,14 +439,37 @@
               <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
               <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="timesafe" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="timesafe" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
               <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="timesafe" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="contacts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -466,11 +487,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\teplici\protected\modules\timesafe\views\contacts" />
       <recent name="C:\OSPanel\domains\teplici\protected\modules\timesafe\views" />
       <recent name="C:\OSPanel\domains\teplici\protected\modules\timesafe\controllers" />
       <recent name="C:\OSPanel\domains\teplici\protected\models" />
       <recent name="C:\OSPanel\domains\teplici" />
-      <recent name="C:\OSPanel\domains\teplici\media\img\logo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\OSPanel\domains\teplici\protected\models" />
@@ -561,14 +582,7 @@
       <workItem from="1521411070104" duration="1492000" />
       <workItem from="1521430186594" duration="2324000" />
       <workItem from="1521443647986" duration="12962000" />
-      <workItem from="1521514213266" duration="14949000" />
-    </task>
-    <task id="LOCAL-00016" summary="upload files">
-      <created>1519899286877</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1519899286877</updated>
+      <workItem from="1521514213266" duration="15637000" />
     </task>
     <task id="LOCAL-00017" summary="upload files">
       <created>1519899511350</created>
@@ -906,17 +920,24 @@
       <option name="project" value="LOCAL" />
       <updated>1521532030847</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="контакты">
+      <created>1521538461235</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1521538461235</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="528652000" />
+    <option name="totallyTimeSpent" value="529340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10136157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16187595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -965,7 +986,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload files" />
     <MESSAGE value="supplier edit" />
     <MESSAGE value="combinates edit" />
     <MESSAGE value="supplier changes" />
@@ -990,7 +1010,8 @@
     <MESSAGE value="выставки" />
     <MESSAGE value="главная" />
     <MESSAGE value="главная карта" />
-    <option name="LAST_COMMIT_MESSAGE" value="главная карта" />
+    <MESSAGE value="контакты" />
+    <option name="LAST_COMMIT_MESSAGE" value="контакты" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -999,20 +1020,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exprogram/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exprogram/_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/exprogram/_itemTrash.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1366,14 +1373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/contacts/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_item.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1394,22 +1393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-952">
           <caret line="57" column="62" lean-forward="false" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/ContactsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1444,6 +1427,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/contacts/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/contacts/updatemap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_formmap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/controllers/ContactsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="89" column="31" lean-forward="true" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/contacts/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>

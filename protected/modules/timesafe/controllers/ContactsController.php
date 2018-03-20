@@ -82,11 +82,20 @@ class ContactsController extends RController
                 Yii::app()->user->setFlash('error', 'Ошибка при сохранении');
             }
         }
-        $this->render(
-            'update', array(
-            'model' => $model,
-            'page'  => $page
-        ));
+
+        if( $model->id == 4) {
+            $this->render(
+                'updatemap', array(
+                'model' => $model,
+                'page' => $page
+            ));
+        }else {
+            $this->render(
+                'update', array(
+                'model' => $model,
+                'page' => $page
+            ));
+        }
     }
 
     /**

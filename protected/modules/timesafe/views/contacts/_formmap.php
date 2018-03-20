@@ -31,12 +31,13 @@
     	<?php echo $form->textFieldRow($model, 'name_text', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); ?>
         <?php /*echo $form->dropDownListRow($model, 'serial_number', $number, array('class'=>'span-number')); */?>
 
-        <?php echo $form->textAreaRow($model, 'full_bigtexteditor',array('class'=>'span12'));; ?>
-        <?php $this->widget('application.extensions.elrte.elRTE', array('model'=>$model,'attribute'=>'full_bigtexteditor')); ?>
+        <?php /*echo $form->textAreaRow($model, 'full_bigtexteditor',array('class'=>'span12'));; */?><!--
+        <?php /*$this->widget('application.extensions.elrte.elRTE', array('model'=>$model,'attribute'=>'full_bigtexteditor')); */?>
 
-        <?php echo $form->textAreaRow($model, 'engfull_bigtexteditor',array('class'=>'span12'));; ?>
-        <?php $this->widget('application.extensions.elrte.elRTE', array('model'=>$model,'attribute'=>'engfull_bigtexteditor')); ?>
+        <?php /*echo $form->textAreaRow($model, 'engfull_bigtexteditor',array('class'=>'span12'));; */?>
+        --><?php /*$this->widget('application.extensions.elrte.elRTE', array('model'=>$model,'attribute'=>'engfull_bigtexteditor')); */?>
 
+        <?php echo $form->textFieldRow($model, 'engname_text', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); ?>
         <?php echo $form->checkBoxRow($model, 'status_int');; ?>
     <div class="form-actions">
         <button class="btn btn-success" type="submit">
