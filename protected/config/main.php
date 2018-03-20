@@ -76,6 +76,7 @@ return array(
                 'registration'=>'site/registration',
                 'exit'=>'site/exit',
                 'news/<url:[\w_-]+>'=>'news/show',
+                'anketa'=>'site/anketa',
             ),
         ),
 
@@ -85,9 +86,9 @@ return array(
         ),
 
         'db' => array(
-            'connectionString' => 'mysql:host=srv-pleskdb33.ps.kz:3306;dbname=instabos_teplici',
+            'connectionString' => 'mysql:host=localhost;dbname=v-4393_teplici',
             'emulatePrepare' => true,
-            'username' => 'insta_maint',
+            'username' => 'v-439_teplici',
             'password' => 'Maint112233',
 
             'charset'            => 'utf8',
