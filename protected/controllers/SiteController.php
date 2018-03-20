@@ -18,8 +18,14 @@ class SiteController extends Controller {
 
     public function actionIndex() {
 
+        $criteria = new CDbCriteria();
+        $criteria -> condition = " status_int = 1";
+        $criteria -> order = " serial_number";
+
+        $maps = Maps::model()->findAll($criteria);
+
         $this->pageTitle = "Теплицы";
-        $this->render('index');
+        $this->render('index',array("maps"=>$maps));
     }
 
     public function actionAnketa() {

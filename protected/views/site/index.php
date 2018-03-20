@@ -111,31 +111,38 @@
         <hr>
     </div>
     <div class="svg">
-        <div class="hidden" id="show-path7">
-            <div class="text o1">
-                <div class="text-box">
-                    <p>Западно-Казахстанская область</p>
-                    <span>
-                        Фермерские - Га<br>
-                        Промышленные – Га
-                    </span>
+        <?foreach ($maps as $key=>$value) { ?>
+            <? $show_path = $key+7;
+                if ($show_path > 14) {
+                    $show_path = $key-7;
+                }
+            ?>
+            <div class="hidden" id="show-path<?=$show_path?>">
+                <div class="text o<?=$key+1?>">
+                    <div class="text-box">
+                        <p><?=$value->name_text?></p>
+                        <span>
+                            <?=$value->full_bigtexteditor?>
+                        </span>
+                    </div>
+                </div>
+                <div class="line q<?=$key+1?>">
+                    <div class="circle-line"></div>
+                    <div class="border-1"></div>
+                    <div class="border-2"></div>
+                    <div class="circle-line2"></div>
+                    <div class="big-circle"></div>
                 </div>
             </div>
-            <div class="line q1">
-                <div class="circle-line"></div>
-                <div class="border-1"></div>
-                <div class="border-2"></div>
-                <div class="circle-line2"></div>
-                <div class="big-circle"></div>
-            </div>
-        </div>
-        <div class="hidden" id="show-path8">
+        <? } ?>
+
+        <!--<div class="hidden" id="show-path8">
             <div class="text o2">
                 <div class="text-box">
                     <p>Атырауская область</p>
                     <span>
                         Фермерские – 1.6 Га<br>
-                        Промышленные – Га
+                        Промышленные – 2.5Га
                     </span>
                 </div>
             </div>
@@ -166,6 +173,7 @@
                 <div class="big-circle"></div>
             </div>
         </div>
+
         <div class="hidden" id="show-path10">
             <div class="text o4">
                 <div class="text-box">
@@ -184,6 +192,7 @@
                 <div class="big-circle"></div>
             </div>
         </div>
+
         <div class="hidden" id="show-path11">
             <div class="text o5">
                 <div class="text-box">
@@ -202,6 +211,7 @@
                 <div class="big-circle"></div>
             </div>
         </div>
+
         <div class="hidden" id="show-path12">
             <div class="text o6">
                 <div class="text-box">
@@ -220,6 +230,7 @@
                 <div class="big-circle"></div>
             </div>
         </div>
+
         <div class="hidden" id="show-path13">
             <div class="text o7">
                 <div class="text-box">
@@ -363,7 +374,7 @@
                 <div class="circle-line2"></div>
                 <div class="big-circle"></div>
             </div>
-        </div>
+        </div>-->
         <svg viewBox="0 0 720 410" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <metadata id="metadata3887">image/svg+xml</metadata>
             <defs>
