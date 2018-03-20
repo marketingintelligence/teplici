@@ -117,7 +117,7 @@ class Exupload extends CActiveRecord
 
     public function defaultScope() {
         return array(
-            'order' => 'serial_number',
+            'order' => 'serial_number + 0',
         );
     }
 

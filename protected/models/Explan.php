@@ -117,7 +117,7 @@ class Explan extends CActiveRecord
 
     public function defaultScope() {
         return array(
-            'order' => 'serial_number',
+            'order' => 'id + 0',
         );
     }
 

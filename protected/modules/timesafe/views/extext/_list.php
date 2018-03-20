@@ -6,8 +6,6 @@ $this->widget('BootMediaGrid', array(
     'afterAjaxUpdate'=>'js:function(){ $(\'.toggle-on-check\').toggleit(); }',
     'sortableAttributes'=>array(
         'name_text',
-        'created_at',
-        'serial_number',
     ),
 ));
 ?>

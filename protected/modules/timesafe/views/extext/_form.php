@@ -32,7 +32,6 @@ for ( $i=1; $i<=100; $i++) $number[$i]=$i; ?>
     	<?=CHtml::link('назад', array('list','Extext_page'=>$_GET['Extext_page'])); ?>    </div>
     	<?php echo $form->textFieldRow($model, 'name_text', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); ?>
         <?php echo $form->textFieldRow($model, 'engname_text', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); ?>
-        <?php echo $form->dropDownListRow($model, 'serial_number', $number, array('class'=>'span-number')); ?>
 
         <?php echo $form->textAreaRow($model, 'short_bigtext',array('class'=>'span12'));; ?>
         <?php $this->widget('application.extensions.elrte.elRTE', array('model'=>$model,'attribute'=>'short_bigtext')); ?>
