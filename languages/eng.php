@@ -16,9 +16,9 @@
 
     //footer
     //used *send
-    $arraylang["leave_message"] = "Leave a message";
+    $arraylang["leave_message"] = "Contact us";
     $arraylang["contact_with"] = "And we will contact you!";
-    $arraylang["leave_message_btn"] = "Contact us";
+    $arraylang["leave_message_btn"] = "Leave a message";
     $arraylang["success_message"] = "Thank you! Your message has been sent!";
     $arraylang["name"] = "Name";
     $arraylang["message"] = "Message";

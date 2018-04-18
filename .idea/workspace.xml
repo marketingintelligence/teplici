@@ -65,8 +65,8 @@
           <file leaf-file-name="eng.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/languages/eng.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+                <state relative-caret-position="166">
+                  <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
                   <folding />
                 </state>
               </provider>
@@ -304,17 +304,17 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
+              <file leaf-file-name="update.php" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/pages/update.php">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="34">
+                    <state relative-caret-position="0">
                       <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="true">
+              <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="0">
@@ -332,7 +332,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>email</find>
       <find>Официальная церемония открытия выставки</find>
       <find>10-я</find>
       <find>url_text</find>
@@ -362,6 +361,7 @@
       <find>ima</find>
       <find>Теплиц</find>
       <find>ассоци</find>
+      <find>leave</find>
     </findStrings>
     <replaceStrings>
       <replace>rgb(255, 66, 0);</replace>
@@ -650,14 +650,7 @@
       <workItem from="1523852232717" duration="1642000" />
       <workItem from="1523876074845" duration="5611000" />
       <workItem from="1523935408805" duration="36341000" />
-      <workItem from="1524022191801" duration="2584000" />
-    </task>
-    <task id="LOCAL-00025" summary="news changes">
-      <created>1520247226447</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1520247226447</updated>
+      <workItem from="1524022191801" duration="3250000" />
     </task>
     <task id="LOCAL-00026" summary="правки">
       <created>1520248951309</created>
@@ -995,11 +988,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524023668360</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="translate eng">
+      <created>1524027262072</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1524027262072</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="582450000" />
+    <option name="totallyTimeSpent" value="583116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1054,7 +1054,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="form changes" />
     <MESSAGE value="feedback changes" />
     <MESSAGE value="edit table" />
     <MESSAGE value="changes" />
@@ -1079,7 +1078,8 @@
     <MESSAGE value="правки" />
     <MESSAGE value="translate" />
     <MESSAGE value="languages folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="languages folder" />
+    <MESSAGE value="translate eng" />
+    <option name="LAST_COMMIT_MESSAGE" value="translate eng" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1408,14 +1408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/pages/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/pages/_item.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1545,10 +1537,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/pages/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/languages/eng.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+        <state relative-caret-position="166">
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           <folding />
         </state>
       </provider>
