@@ -93,58 +93,58 @@
                                 <ul>
                                     <a href="#" class="href" data-id="1">
                                         <li class="active_li mobile-no">
-                                            Выставки
+                                            <?=SHelper::getLan("exhibition")?>
                                             <div class="triangle"></div>
                                             <div class="border_li"></div>
                                         </li>
                                     </a>
                                     <a href="#" class="href" data-id="2">
                                         <li>
-                                            Условия участия
+                                            <?=SHelper::getLan("condition")?>
                                             <div class="triangle"></div>
                                             <div class="border_li"></div>
                                         </li>
                                     </a>
-                                    <?$file = json_decode($exupload[0]->file,true);?>
+                                    <?$file = json_decode($exupload[0]->{$lang."file"},true);?>
                                     <a href="#" class="href" data-id="3" data-route="<?=$file[0]?>" >
                                         <li>
-                                            План выставки
+                                            <?=SHelper::getLan("plan")?>
                                             <div class="triangle"></div>
                                             <div class="border_li"></div>
                                         </li>
                                     </a>
                                     <a href="#" class="href" data-id="4">
                                         <li>
-                                            Посетителям
+                                            <?=SHelper::getLan("visitors")?>
                                             <div class="triangle"></div>
                                             <div class="border_li"></div>
                                         </li>
                                     </a>
                                     <a href="#" class="href" data-id="5">
                                         <li>
-                                            Программа выставки
+                                            <?=SHelper::getLan("program")?>
                                             <div class="triangle"></div>
                                             <div class="border_li"></div>
                                         </li>
                                     </a>
                                     <a href="#" class="href" data-id="6">
                                         <li>
-                                            Список участников
+                                            <?=SHelper::getLan("list")?>
                                             <div class="triangle"></div>
                                             <div class="border_li"></div>
                                         </li>
                                     </a>
                                     <a href="#" class="href" data-id="2015">
                                         <li>
-                                            Пресс релизы
+                                            <?=SHelper::getLan("press")?>
                                             <div class="triangle"></div>
                                             <div class="border_li"></div>
                                         </li>
                                         <div class="dropdown">
                                             <ul>
                                                 <?foreach ($exupload as $key=>$value) {?>
-                                                <?$file = json_decode($value->file,true);?>
-                                                    <a href="#" data-id="<?=(2009+$key)?>" data-routes="<?=$file[0]?>"><li><?=$value->name_text?></li></a>
+                                                <?$file = json_decode($value->{$lang."file"},true);?>
+                                                    <a href="#" data-id="<?=(2009+$key)?>" data-routes="<?=$file[0]?>"><li><?=$value->{$lang."name_text"}?></li></a>
                                                 <? } ?>
                                             </ul>
                                         </div>
@@ -162,7 +162,7 @@
             <div class="content active" id="1">
                 <div class="box-shadow">
                     <div class="back-vystvka mobile-visible">
-                        <a href="#">Назад</a>
+                        <a href="#"><?=SHelper::getLan("back")?></a>
                         <p><?=$extext[1]->{$lang."name_text"}?></p>
                         <hr>
                     </div>
@@ -189,7 +189,7 @@
             </div>
             <div class="content" id="2">
                 <div class="back-vystvka mobile-visible">
-                    <a href="#">Назад</a>
+                    <a href="#"><?=SHelper::getLan("back")?></a>
                     <p><?=$extext[2]->{$lang."name_text"}?></p>
                     <hr>
                 </div>
@@ -226,12 +226,12 @@
             </div>
             <div class="content" id="3">
                 <div class="back-vystvka mobile-visible">
-                    <a href="#">Назад</a>
-                    <p>План выставки</p>
+                    <a href="#"><?=SHelper::getLan("back")?></a>
+                    <p><?=SHelper::getLan("plan")?></p>
                     <hr>
                 </div>
                 <?foreach ($explan as $key=>$value){?>
-                    <?$file = json_decode($value->file,true);?>
+                    <?$file = json_decode($value->{$lang."file"},true);?>
                         <div class="ex-plan">
                             <embed src="/upload/Explan/<?=$file[0]?>" width="100%" height="100%" />
                         </div>
@@ -239,26 +239,26 @@
             </div>
             <div class="content" id="4">
                 <div class="back-vystvka mobile-visible">
-                    <a href="#">Назад</a>
-                    <p>Посетителям</p>
+                    <a href="#"><?=SHelper::getLan("back")?></a>
+                    <p><?=SHelper::getLan("visitors")?></p>
                     <hr>
                 </div>
                 <div class="top_text two three">
                     <ul>
-                        <li>Форма регистрации <span>посетителя</span></li>
+                        <li><?=SHelper::getLan("form_reg")?> <span><?=SHelper::getLan("vis")?></span></li>
                     </ul>
                 </div>
                 <div class="reg-form">
                     <div class="reg-thanks">
-                        <p>Спасибо, ваше сообщение отправлено!</p>
+                        <p><?=SHelper::getLan("success_message")?></p>
                     </div>
                     <form>
-                        <input id="name" required="" type="text" placeholder="Имя *" class="inline">
+                        <input id="name" required="" type="text" placeholder="<?=SHelper::getLan("name")?> *" class="inline">
                         <input id="email" required="" type="email" placeholder="E-mail *" class="margin inline">
-                        <input id="company" type="text" placeholder="Компания">
-                        <input id="contact" type="text" placeholder="Контакты" class="margin">
+                        <input id="company" type="text" placeholder="<?=SHelper::getLan("ex_comp")?>">
+                        <input id="contact" type="text" placeholder="<?=SHelper::getLan("ex_contact")?>" class="margin">
                         <div class="right-float">
-                            <button type="submit">Зарегистрироваться</button>
+                            <button type="submit"><?=SHelper::getLan("reg")?></button>
                         </div>
                     </form>
                 </div>
@@ -280,25 +280,24 @@
             </div>
             <div class="content" id="5">
                 <div class="back-vystvka mobile-visible">
-                    <a href="#">Назад</a>
-                    <p>Программа выставки</p>
+                    <a href="#"><?=SHelper::getLan("back")?></a>
+                    <p><?=SHelper::getLan("program")?></p>
                     <hr>
                 </div>
                 <div class="box-shadow">
                     <div class="top_text two">
                         <ul>
-                            <li>Тематики выставки <?=$exprogram[0]->name_text?></li>
-                            <li><span><?=$exprogram[0]->title?></li>
+                            <li><?=SHelper::getLan("theme")?> <?=$exprogram[0]->{$lang."name_text"}?></li>
+                            <li><span><?=$exprogram[0]->{$lang."title"}?></li>
                         </ul>
                     </div>
-                    <?=$exprogram[0]->full_bigtexteditor?>
-
+                    <?=$exprogram[0]->{$lang."full_bigtexteditor"}?>
                 </div>
             </div>
             <div class="content" id="6">
                 <div class="back-vystvka mobile-visible">
-                    <a href="#">Назад</a>
-                    <p>Список участников</p>
+                    <a href="#"><?=SHelper::getLan("back")?></a>
+                    <p><?=SHelper::getLan("list")?></p>
                     <hr>
                 </div>
                 <div class="box-shadow">
@@ -319,14 +318,14 @@
                                 $partcountries = Countries::model()->find($partcriteria);
                                 $partimg = json_decode($partcountries->image, true);?>
                                 <tr>
-                                    <td width="56%"><?=$value->name_text?></td>
+                                    <td width="56%"><?=$value->{$lang."name_text"}?></td>
                                     <td width="4%" class="td-none"><img src="/upload/Countries/full/<?=$img[0]?>"></td>
                                     <td width="4%" class="td-none"><img src="/upload/Countries/full/<?=$partimg[0]?>"></td>
-                                    <td width="34%" class="td-border"><?=$countries->name_text?>/<?=$partcountries->name_text?></td>
+                                    <td width="34%" class="td-border"><?=$countries->{$lang."name_text"}?>/<?=$partcountries->{$lang."name_text"}?></td>
                                 </tr>
                             <? }else  {?>
                                 <tr>
-                                    <td width="56%"><?=$value->name_text?></td>
+                                    <td width="56%"><?=$value->{$lang."name_text"}?></td>
                                     <td width="4%" class="td-none"><img src="/upload/Countries/full/<?=$img[0]?>"></td>
                                     <td width="4%" class="td-none"></td>
                                     <td width="34%" class="td-border"><?=$countries->{$lang."name_text"}?></td>
@@ -340,7 +339,7 @@
             <?php foreach ($exupload as $key=>$value) {?>
                 <div class="content" id="<?=($key+2009)?>">
                     <div class="back-vystvka mobile-visible">
-                        <a href="#">Назад</a>
+                        <a href="#"><?=SHelper::getLan("back")?></a>
                     </div>
                     <div class="reliz">
                         <?$file = json_decode($value->{$lang."file"},true);?>

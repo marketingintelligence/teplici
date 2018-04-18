@@ -67,5 +67,21 @@
     $arraylang["map"] = "Карта";
     $arraylang["main_hot"] = "Теплиц";
     $arraylang["main_kaz"] = "Казахстана";
+
+    //exhibition
+    //used *exhibition, success_message, name
+    $arraylang["condition"] = "Условия участия";
+    $arraylang["plan"] = "План выставки";
+    $arraylang["visitors"] = "Посетителям";
+    $arraylang["program"] = "Программа выставки";
+    $arraylang["list"] = "Список участников";
+    $arraylang["press"] = "Пресс релизы";
+    $arraylang["back"] = "Назад";
+    $arraylang["form_reg"] = "Форма регистрации";
+    $arraylang["vis"] = "посетителя";
+    $arraylang["theme"] = "Тематики выставки";
+    $arraylang["reg"] = "Зарегистрироваться";
+    $arraylang["ex_comp"] = "Компания";
+    $arraylang["ex_contact"] = "Контакты";
 ?>
 
