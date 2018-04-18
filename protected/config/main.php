@@ -85,12 +85,15 @@ return array(
             'connectionID'=>'db'
         ),
 
-        'db'          => array(
-            'connectionString'   => 'mysql:host=localhost;dbname=teplici',
-            'emulatePrepare'     => true,
-            'username'           => 'root',
-            'password'           => '',
+        'db' => array(
+            'connectionString' => 'mysql:host=localhost;dbname=v-4393_teplici',
+            'emulatePrepare' => true,
+            'username' => 'v-439_teplici',
+            'password' => 'Maint112233',
 
+            'charset'            => 'utf8',
+            'enableProfiling'    => true,
+            'enableParamLogging' => true
         ),
 
         'log'         => array(
