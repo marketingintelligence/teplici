@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="187074f3-6dc1-4647-9d39-fedc10f2617f" name="Default" comment="config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/languages/ru.php" afterPath="$PROJECT_DIR$/languages/ru.php" />
+      <change beforePath="$PROJECT_DIR$/languages/eng.php" afterPath="$PROJECT_DIR$/languages/eng.php" />
       <change beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
-      <change beforePath="$PROJECT_DIR$/protected/views/exhibition/index.php" afterPath="$PROJECT_DIR$/protected/views/exhibition/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,7 +29,7 @@
     <favorites_list name="teplici" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.37488788">
+    <splitter split-orientation="horizontal" split-proportion="0.5085202">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
@@ -43,21 +42,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ru.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ru.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/languages/ru.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="348">
-                  <caret line="84" column="26" lean-forward="false" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+                  <caret line="84" column="42" lean-forward="true" selection-start-line="70" selection-start-column="4" selection-end-line="84" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="eng.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="eng.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/languages/eng.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="98">
-                  <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+                <state relative-caret-position="413">
+                  <caret line="83" column="40" lean-forward="false" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
@@ -135,7 +134,7 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/protected/views/exhibition/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-765">
+                <state relative-caret-position="255">
                   <caret line="92" column="36" lean-forward="true" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
                   <folding>
                     <marker date="1524046207466" expanded="true" signature="1379:1434" ph="..." />
@@ -294,7 +293,6 @@
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/layouts/bootstrap.php" />
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/protected/controllers/ExhibitionController.php" />
-        <option value="$PROJECT_DIR$/languages/eng.php" />
         <option value="$PROJECT_DIR$/protected/views/news/index.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/footer.php" />
         <option value="$PROJECT_DIR$/protected/views/articles/index.php" />
@@ -306,6 +304,7 @@
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/video/_form.php" />
         <option value="$PROJECT_DIR$/languages/ru.php" />
         <option value="$PROJECT_DIR$/protected/views/exhibition/index.php" />
+        <option value="$PROJECT_DIR$/languages/eng.php" />
       </list>
     </option>
   </component>
@@ -512,14 +511,7 @@
       <workItem from="1523852232717" duration="1642000" />
       <workItem from="1523876074845" duration="5611000" />
       <workItem from="1523935408805" duration="36341000" />
-      <workItem from="1524022191801" duration="9826000" />
-    </task>
-    <task id="LOCAL-00033" summary="table">
-      <created>1520326373183</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1520326373183</updated>
+      <workItem from="1524022191801" duration="10139000" />
     </task>
     <task id="LOCAL-00034" summary="table">
       <created>1520326734391</created>
@@ -857,11 +849,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524044329059</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="ex changes">
+      <created>1524046245197</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1524046245197</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="589692000" />
+    <option name="totallyTimeSpent" value="590005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -916,7 +915,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="table" />
     <MESSAGE value="выставки pdf" />
     <MESSAGE value="association" />
     <MESSAGE value="ассоцияции" />
@@ -941,7 +939,8 @@
     <MESSAGE value="model video" />
     <MESSAGE value="video iframe" />
     <MESSAGE value="video model" />
-    <option name="LAST_COMMIT_MESSAGE" value="video model" />
+    <MESSAGE value="ex changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1382,25 +1381,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/languages/eng.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/languages/ru.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="84" column="26" lean-forward="false" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/exhibition/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765">
+        <state relative-caret-position="255">
           <caret line="92" column="36" lean-forward="true" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
           <folding>
             <marker date="1524046207466" expanded="true" signature="1379:1434" ph="..." />
@@ -1412,6 +1395,22 @@
             <marker date="1524046207466" expanded="true" signature="17310:17964" ph="..." />
             <marker date="1524046207466" expanded="true" signature="19586:19639" ph="SELECT id FR... countries" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/ru.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="84" column="42" lean-forward="true" selection-start-line="70" selection-start-column="4" selection-end-line="84" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/eng.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="83" column="40" lean-forward="false" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -66,5 +66,21 @@
     $arraylang["map"] = "Map of";
     $arraylang["main_hot"] = "greenhouses";
     $arraylang["main_kaz"] = "in Kazakhstan";
+
+    //exhibition
+    //used *exhibition, success_message, name
+    $arraylang["condition"] = "The terms of participation";
+    $arraylang["plan"] = "Exhibition plan";
+    $arraylang["visitors"] = "For visitors";
+    $arraylang["program"] = "Программа выставки";
+    $arraylang["list"] = "List of participants";
+    $arraylang["press"] = "Press Releases";
+    $arraylang["back"] = "Back";
+    $arraylang["form_reg"] = "Visitor";
+    $arraylang["vis"] = "registration form";
+    $arraylang["theme"] = "Exhibition sections";
+    $arraylang["reg"] = "Register";
+    $arraylang["ex_comp"] = "Company";
+    $arraylang["ex_contact"] = "Contacts";
 ?>
 
