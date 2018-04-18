@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="187074f3-6dc1-4647-9d39-fedc10f2617f" name="Default" comment="config">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/languages/eng.php" afterPath="$PROJECT_DIR$/languages/eng.php" />
+      <change beforePath="$PROJECT_DIR$/media/css/style.css" afterPath="$PROJECT_DIR$/media/css/style.css" />
+      <change beforePath="$PROJECT_DIR$/protected/components/views/wPages.php" afterPath="$PROJECT_DIR$/protected/components/views/wPages.php" />
       <change beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
-      <change beforePath="$PROJECT_DIR$/protected/modules/timesafe/views/extext/_item.php" afterPath="$PROJECT_DIR$/protected/modules/timesafe/views/extext/_item.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +31,7 @@
     <favorites_list name="teplici" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.335426">
+    <splitter split-orientation="horizontal" split-proportion="0.46726456">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
@@ -55,8 +57,8 @@
           <file leaf-file-name="eng.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/languages/eng.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="94">
-                  <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+                <state relative-caret-position="158">
+                  <caret line="72" column="43" lean-forward="true" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -124,8 +126,8 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/media/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="2626" column="26" lean-forward="false" selection-start-line="2626" selection-start-column="26" selection-end-line="2626" selection-end-column="26" />
+                <state relative-caret-position="259">
+                  <caret line="2028" column="15" lean-forward="false" selection-start-line="2028" selection-start-column="15" selection-end-line="2028" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
@@ -153,18 +155,8 @@
           <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/protected/views/about/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
+                <state relative-caret-position="221">
                   <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_item.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/extext/_item.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="136" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="138" />
                   <folding />
                 </state>
               </provider>
@@ -175,6 +167,16 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="17">
                   <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="wPages.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/protected/components/views/wPages.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -274,7 +276,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/protected/components/SHelper.php" />
         <option value="$PROJECT_DIR$/media/js/code.js" />
         <option value="$PROJECT_DIR$/protected/controllers/NewsController.php" />
         <option value="$PROJECT_DIR$/media/css/responsive.css" />
@@ -288,7 +289,6 @@
         <option value="$PROJECT_DIR$/protected/views/layouts/header.php" />
         <option value="$PROJECT_DIR$/protected/controllers/ArticlesController.php" />
         <option value="$PROJECT_DIR$/protected/extensions/ckeditor/ckeditor.js" />
-        <option value="$PROJECT_DIR$/media/css/style.css" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/social/list.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/video/_item.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/social/_item.php" />
@@ -321,10 +321,12 @@
         <option value="$PROJECT_DIR$/protected/models/Video.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/video/_form.php" />
         <option value="$PROJECT_DIR$/languages/ru.php" />
-        <option value="$PROJECT_DIR$/languages/eng.php" />
         <option value="$PROJECT_DIR$/protected/views/exhibition/index.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/extext/list.php" />
         <option value="$PROJECT_DIR$/protected/modules/timesafe/views/extext/_item.php" />
+        <option value="$PROJECT_DIR$/languages/eng.php" />
+        <option value="$PROJECT_DIR$/media/css/style.css" />
+        <option value="$PROJECT_DIR$/protected/components/views/wPages.php" />
       </list>
     </option>
   </component>
@@ -372,40 +374,14 @@
               <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
               <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
               <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="timesafe" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="timesafe" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="timesafe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="extext" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="teplici" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teplici" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="protected" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="timesafe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="video" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -531,14 +507,7 @@
       <workItem from="1523852232717" duration="1642000" />
       <workItem from="1523876074845" duration="5611000" />
       <workItem from="1523935408805" duration="36341000" />
-      <workItem from="1524022191801" duration="11086000" />
-    </task>
-    <task id="LOCAL-00038" summary="выставки">
-      <created>1520330008230</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1520330008230</updated>
+      <workItem from="1524022191801" duration="12908000" />
     </task>
     <task id="LOCAL-00039" summary="выставки">
       <created>1520330214533</created>
@@ -876,11 +845,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524047501772</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="model extext">
+      <created>1524047544611</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1524047544611</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="590952000" />
+    <option name="totallyTimeSpent" value="592774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -935,7 +911,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="association" />
     <MESSAGE value="ассоцияции" />
     <MESSAGE value="associations" />
     <MESSAGE value="asss" />
@@ -960,7 +935,8 @@
     <MESSAGE value="ex changes" />
     <MESSAGE value="config" />
     <MESSAGE value="model extext changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="model extext changes" />
+    <MESSAGE value="model extext" />
+    <option name="LAST_COMMIT_MESSAGE" value="model extext" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -969,14 +945,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/controllers/ArticlesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/extensions/ckeditor/ckeditor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -1361,14 +1329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="2626" column="26" lean-forward="false" selection-start-line="2626" selection-start-column="26" selection-end-line="2626" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/languages/ru.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -1402,22 +1362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/languages/eng.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/about/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/timesafe/views/extext/list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1430,6 +1374,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="136" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="138" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/eng.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="72" column="43" lean-forward="true" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/about/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="2028" column="15" lean-forward="false" selection-start-line="2028" selection-start-column="15" selection-end-line="2028" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/views/wPages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding />
         </state>
       </provider>

@@ -72,7 +72,7 @@
     $arraylang["condition"] = "The terms of participation";
     $arraylang["plan"] = "Exhibition plan";
     $arraylang["visitors"] = "For visitors";
-    $arraylang["program"] = "Программа выставки";
+    $arraylang["program"] = "Exhibition program";
     $arraylang["list"] = "List of participants";
     $arraylang["press"] = "Press Releases";
     $arraylang["back"] = "Back";
