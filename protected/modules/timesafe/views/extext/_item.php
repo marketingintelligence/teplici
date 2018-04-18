@@ -6,7 +6,7 @@
         </p>
         <p class="pull-right">
             <?=CHtml::checkbox('ExtextCheck[status_int][' . $data->id . ']', $data->status_int, array('class' => 'toggle-on-check'))?>
-            <span class="label label-info"><i class="icon-eye-open"></i> Видимость</span>
+            <!--<span class="label label-info"><i class="icon-eye-open"></i> Видимость</span>-->
         </p>
 
         <div style="display: inline-block">
