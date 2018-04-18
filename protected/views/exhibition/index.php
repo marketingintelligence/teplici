@@ -144,7 +144,7 @@
                                             <ul>
                                                 <?foreach ($exupload as $key=>$value) {?>
                                                 <?$file = json_decode($value->{$lang."file"},true);?>
-                                                    <a href="#" data-id="<?=(2009+$key)?>" data-routes="<?=$file[0]?>"><li><?=$value->{$lang."name_text"}?></li></a>
+                                                    <a href="#" data-id="<?=(2009+$key)?>" data-routes="<?=$file[0]?>"><li><?=$value->name_text?></li></a>
                                                 <? } ?>
                                             </ul>
                                         </div>
