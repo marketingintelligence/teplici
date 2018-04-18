@@ -36,7 +36,7 @@ class Video extends CActiveRecord
             'id' => 'ID',
             'created_at' => 'Дата создания',
             'name_text' => 'Заголовок',
-            'short_bigtext' => 'Ссылка на видео',
+            'short_bigtext' => 'Ссылка на видео, iframe',
             'kazshort_bigtext' => 'Ссылка на видео KAZ',
             'engshort_bigtext' => 'Ссылка на видео ENG',
             'status_int' => 'Видимость',
