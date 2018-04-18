@@ -32,8 +32,7 @@ for ( $i=1; $i<=100; $i++) $number[$i]=$i; ?>
     	<?=CHtml::link('назад', array('list','Video_page'=>$_GET['Video_page'])); ?>    </div>
     	<?php echo $form->textFieldRow($model, 'name_text', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); ?>
         <?php echo $form->dropDownListRow($model, 'serial_number', $number, array('class'=>'span-number')); ?>
-        <?php echo $form->textAreaRow($model, 'short_bigtext',array('class'=>'span12'));; ?>
-        <?php $this->widget('application.extensions.elrte.elRTE', array('model'=>$model,'attribute'=>'short_bigtext')); ?>
+        <?php echo $form->textAreaRow($model, 'short_bigtext', array('size' => 60, 'maxlength' => 450, 'class'=>'span12')); ?>
 
         <?php /*echo $form->singlefileFieldRow($model, 'image',array('class'=>'input-file'));; */?>
         <?php echo $form->checkBoxRow($model, 'status_int');; ?>
