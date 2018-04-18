@@ -25,7 +25,7 @@ class Video extends CActiveRecord
         return array(
             array('created_at', 'numerical', 'integerOnly'=>true),
             array('name_text, serial_number', 'length', 'max'=>255),
-            array('short_bigtext, kazshort_bigtext, engshort_bigtext, ', 'length', 'max'=>255),
+            array('short_bigtext, kazshort_bigtext, engshort_bigtext, ', 'length', 'max'=>10000),
             array('status_int', 'numerical', 'integerOnly'=>true),
         );
     }
