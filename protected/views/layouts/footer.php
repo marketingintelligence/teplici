@@ -8,11 +8,11 @@
             <div class="footer mobile-visible margg">
                 <div class="flex">
                     <div class="f-text">
-                        <p>Оставьте сообщение</p>
-                        <span>И мы свяжемся с Вами!</span>
+                        <p><?=SHelper::getLan("leave_message")?></p>
+                        <span><?=SHelper::getLan("contact_with")?></span>
                     </div>
                     <div class="f-button">
-                        <button class="bbtm">Оставить сообщение</button>
+                        <button class="bbtm"><?=SHelper::getLan("leave_message_btn")?></button>
                     </div>
                 </div>
                 <div class="hr"></div>
@@ -26,7 +26,7 @@
                         <img src="/media/img/map2.png">
                     </div>
                     <div class="align-top border">
-                        <?=$contacts[0]->full_bigtexteditor?>
+                        <?=$contacts[0]->{$lang."full_bigtexteditor"}?>
                     </div>
                 </li>
                 <div class="m-foot">
@@ -34,16 +34,16 @@
                         <div class="align-top">
                             <img src="/media/img/tel.png">
                         </div>
-                        <a href="tel:<?=$contacts[1]->full_bigtexteditor?>" class="align-top border">
-                            <?=$contacts[1]->full_bigtexteditor?>
+                        <a href="tel:<?=$contacts[1]->{$lang."full_bigtexteditor"}?>" class="align-top border">
+                            <?=$contacts[1]->{$lang."full_bigtexteditor"}?>
                         </a>
                     </li>
                     <li>
                         <div class="align-top">
                             <img src="/media/img/mail.png" class="i-marg">
                         </div>
-                        <a href="mailto: <?=$contacts[2]->full_bigtexteditor?>" class="align-top border">
-                            <?=$contacts[2]->full_bigtexteditor?>
+                        <a href="mailto: <?=$contacts[2]->{$lang."full_bigtexteditor"}?>" class="align-top border">
+                            <?=$contacts[2]->{$lang."full_bigtexteditor"}?>
                         </a>
                         <ul class="li li2" id="social">
                             <?foreach ($social as $key=>$value) { ?>
@@ -62,17 +62,21 @@
         <div class="item mobile-slide">
             <div class="border2">
                 <div class="btop">
-                    <span class="message">Оставьте сообщение</span>
-                    <span class="success">Спасибо Ваше сообщение отправлено!</span>
+                    <span class="message"><?=SHelper::getLan("leave_message")?></span>
+                    <span class="success"><?=SHelper::getLan("success_message")?></span>
                 </div>
                 <div class="bmiddle">
                     <ul>
                         <form action="" id="footer-form" method="POST">
-                            <li><input class="name" type="text" required="" placeholder="Имя" name="name"></li>
+                            <li><input class="name" type="text" required="" placeholder="<?=SHelper::getLan("name")?>" name="name"></li>
                             <li><input class="email" required="" type="email" placeholder="E-mail" name="email"></li>
-                            <li><textarea class="messages" name="textarea" cols="30" rows="5" placeholder="Сообщение"></textarea></li>
+                            <?php if($lang == null) {?>
+                                <li><textarea class="messages" name="textarea" cols="30" rows="5" placeholder="Сообщение"></textarea></li>
+                            <? }else {?>
+                                <li><textarea class="messages" name="textarea" cols="30" rows="5" placeholder="Message"></textarea></li>
+                            <?} ?>
                             <button class="bbtm bb3">
-                                ОТПРАВИТЬ
+                                <?=SHelper::getLan("send")?>
                             </button>
                         </form>
                     </ul>

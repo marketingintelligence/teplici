@@ -1,4 +1,8 @@
 $( document ).ready(function() {
+    //lang == 2 rus
+    //lang == 1 eng
+    var lang = $(".back").data('lang');
+
     var url = window.location.href;
     $(".menu a").each(function () {
         var href = $(this).attr("href");
@@ -31,9 +35,7 @@ $( document ).ready(function() {
             $(this).parents('.n-news-button').parents('.n-news-body').parents('.n-news-item').find('.n-news-item-img').find('img').removeClass('active');
         }
     );
-    $("body").on("click",".back",function(){
-       alert('eng');
-    });
+
 
     $( ".menu a" ).hover(
         function() {
@@ -44,24 +46,37 @@ $( document ).ready(function() {
         }
     );
 
-
-
     $("body").on("click",".n-news-button a",function(e){
         e.preventDefault();
         var h2 = $(this).parent('.n-news-button').parent('.n-news-body').find('.bottom-border');
         $('.bottom-border').animate({height: '4.7em'});
         $('.bottom-border').not(h2).removeClass('active');
-        $('.n-news-button a').text('Читать дальше');
-        if(!h2.hasClass('active')){
-            h2.addClass('active');
-            var text = $(this);
-            h2.animate({height: h2.get(0).scrollHeight}, 1000, function(){h2.height('auto');}).promise().done(function () {
-                text.text('Закрыть');
-            });
-        }else{
-            h2.animate({height: '4.7em'}).removeClass('active');
-            this.text('Читать дальше');
+        if(lang == "2") {
+            $('.n-news-button a').text('Читать дальше');
+            if(!h2.hasClass('active')){
+                h2.addClass('active');
+                var text = $(this);
+                h2.animate({height: h2.get(0).scrollHeight}, 1000, function(){h2.height('auto');}).promise().done(function () {
+                    text.text('Закрыть');
+                });
+            }else{
+                h2.animate({height: '4.7em'}).removeClass('active');
+                this.text('Читать дальше');
+            }
+        }else {
+            $('.n-news-button a').text('Read more');
+            if(!h2.hasClass('active')){
+                h2.addClass('active');
+                var text = $(this);
+                h2.animate({height: h2.get(0).scrollHeight}, 1000, function(){h2.height('auto');}).promise().done(function () {
+                    text.text('Close');
+                });
+            }else{
+                h2.animate({height: '4.7em'}).removeClass('active');
+                this.text('Read more');
+            }
         }
+
     });
 
     //association pagination
@@ -662,6 +677,8 @@ $( document ).ready(function() {
                 $(this).find("img").attr('src', '/media/img/part/l.png');
             }
         );
-}});
+
+}
+});
 
 

@@ -1,7 +1,7 @@
 <!--news-->
 <section class="news mobile-none">
     <div class="section-title">
-        <span><i class="upper">Новости</i> компании</span>
+        <span><i class="upper"><?=SHelper::getLan("news")?></i> <?=SHelper::getLan("company")?></span>
         <hr>
     </div>
     <div class="news-box">
@@ -24,9 +24,9 @@
                             </div>
                         </div>
                         <div class="news-body">
-                            <p class="news-title"><?=$value->name_text?></p>
+                            <p class="news-title"><?=$value->{$lang."name_text"}?></p>
                             <?
-                            $text = $value->full_bigtexteditor;
+                            $text = $value->{$lang."full_bigtexteditor"};
                             $max_lengh = 220;
                             $numbers = mb_strlen($text,"UTF-8")/$max_lengh;
                             $text = str_replace("img src"," ", $text);
@@ -38,7 +38,7 @@
                                 <span><?=$text_implode."...";?></span>
                             <?} else { ?> <span> <?=$text;?> </span>
                             <? } ?>
-                            <a href="/news/<?=$value->url_text?>">Читать дальше</a>
+                            <a href="/news/<?=$value->url_text?>"><?=SHelper::getLan("read")?></a>
                         </div>
                     </div>
             <? } ?>
@@ -68,9 +68,9 @@
                             </div>
                         </div>
                         <div class="news-body">
-                            <p class="news-title"><?=$value->name_text?></p>
+                            <p class="news-title"><?=$value->{$lang."name_text"}?></p>
                             <?
-                            $text = $value->full_bigtexteditor;
+                            $text = $value->{$lang."full_bigtexteditor"};
                             $max_lengh = 220;
                             $numbers = mb_strlen($text,"UTF-8")/$max_lengh;
                             $text = str_replace("img src"," ", $text);
@@ -82,7 +82,7 @@
                                 <span><?=$text_implode."...";?></span>
                             <?} else { ?> <span> <?=$text;?> </span>
                             <? } ?>
-                            <a href="/news/<?=$value->url_text?>">Читать дальше</a>
+                            <a href="/news/<?=$value->url_text?>"><?=SHelper::getLan("read")?></a>
                         </div>
                     </div>
                 <? } ?>
@@ -98,7 +98,7 @@
 <!--slider-->
 <section class="slider" id="partners_ids">
     <div class="section-title">
-        <span>Наши<i class="upper white"> Партнеры</i></span>
+        <span><?=SHelper::getLan("our")?><i class="upper white"> <?=SHelper::getLan("partners")?></i></span>
         <hr>
     </div>
     <div class="slider-box">

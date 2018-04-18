@@ -1,13 +1,15 @@
 <?php
 class AboutController extends Controller {
     public function actionIndex() {
-        $this->pageTitle = "Теплицы";
-       /* $criteria = new CDbCriteria();
-        $criteria -> condition = " status_int = 1";
-        $criteria -> order = " serial_number";
-        $page = Pages::model()->findAll($criteria);*/
 
-        $this->render('index' );
+        $criteria = new CDbCriteria();
+        $criteria->offset = 0;
+        $criteria->limit = 1;
+        $pages = Pages::model()->findAll($criteria);
+
+        $lang = Yii::app()->user->getState("lang");
+        $this->pageTitle = "Теплицы";
+        $this->render('index' ,array("lang" => $lang,"pages" => $pages));
     }
 }
 ?>

@@ -1,5 +1,5 @@
 <div class="module-title">
-    <?=Social::modelTitle()?>&nbsp;<a href="<?=$this->createUrl('create')?>" class="btn btn-success"><i class="icon-plus"></i> Добавить</a>
+    <?=Social::modelTitle()?>&nbsp;<!--<a href="<?/*=$this->createUrl('create')*/?>" class="btn btn-success"><i class="icon-plus"></i> Добавить</a>-->
 </div>
 
 <div id="search-Social-form">

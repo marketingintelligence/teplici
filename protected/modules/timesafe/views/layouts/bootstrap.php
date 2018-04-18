@@ -32,6 +32,7 @@
                     array('label'=>'Социальные сети', 'url'=>array('social/list'),'icon'=>'icon-bullhorn'),
                     array('label'=>'Контакты', 'url'=>array('contacts/list'),'icon'=>'icon-external-link'),
                     array('label'=>'Карта теплиц', 'url'=>array('maps/list'),'icon'=>'icon-globe'),
+                    array('label'=>'Страницы', 'url'=>array('pages/list'),'icon'=>'icon-th'),
                 )),
 
                 array('label'=>'Новости','url'=>array('news/list'),'icon'=>'icon-th'),

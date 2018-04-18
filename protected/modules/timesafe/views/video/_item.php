@@ -8,10 +8,10 @@
             <?=CHtml::checkbox('VideoCheck[status_int][' . $data->id . ']', $data->status_int, array('class' => 'toggle-on-check'))?>
             <span class="label label-info"><i class="icon-eye-open"></i> Видимость</span>
         </p>
-        <div style = "display:inline-block; vertical-align: top; margin-right:10px;">
-            <? $img = json_decode($data->image, true); ?>
-            <img width = "100" src = "/upload/Video/tm/<?=$img[0]?>">
-        </div>
+        <!--<div style = "display:inline-block; vertical-align: top; margin-right:10px;">
+            <?/* $img = json_decode($data->image, true); */?>
+            <img width = "100" src = "/upload/Video/tm/<?/*=$img[0]*/?>">
+        </div>-->
         <div style="display: inline-block">
             <? $img = json_decode($data->image, true); ?>
             <h3 style = "margin-top:5px;">

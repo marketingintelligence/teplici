@@ -21,17 +21,22 @@ class SiteController extends Controller {
         $criteria = new CDbCriteria();
         $criteria -> condition = " status_int = 1";
         $criteria -> order = " serial_number";
-
         $maps = Maps::model()->findAll($criteria);
 
+        $criteria_page = new CDbCriteria();
+        $criteria_page->offset = 1;
+        $criteria_page->limit = 1;
+        $pages = Pages::model()->findAll($criteria_page);
+
+        $lang = Yii::app()->user->getState("lang");
         $this->pageTitle = "Теплицы";
-        $this->render('index',array("maps"=>$maps));
+        $this->render('index',array("maps"=>$maps,"pages" => $pages, "lang" => $lang));
     }
 
     public function actionAnketa() {
-
+        $lang = Yii::app()->user->getState("lang");
         $this->pageTitle = "Анкета";
-        $this->render('anketa');
+        $this->render('anketa',array("lang" => $lang));
     }
 
     public function actionLogin() {
@@ -93,6 +98,16 @@ class SiteController extends Controller {
     public function actionLogout() {
         Yii::app()->user->logout();
         $this->redirect(Yii::app()->homeUrl);
+    }
+
+    public function actionLanguage() {
+        $lang = $_POST['lang'];
+        if ($lang == "1") {
+            Yii::app()->user->setState("lang", null);
+        } else if ($lang == "2") {
+            Yii::app()->user->setState("lang", "eng");
+        }
+        echo $lang;
     }
 }
 

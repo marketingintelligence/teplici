@@ -1,5 +1,5 @@
 <div class="module-title">
-    <?=Maps::modelTitle()?>&nbsp;<a href="<?=$this->createUrl('create')?>" class="btn btn-success"><i class="icon-plus"></i> Добавить</a>
+    <?=Maps::modelTitle()?>&nbsp;<!--<a href="<?/*=$this->createUrl('create')*/?>" class="btn btn-success"><i class="icon-plus"></i> Добавить</a>-->
 </div>
 
 <div id="search-Maps-form">

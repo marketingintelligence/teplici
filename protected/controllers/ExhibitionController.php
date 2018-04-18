@@ -11,8 +11,9 @@ class ExhibitionController extends Controller {
         $exprogram = Exprogram::model()->findAll($criteria);
         $partlist = Partlist::model()->findAll($criteria);
 
+        $lang = Yii::app()->user->getState("lang");
         $this->pageTitle = "Теплицы";
-        $this->render('index' , array("exupload" => $exupload, "extext" => $extext,"explan"=>$explan,"exprogram"=>$exprogram,"partlist"=>$partlist));
+        $this->render('index' , array("exupload" => $exupload, "extext" => $extext,"explan"=>$explan,"exprogram"=>$exprogram,"partlist"=>$partlist,"lang" => $lang));
     }
 }
 ?>

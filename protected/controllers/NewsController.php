@@ -13,8 +13,9 @@ class NewsController extends Controller {
 
         $news = News::model()->findAll($criteria);
 
+        $lang = Yii::app()->user->getState("lang");
         $this->pageTitle = "Новости";
-        $this->render('index',array( "news" => $news , "pages" => $pages));
+        $this->render('index',array( "news" => $news , "pages" => $pages,"lang" => $lang));
     }
 
     public function actionShow($url) {
@@ -25,8 +26,9 @@ class NewsController extends Controller {
         if ( $news == null) {
             throw new CHttpException(404, 'Странца не существует.');
         } else {
+            $lang = Yii::app()->user->getState("lang");
             $this->pageTitle = "Новости";
-            $this->render('show',array( "news" => $news, "url" => $url)); }
+            $this->render('show',array( "news" => $news, "url" => $url, "lang" => $lang)); }
 
     }
 }

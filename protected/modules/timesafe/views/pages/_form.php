@@ -1,6 +1,6 @@
 <?php
     $form = $this->beginWidget('BootActiveForm', array(
-        'id' => 'Video-form',
+        'id' => 'Pages-form',
         'type'=>'horizontal',
         'enableAjaxValidation' => true,
             'focus' => array($model, 'name_text'),
@@ -10,7 +10,7 @@
             'enctype'=>'multipart/form-data'
         ),
     ));
-    echo CHtml::hiddenField('Video_page',$_GET['Video_page']);
+    echo CHtml::hiddenField('Pages_page',$_GET['Pages_page']);
 ?>
 <style>
     .span {
@@ -29,25 +29,27 @@ for ( $i=1; $i<=100; $i++) $number[$i]=$i; ?>
             <?=$model->isNewRecord ? 'Добавить' : 'Сохранить'; ?>
         </button>
         <span class="text_button_padding">или</span>        
-    	<?=CHtml::link('назад', array('list','Video_page'=>$_GET['Video_page'])); ?>    </div>
+    	<?=CHtml::link('назад', array('list','Pages_page'=>$_GET['Pages_page'])); ?>    </div>
     	<?php echo $form->textFieldRow($model, 'name_text', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); ?>
-        <?php echo $form->dropDownListRow($model, 'serial_number', $number, array('class'=>'span-number')); ?>
-        <?php echo $form->textAreaRow($model, 'short_bigtext', array('size' => 60, 'maxlength' => 450, 'class'=>'span12')); ?>
+        <?php echo $form->textFieldRow($model, 'engname_text', array('size' => 60, 'maxlength' => 255, 'class'=>'span')); ?>
 
-        <?php /*echo $form->singlefileFieldRow($model, 'image',array('class'=>'input-file'));; */?>
-        <?php echo $form->checkBoxRow($model, 'status_int');; ?>
+        <?php echo $form->textAreaRow($model, 'full_bigtexteditor',array('class'=>'span12'));; ?>
+        <?php $this->widget('application.extensions.elrte.elRTE', array('model'=>$model,'attribute'=>'full_bigtexteditor')); ?>
+
+        <?php echo $form->textAreaRow($model, 'engfull_bigtexteditor',array('class'=>'span12'));; ?>
+        <?php $this->widget('application.extensions.elrte.elRTE', array('model'=>$model,'attribute'=>'engfull_bigtexteditor')); ?>
 
     <div class="form-actions">
         <button class="btn btn-success" type="submit">
             <?=$model->isNewRecord ? 'Добавить' : 'Сохранить'; ?>
         </button>
         <span class="text_button_padding">или</span>
-        <?=CHtml::link('назад', array('list','Video_page'=>$_GET['Video_page'])); ?>
+        <?=CHtml::link('назад', array('list','Pages_page'=>$_GET['Pages_page'])); ?>
 	</div>
 
 <script>
-    $('#Video_name_text').change(function() {
-        $('#Video_url_text').val(cyr2lat($('#Video_name_text').val()));
+    $('#Pages_name_text').change(function() {
+        $('#Pages_url_text').val(cyr2lat($('#Pages_name_text').val()));
     });
     function cyr2lat(str) {
 

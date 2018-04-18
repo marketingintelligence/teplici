@@ -5,8 +5,8 @@
 </section>
 <section class="news">
     <div class="news-box full">
-        <p class="news-title"><?=$news->name_text?></p>
+        <p class="news-title"><?=$news->{$lang."name_text"}?></p>
         <hr>
-        <?=$news->full_bigtexteditor?>
+        <?=$news->{$lang."full_bigtexteditor"}?>
     </div>
 </section>

@@ -13,9 +13,9 @@ class ArticlesController extends Controller {
         $articles = Articles::model()->findAll($criteria);
         $video = Video::model()->findAll($criteria);
 
+        $lang=Yii::app()->user->getState('lang');
         $this->pageTitle = "Статьи и публикации";
-
-        $this->render('index', array( "articles" => $articles,"pages"=>$pages ,"video" => $video));
+        $this->render('index', array( "articles" => $articles,"pages"=>$pages ,"video" => $video,"lang"=>$lang));
     }
 }
 ?>

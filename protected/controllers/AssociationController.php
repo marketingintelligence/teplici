@@ -17,11 +17,14 @@ class AssociationController extends Controller {
         $supplier = Supplier::model()->findAll($criteria);
         $combinates = Combinates::model()->findAll($criteria);
 
+        $lang = Yii::app()->user->getState("lang");
         $this->pageTitle = "Ассоциация";
-        $this->render('index', array( "supplier" => $supplier, "combinates" => $combinates,"pages"=>$pages,"s_pages"=>$s_pages,"comb_count"=>$comb_count ));
+        $this->render('index', array( "supplier" => $supplier, "combinates" => $combinates,"pages"=>$pages,"s_pages"=>$s_pages,"comb_count"=>$comb_count,"lang" => $lang));
     }
 
     public function actionGetsuppliers(){
+        $lang = Yii::app()->user->getState("lang");
+
         $numbers = $_POST['numbers'];
 
         $criteria = new CDbCriteria();
@@ -41,11 +44,11 @@ class AssociationController extends Controller {
                             <img src="/upload/Supplier/full/'.$img[0].'">
                         </div>
                         <div class="item2-text">
-                            <p>'.$value->name_text.'</p>
+                            <p>'.$value->{$lang."name_text"}.'</p>
                         </div>
                     </div>
                     <div class="item2-body">
-                        <span>'.$value->short_bigtext.'</span>
+                        <span>'.$value->{$lang."short_bigtext"}.'</span>
                     </div>
                 </div>';
         }
@@ -53,13 +56,13 @@ class AssociationController extends Controller {
         echo $var;
     }
     public function actionGetcombines(){
+        $lang = Yii::app()->user->getState("lang");
         $serial_number = $_POST['id'];
-
         $criteria = new CDbCriteria();
         $criteria -> condition = " status_int = 1 AND serial_number = '$serial_number' ";
         $com = Combinates::model()->find($criteria);
 
-        echo $com->full_bigtexteditor;
+        echo $com->{$lang."full_bigtexteditor"};
     }
 }
 ?>

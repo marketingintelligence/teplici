@@ -1490,7 +1490,7 @@ section{
     text-align: center;
 }
 .modal-button span{
-    font-size: 1.1em;
+    font-size: 0.9em;
 }
 .assoc .header-container-item {
     text-align: left;
@@ -2640,4 +2640,8 @@ input.small2{
     width: 80%;
     border: 1px solid #A7B746;
     padding: 7px;
+}
+.video-item iframe{
+    height: 22em!important;
+    width: 100%;
 }

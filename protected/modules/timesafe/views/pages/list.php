@@ -1,8 +1,8 @@
 <div class="module-title">
-    <?=Contacts::modelTitle()?>&nbsp;<!--<a href="<?/*=$this->createUrl('create')*/?>" class="btn btn-success"><i class="icon-plus"></i> Добавить</a>-->
+    <?=Pages::modelTitle()?>&nbsp;<!--<a href="<?/*=$this->createUrl('create')*/?>" class="btn btn-success"><i class="icon-plus"></i> Добавить</a>-->
 </div>
 
-<div id="search-Contacts-form">
+<div id="search-Pages-form">
 	<?php $this->renderPartial('_list',compact('model'))?>
 </div>
 <?php $this->beginWidget('BootModal', array('id'     => 'modal-delete',)); ?>
@@ -25,14 +25,14 @@
         $('.modal-delete').click(function(e){
           var id = $('#modal-delete').data('id');
           $.get('<?=$this->createUrl('remove')?>',{id:id},function(){
-            $.fn.yiiListView.update($('#search-Contacts-form .list-view').attr('id'));
+            $.fn.yiiListView.update($('#search-Pages-form .list-view').attr('id'));
             _refreshTrash();
           });
         });
         $('.modal-delete-forever').click(function(e){
           var id = $('#modal-delete').data('id');
           $.post('<?=$this->createUrl('delete')?>?ajax=1&id='+id,function(){
-            $.fn.yiiListView.update($('#search-Contacts-form .list-view').attr('id'));
+            $.fn.yiiListView.update($('#search-Pages-form .list-view').attr('id'));
           });
         });
     });

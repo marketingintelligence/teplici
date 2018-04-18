@@ -20,9 +20,13 @@
 
         $social = Social::model()->findAll($criteria);
         $contacts = Contacts::model()->findAll($criteria);
+
+        if(Yii::app()->user->hasState('lang')){
+        $lang=Yii::app()->user->getState('lang');}
         ?>
-    <?$this->renderPartial('/layouts/header',array("social"=>$social,"contacts"=>$contacts));?>
+    <?$this->renderPartial('/layouts/header',array("social"=>$social,"contacts"=>$contacts,"lang"=>$lang));?>
 </section>
+
     <?=$content?>
     <? if ( (Yii::app()->controller->id == "site" || Yii::app()->controller->id == "about" || Yii::app()->controller->id == "association") && Yii::app()->controller->pageTitle != "Вход в Административную часть" ) { ?>
         <?
@@ -38,10 +42,10 @@
         $partners = Partners::model()->findAll($cr);
         $news = News::model()->findAll($criteria);
         ?>
-        <?$this->renderPartial('/layouts/slider_and_news',array("news"=>$news, "partners" => $partners));?>
+        <?$this->renderPartial('/layouts/slider_and_news',array("news"=>$news, "partners" => $partners,"lang" => $lang));?>
     <? } ?>
 <section id="footer">
-    <?$this->renderPartial('/layouts/footer', array("social"=>$social,"contacts"=>$contacts));?>
+    <?$this->renderPartial('/layouts/footer', array("social"=>$social,"contacts"=>$contacts,"lang" =>$lang));?>
 </section>
 </body>
 

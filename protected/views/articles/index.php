@@ -5,7 +5,7 @@
 </section>
 <section class="section-block no-border m-bg-none">
     <div class="section-title">
-        <span><i class="upper">СТАТЬИ</i> и <i class="upper">ПУБЛИКАЦИИ</i> компании</span>
+        <span><i class="upper"><?=SHelper::getLan("states")?></i> <?=SHelper::getLan("and")?> <i class="upper"><?=SHelper::getLan("publications")?></i> <?=SHelper::getLan("comp")?></span>
         <hr>
     </div>
     <div class="box2">
@@ -28,16 +28,16 @@
                     <div class="n-news-body">
                         <div class="n-news-text">
                             <p class="n-news-date"><?=$value->getNiceDate()?></p>
-                            <p class="n-news-title"><?=$value->name_text?></p>
+                            <p class="n-news-title"><?=$value->{$lang."name_text"}?></p>
                             <div class="bottom-border">
-                                <?=$value->full_bigtexteditor?>
+                                <?=$value->{$lang."full_bigtexteditor"}?>
                             </div>
                             <hr>
                         </div>
                         <div class="n-news-button">
                             <div class="animated-height"></div>
                             <img src="/media/img/news-line.png">
-                            <a href="#">Читать дальше</a>
+                            <a href="#"><?=SHelper::getLan("read")?></a>
                         </div>
                     </div>
                 </div>
@@ -46,11 +46,7 @@
             </div>
         </div>
         <div class="news-paggination">
-    <!--        <div class="prev-next">
-                <div class="prev"></div>
-                <div class="next"></div>
-            </div>
-    -->        <div class="n-news-digits">
+            <div class="n-news-digits">
                 <?php $this->widget('application.components.WPages',array('_pages'=>$pages)); ?>
             </div>
         </div>
@@ -63,15 +59,14 @@
             <? foreach ($video as $key=>$value) { ?>
                 <? $img = json_decode($value->image,true);?>
                 <div class="video-item">
-                    <video width="100%" height="100%" controls="true" poster="/upload/Video/full/<?=$img[0]?>">
-                        <source src="www.youtube.com/watch?v=3bGNuRtlqAQ" type="video/mp4" />
-                    </video>
+                    <iframe width="345px" height="100%" src="https://www.youtube.com/embed/mpwr6-Tgohg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
             <?  } ?>
         </div>
     </div>
 </section>
-<script>
+
+<!--<script>
     videos = document.querySelectorAll("video");
     for (var i = 0, l = videos.length; i < l; i++) {
         var video = videos[i];
@@ -96,4 +91,4 @@
             }
         }
     }
-</script>
+</script>-->
