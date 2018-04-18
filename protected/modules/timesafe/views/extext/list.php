@@ -1,5 +1,5 @@
 <div class="module-title">
-    <?=Extext::modelTitle()?>&nbsp;<a href="<?=$this->createUrl('create')?>" class="btn btn-success"><i class="icon-plus"></i> Добавить</a>
+    <?=Extext::modelTitle()?>&nbsp;<!--<a href="<?/*=$this->createUrl('create')*/?>" class="btn btn-success"><i class="icon-plus"></i> Добавить</a>-->
 </div>
 
 <div id="search-Extext-form">
