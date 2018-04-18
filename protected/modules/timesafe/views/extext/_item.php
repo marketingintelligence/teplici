@@ -5,7 +5,7 @@
             <!--<a class="btn btn-danger delete-link-list" href="#modal-delete" data-toggle="modal" data-title="<?/*=CHtml::encode($data->name_text)*/?>" data-id="<?/*=$data->id*/?>"><i class="icon-trash"></i> Уд.</a>-->
         </p>
         <p class="pull-right">
-            <?=CHtml::checkbox('ExtextCheck[status_int][' . $data->id . ']', $data->status_int, array('class' => 'toggle-on-check'))?>
+            <?/*=CHtml::checkbox('ExtextCheck[status_int][' . $data->id . ']', $data->status_int, array('class' => 'toggle-on-check'))*/?>
             <!--<span class="label label-info"><i class="icon-eye-open"></i> Видимость</span>-->
         </p>
 
