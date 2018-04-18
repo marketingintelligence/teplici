@@ -44,10 +44,6 @@
             </div>
         </div>
         <div class="news-paggination">
-           <!-- <div class="prev-next">
-                <div class="prev"></div>
-                <div class="next"></div>
-            </div>-->
             <div class="n-news-digits">
                 <?php $this->widget('application.components.WPages',array('_pages'=>$pages)); ?>
             </div>

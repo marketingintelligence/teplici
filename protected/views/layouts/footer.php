@@ -2,7 +2,6 @@
 <footer>
     <div class="shadow2"></div>
     <?=$contacts[3]->engname_text?>
-    <!--<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af27467eb5c235d962865c364fa46c9d0019f5d8eaa257d3a8ac962a518e3be3b&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>-->
     <div class="form flex">
         <div class="item">
             <div class="footer mobile-visible margg">
